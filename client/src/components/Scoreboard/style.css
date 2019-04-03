@@ -1,0 +1,7 @@
+.card {
+    height: 100px;
+    
+}
+.card-title, .card-subtitle {
+    font-size: 11px;
+}

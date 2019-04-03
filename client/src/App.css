@@ -1,0 +1,165 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+#home {
+    height: 100vh;
+    background: 
+        linear-gradient(
+            rgba(0, 0, 0, 0.65),
+            rgba(0, 0, 0, 0.65)
+        ),
+        url("https://images.unsplash.com/photo-1544919982-b61976f0ba43?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1655&q=80");
+        
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#header {
+    background-color: #fad778;
+}
+
+#playercard {
+    transition: transform .2s;
+}
+
+#playercard:hover {
+    transform: scale(1.05);
+}
+footer {
+    margin-top: 10px;
+}
+
+#standing, #schedule, #scores, #players {
+    height: 100vh;
+}
+
+/* #playerpic {
+    height: 253px;
+    width: 253px;
+} */
+
+#stats {
+    font-size: 18px;
+}
+h1 {
+    font-size: 100px;
+    letter-spacing: 5px;
+}
+
+h2 {
+    margin-top: -100px;
+    font-size: 50px;
+}
+#signup {
+    color: white;
+    letter-spacing: 5px;
+}
+
+#signup:hover {
+    background: white;
+    color: orange;
+}
+
+#signup:focus {
+    box-shadow: none;
+}
+
+#details {
+    font-size: 11px;
+}
+.nav-link.active {
+    background-color: #fad778;
+
+}
+
+.nav-link:hover {
+    background-color: #fad778;
+}
+
+.table thead th, .table td, .table th {
+    border: none;
+}
+
+.badge {
+    background-color: #fad778;
+    color: black;
+}
+
+#scorelogo {
+    margin-left: -12px;
+}
+
+#back {
+    background-color: #fad778;
+
+}
+
+.page-link.text-dark:hover {
+    background-color: #fad778;
+}
+
+.page-link.text-dark:focus {
+    box-shadow: none;
+}
+
+#signlogo {
+    margin-left: -16px;
+}
+
+#signpic {
+    margin-left: -100px;
+}
+
+#sign {
+    margin-left: -10px;
+}
+
+#signbtn {
+    background-color: #fad778;
+    border-color: #fad778;
+}
+
+#userInput:focus {
+    box-shadow: none;
+    border-color:  #fad778;
+}
+
+.form-control {
+    border: 0;
+    border-bottom: 1px solid;
+    padding: 0;
+}
+
+.custom-control-input:checked~.custom-control-label:before {
+    color: #fff;
+    border-color: #fad778;
+    background-color: #fad778;
+}
+
+#btn {
+    background-color: #fad778;
+}
+
+#btn:focus {
+    box-shadow: none;
+}
+
+.progress {
+    height: 20px;
+}
+
+#stats {
+    font-size: 20px;
+}
+
+.progress .progress-bar {
+    animation-name: animateBar;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in;
+    animation-duration: .5s;
+}
+@keyframes animateBar {
+    0% {transform: translateX(-100%);}
+    100% {transform: translateX(0);}
+}
