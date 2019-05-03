@@ -1,0 +1,201 @@
+[
+    {
+        "id": 1,
+        "name": "Adam Cho",
+        "number": 96,
+        "team": "Lord of the Rims",
+        "image": "https://scontent-lax3-2.xx.fbcdn.net/v/t31.0-1/c379.0.1290.1290a/10506738_10150004552801856_220367501106153455_o.jpg?_nc_cat=1&_nc_ht=scontent-lax3-2.xx&oh=e714aa39b48075c1da914b017e3bfc3d&oe=5D385C49"
+    },
+    {
+        "id": 2,
+        "name": "Andrew Kim",
+        "number": 91,
+        "team": "Angry Birdz",
+        "image": "https://scontent-lax3-2.xx.fbcdn.net/v/t1.0-9/35349072_10216185556136003_6633220441961922560_n.jpg?_nc_cat=107&_nc_ht=scontent-lax3-2.xx&oh=1831b053007130e7737338555035637e&oe=5D20C1C9"
+    },
+    {
+        "id": 3,
+        "name": "Andrew Shin",
+        "number": 22,
+        "team": "Fantastic",
+        "image": "https://scontent-lax3-2.xx.fbcdn.net/v/t31.0-8/26840579_10212742167642767_4145880265233871200_o.jpg?_nc_cat=105&_nc_ht=scontent-lax3-2.xx&oh=56dff2be42d16a92159ecdbd74ed5475&oe=5D6D5A8C"
+    },
+    {
+        "id": 4,
+        "name": "Benjamin Lee",
+        "number": 69,
+        "team": "Lord of the Rims",
+        "image": "https://scontent-lax3-2.xx.fbcdn.net/v/t31.0-1/c379.0.1290.1290a/10506738_10150004552801856_220367501106153455_o.jpg?_nc_cat=1&_nc_ht=scontent-lax3-2.xx&oh=e714aa39b48075c1da914b017e3bfc3d&oe=5D385C49"
+    },
+    {
+        "id": 5,
+        "name": "Brandon Oh",
+        "number": 27,
+        "team": "Lord of the Rims",
+        "image": "https://scontent-lax3-1.xx.fbcdn.net/v/t31.0-8/29982851_2327178203966415_8696826749865758053_o.jpg?_nc_cat=100&_nc_ht=scontent-lax3-1.xx&oh=1993c48a0a0fbf8a4b65e2797316cf31&oe=5D2A6D6E"
+    },
+    {
+        "id": 6,
+        "name": "Brian Kim",
+        "number": 21,
+        "team": "Fantastic",
+        "image": "https://scontent-lax3-1.xx.fbcdn.net/v/t31.0-8/15137584_1275621115835873_4088941338915552906_o.jpg?_nc_cat=110&_nc_ht=scontent-lax3-1.xx&oh=e424d1e3004624b79c7f11b850bac04c&oe=5D34FD0B"
+    },
+    {
+        "id": 7,
+        "name": "Bryan Park",
+        "number": "50",
+        "team": "Angry Birdz",
+        "image": "https://scontent-lax3-1.xx.fbcdn.net/v/t1.0-9/50827346_10218868428684366_757155025788076032_n.jpg?_nc_cat=104&_nc_ht=scontent-lax3-1.xx&oh=20eaf868a1395c991e77a954a4bc5cb6&oe=5D6851D8"
+    },
+    {
+        "id": 8,
+        "name": "Bumsu Kim",
+        "number": 90,
+        "team": "BH",
+        "image": "https://scontent-lax3-1.xx.fbcdn.net/v/t1.0-9/53006134_1795676077204860_2793990575257288704_n.jpg?_nc_cat=106&_nc_ht=scontent-lax3-1.xx&oh=18955dd4f27de78ab997f23f80350d28&oe=5D313D01"
+    },
+    {
+        "id": 9,
+        "name": "Caleb Kang",
+        "number": 11,
+        "team": "",
+        "image": "https://scontent-lax3-1.xx.fbcdn.net/v/t1.0-9/33835_10150111484080743_4791622_n.jpg?_nc_cat=103&_nc_ht=scontent-lax3-1.xx&oh=5f8484c66c15035a44ebaf5c608d5956&oe=5D6F8E60"
+    },
+    {
+        "id": 10,
+        "name": "Daniel Park",
+        "number": 13,
+        "team": "Double Up",
+        "image": "https://scontent-lax3-1.xx.fbcdn.net/v/t1.0-9/23172773_10211927155667988_6262282094605372622_n.jpg?_nc_cat=108&_nc_ht=scontent-lax3-1.xx&oh=b1963a9c1d6972f38891b68b2126f171&oe=5D69CEAE"
+    },
+    {
+        "id": 11,
+        "name": "Daniel Hwang",
+        "number": 37,
+        "team": "Fantastic",
+        "image": "https://scontent-lax3-2.xx.fbcdn.net/v/t31.0-1/c379.0.1290.1290a/10506738_10150004552801856_220367501106153455_o.jpg?_nc_cat=1&_nc_ht=scontent-lax3-2.xx&oh=e714aa39b48075c1da914b017e3bfc3d&oe=5D385C49"
+    },
+    {
+        "id": 12,
+        "name": "Daniel Kim",
+        "number": "0",
+        "team": "Angry Birdz",
+        "image": "https://scontent-lax3-1.xx.fbcdn.net/v/t1.0-9/14729154_1100156956719867_9055061676495897931_n.jpg?_nc_cat=101&_nc_ht=scontent-lax3-1.xx&oh=aea198f68faa5a580bd991e48aa26b2a&oe=5D29F4E4"
+    },
+    {
+        "id": 13,
+        "name": "Daniel Lee",
+        "number": 40,
+        "team": "Double Up",
+        "image": "https://scontent-lax3-2.xx.fbcdn.net/v/t31.0-1/c379.0.1290.1290a/10506738_10150004552801856_220367501106153455_o.jpg?_nc_cat=1&_nc_ht=scontent-lax3-2.xx&oh=e714aa39b48075c1da914b017e3bfc3d&oe=5D385C49"
+    },
+    {
+        "id": 14,
+        "name": "David Cho",
+        "number": 14,
+        "team": "Angry Birdz",
+        "image": "https://scontent-lax3-1.xx.fbcdn.net/v/t1.0-1/41962074_10217428431169785_3816344249432014848_n.jpg?_nc_cat=105&_nc_ht=scontent-lax3-1.xx&oh=481a8b1cc642dd3ad1444e762e65be84&oe=5D732B22"
+    },
+    {
+        "id": 15,
+        "name": "David Lee",
+        "number": 66,
+        "team": "Angry Birdz",
+        "image": "https://scontent-lax3-1.xx.fbcdn.net/v/t1.0-9/32977869_10216320857678788_1839738228945453056_o.jpg?_nc_cat=110&_nc_ht=scontent-lax3-1.xx&oh=34774f047eea20815e26905228b40214&oe=5D323A93"
+    },
+    {
+        "id": 16,
+        "name": "Denny Lee",
+        "number": 33,
+        "team": "BH",
+        "image": "https://scontent-lax3-1.xx.fbcdn.net/v/t31.0-8/19390573_1779501668731696_7016220434407211460_o.jpg?_nc_cat=106&_nc_ht=scontent-lax3-1.xx&oh=82655fef3951050911d1046380d9267a&oe=5D6BB6DF"
+    },
+    {
+        "id": 17,
+        "name": "Edward Shin",
+        "number": 31,
+        "team": "Double Up",
+        "image": "https://scontent-lax3-1.xx.fbcdn.net/v/t1.0-9/38614975_10156512413330967_2105093531969257472_o.jpg?_nc_cat=102&_nc_ht=scontent-lax3-1.xx&oh=ec8d463a547ecddebde85d718602ed96&oe=5D311DE9"
+    },
+    {
+        "id": 18,
+        "name": "Eric Kim",
+        "number": 23,
+        "team": "Lord of the Rims",
+        "image": "https://scontent-lax3-1.xx.fbcdn.net/v/t1.0-9/42637546_2072494066384706_4021161606166609920_n.jpg?_nc_cat=101&_nc_ht=scontent-lax3-1.xx&oh=38c034e73ba04970787e2353d32bf9ac&oe=5D39E863"
+    },
+    {
+        "id": 19,
+        "name": "Isaac Baek",
+        "number": 57,
+        "team": "Fantastic",
+        "image": "https://scontent-lax3-1.xx.fbcdn.net/v/t1.0-1/c153.33.414.414a/222333_223776550971593_8025557_n.jpg?_nc_cat=106&_nc_ht=scontent-lax3-1.xx&oh=2ca1b41ba6c1e3ea6a454e25fbc6042c&oe=5D6E8AEA"
+    },
+    {
+        "id": 20,
+        "name": "Isak Shin",
+        "number": 77,
+        "team": "Double Up",
+        "image": "https://scontent-lax3-1.xx.fbcdn.net/v/t1.0-9/51092613_10211237318209206_2639680315936735232_o.jpg?_nc_cat=106&_nc_ht=scontent-lax3-1.xx&oh=6ada2091019d715b20d0c0e2c5ff81c7&oe=5D748CDF"
+    },
+    {
+        "id": 21,
+        "name": "Jacob Cho",
+        "number": 5,
+        "team": "Lord of the Rims",
+        "image": "https://scontent-lax3-1.xx.fbcdn.net/v/t1.0-9/30728778_10155401093847337_8670738736612376576_n.jpg?_nc_cat=100&_nc_ht=scontent-lax3-1.xx&oh=4db7a8d00181c11195a89c8770933484&oe=5D318EC0"
+    },
+    {
+        "id": 22,
+        "name": "Jain Choe",
+        "number": 4,
+        "team": "Double Up",
+        "image": "https://scontent-lax3-1.xx.fbcdn.net/v/t31.0-8/13320509_10101924138652700_2762937253423418328_o.jpg?_nc_cat=105&_nc_ht=scontent-lax3-1.xx&oh=bf1622303fb74a13a5087f5e2203da05&oe=5D2AF000"
+    },
+    {
+        "id": 23,
+        "name": "James Choi",
+        "number": 25,
+        "team": "The Chosen",
+        "image": "https://scontent-lax3-1.xx.fbcdn.net/v/t1.0-9/24130025_10210722761964443_5906235444542699248_n.jpg?_nc_cat=111&_nc_ht=scontent-lax3-1.xx&oh=fe1ee0548551eb13ef6d88a034c30b48&oe=5D7565A6"
+    },
+    {
+        "id": 24,
+        "name": "James Choi",
+        "number": 20,
+        "team": "The Chosen",
+        "image": "https://scontent-lax3-1.xx.fbcdn.net/v/t1.0-9/14641946_10155377697502576_3501890300162377427_n.jpg?_nc_cat=110&_nc_ht=scontent-lax3-1.xx&oh=3826bfdab658d4bc6757839fd7be871c&oe=5D74067F"
+    },
+    {
+        "id": 25,
+        "name": "James Kim",
+        "number": 44,
+        "team": "The Chosen",
+        "image": "https://scontent-lax3-1.xx.fbcdn.net/v/t1.0-9/35026551_10155758042152106_4488220814067367936_o.jpg?_nc_cat=105&_nc_ht=scontent-lax3-1.xx&oh=6c9c525cf538806875ffb27110cd1f69&oe=5D2D077F"
+    },
+    {
+        "id": 25,
+        "name": "Jiwon Lee",
+        "number": 8,
+        "team": "BH",
+        "image": "https://scontent-lax3-1.xx.fbcdn.net/v/t1.0-9/42974906_10156333064991072_3715698704531849216_n.jpg?_nc_cat=100&_nc_ht=scontent-lax3-1.xx&oh=0013921096c478e7344936b467d58f7e&oe=5D60E8A7"
+    },
+    {
+        "id": 26,
+        "name": "John Hong",
+        "number": 1,
+        "team": "BH",
+        "image": "https://scontent-lax3-1.xx.fbcdn.net/v/t31.0-8/26951834_1845327715477385_4506628381151147651_o.jpg?_nc_cat=103&_nc_ht=scontent-lax3-1.xx&oh=87234f74d453e5df7c7442f0151ab0fb&oe=5D65141D"
+    },
+    {
+        "id": 27,
+        "name": "John Song",
+        "number": 16,
+        "team": "BH",
+        "image": "https://scontent-lax3-1.xx.fbcdn.net/v/t1.0-9/24301193_1953044671686040_450975062582774761_n.jpg?_nc_cat=104&_nc_ht=scontent-lax3-1.xx&oh=fd1967940efe0eaba449d88e6d919f67&oe=5D2CBFE3"
+    },
+    {
+
+    }
+]

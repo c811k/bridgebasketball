@@ -16,21 +16,35 @@ body {
 }
 
 #header {
-    background-color: #fad778;
+    background-color: #0e395c;
 }
 
-#playercard {
+.text-warning {
+    color: #0e395c !important;
+}
+
+.bg-warning {
+    background-color: #0e395c !important;
+}
+
+.border-warning {
+    border-color: #0e395c !important;
+}
+
+#playercard, 
+#score-card {
     transition: transform .2s;
 }
 
-#playercard:hover {
+#playercard:hover,
+#score-card:hover {
     transform: scale(1.05);
 }
 footer {
     margin-top: 10px;
 }
 
-#standing, #schedule, #scores, #players {
+#standing, #schedule, #scores, #players, #stats {
     height: 100vh;
 }
 
@@ -69,12 +83,16 @@ h2 {
     font-size: 11px;
 }
 .nav-link.active {
-    background-color: #fad778;
+    /* background-color: #fad778; */
+    background-color: #0e395c;
+    color: #ffffff !important;
 
 }
 
 .nav-link:hover {
-    background-color: #fad778;
+    background-color: #0e395c;
+    color: #ffffff !important;
+    transition: background-color 0.2s ease-in;
 }
 
 .table thead th, .table td, .table th {
@@ -82,8 +100,8 @@ h2 {
 }
 
 .badge {
-    background-color: #fad778;
-    color: black;
+    background-color: #0e395c;
+    color: white;
 }
 
 #scorelogo {
@@ -91,12 +109,19 @@ h2 {
 }
 
 #back {
-    background-color: #fad778;
+    background-color: #0e395c;
+    color: white;
 
 }
 
-.page-link.text-dark:hover {
-    background-color: #fad778;
+#right:hover {
+    transform: translateX(25%);
+    background: none;
+}
+
+#left:hover {
+    transform: translateX(-25%);
+    background: none;
 }
 
 .page-link.text-dark:focus {
@@ -137,8 +162,9 @@ h2 {
     background-color: #fad778;
 }
 
-#btn {
-    background-color: #fad778;
+#btn, #facebook {
+    background-color: #0e395c;
+    color: #ffffff;
 }
 
 #btn:focus {
@@ -153,6 +179,10 @@ h2 {
     font-size: 20px;
 }
 
+.progress {
+    height: 25px;
+}
+
 .progress .progress-bar {
     animation-name: animateBar;
     animation-iteration-count: 1;
@@ -162,4 +192,9 @@ h2 {
 @keyframes animateBar {
     0% {transform: translateX(-100%);}
     100% {transform: translateX(0);}
+}
+
+.nopadding {
+    padding: 0 !important;
+    margin: 0 !important;
 }

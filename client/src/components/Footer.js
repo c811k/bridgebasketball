@@ -4,7 +4,7 @@ function Footer() {
     return (
         <footer className="footer mt-5 py-3 bg-light shadow-sm">
             <div className="container text-center">
-                B R I D G E <span className="text-warning">B A S K E T B A L L </span>&copy; 2019 <a href="https://www.facebook.com/groups/nlvcbasketball/"><i class="fab fa-facebook-square"></i></a>
+            2019 &copy;  B R I D G E <span className="text-warning">B A S K E T B A L L </span><a href="https://www.facebook.com/groups/nlvcbasketball/" target="_blank"><i class="fab fa-facebook-square text-warning"></i></a> <a href="https://www.instagram.com/nlvcbridge/" target="_blank"><i class="fab fa-instagram text-warning"></i></a>
             </div>
         </footer>
     );

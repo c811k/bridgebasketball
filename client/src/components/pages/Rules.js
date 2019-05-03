@@ -7,7 +7,7 @@ function Rules() {
         <div className="container">
             <div className="row mt-5">
                 <div className="col-md-12 text-center">
-                    <h3 className="pb-3 border-bottom">G E N E R A L <span className="text-warning">R U L E S</span></h3>
+                    <h3 className="pb-3 border-bottom text-secondary">G E N E R A L <span className="text-warning">R U L E S</span></h3>
                 </div>
             </div>
             <div className="row">
@@ -17,7 +17,7 @@ function Rules() {
                             Players will be required to attend worship services on Sundays during the season. The captain of each team will be monitored by the league to enforce this rule.
                         </li>
                         <li className="list-group-item bg-light border-0">
-                            6 game season with single elimination playoffs. Every team will make the playoffs.
+                            6 game season with single elimination playoffs. Top 4 teams will make the playoffs.
                         </li>
                         <li className="list-group-item border-0">
                             Players must participate in at least 3 games throughout the regular season in order to become eligible to participate in the playoffs.
@@ -39,7 +39,7 @@ function Rules() {
             </div>
             <div className="row mt-5">
                 <div className="col-md-12 text-center">
-                    <h3 className="pb-3 border-bottom">G A M E <span className="text-warning">R U L E S</span></h3>
+                    <h3 className="pb-3 border-bottom text-secondary">G A M E <span className="text-warning">R U L E S</span></h3>
                 </div>
             </div>
             <div className="row">

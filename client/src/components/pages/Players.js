@@ -10,12 +10,30 @@ function Players() {
                     <h3 className="pb-3 border-bottom border-warning">P L A Y E R S</h3> 
                 </div>
                 <div className="col-md-6 text-right">
-                    <h3 className="pb-3 border-bottom">S E A S O N<span className="text-warning"> 2 0 1 9 </span></h3>
+                    <h3 className="pb-3 border-bottom text-secondary">S E A S O N<span className="text-warning"> 2 0 1 9 </span></h3>
                 </div>
             </div>
 
             <div className="row mt-5">
-            <div className="col-md-3 text-center">
+                <div className="col-md-3 text-center">
+                    <div className="card shadow-sm" id="playercard">
+                        <div className="row">
+                            <div className="col-md-12">
+                                <img className="img-fluid rounded p-2" src="https://scontent-lax3-2.xx.fbcdn.net/v/t31.0-1/c379.0.1290.1290a/10506738_10150004552801856_220367501106153455_o.jpg?_nc_cat=1&_nc_ht=scontent-lax3-2.xx&oh=e714aa39b48075c1da914b017e3bfc3d&oe=5D385C49" alt="profile" id="playerpic" />
+                            </div>
+                        </div>
+                        <div className="row">
+                            <div className="col-md-12 text-right">
+                                <ul class="list-group list-group">
+                                    <li className="list-group-item d-flex justify-content-between align-items-center border-0"><span className="badge badge-secondary">#96</span>ADAM CHO</li>
+                                    <li className="list-group-item d-flex justify-content-between align-items-center border-0" id="playerstats"><span className="badge badge-dark">- PTS</span><span className="badge badge-dark">- REB</span><span className="badge badge-dark">- AST</span></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div className="col-md-3 text-center">
                     <div className="card shadow-sm" id="playercard">
                         <div className="row">
                             <div className="col-md-12">
@@ -26,7 +44,10 @@ function Players() {
                             <div className="col-md-12 text-right">
                                 <ul class="list-group list-group">
                                     <li className="list-group-item d-flex justify-content-between align-items-center border-0"><span className="badge badge-secondary">#91</span>ANDREW KIM</li>
-                                    <li className="list-group-item d-flex justify-content-between align-items-center border-0" id="playerstats"><span className="badge badge-dark">25.2 PTS</span><span className="badge badge-dark">12.4 REB</span><span className="badge badge-dark">6.2 AST</span></li>
+                                    <li className="list-group-item d-flex ml-auto align-items-center border-0">
+                                        <span className="badge badge-secondary"> ANGRY BIRDZ</span>
+                                    </li>
+                                    {/* <li className="list-group-item d-flex justify-content-between align-items-center border-0" id="playerstats"><span className="badge badge-dark">- PTS</span><span className="badge badge-dark">- REB</span><span className="badge badge-dark">- AST</span></li> */}
                                 </ul>
                             </div>
                         </div>
@@ -37,14 +58,14 @@ function Players() {
                     <div className="card shadow-sm" id="playercard">
                         <div className="row">
                             <div className="col-md-12">
-                                <img className="img-fluid rounded p-2" src="https://scontent-lax3-2.xx.fbcdn.net/v/t31.0-8/26951834_1845327715477385_4506628381151147651_o.jpg?_nc_cat=103&_nc_ht=scontent-lax3-2.xx&oh=ee343ada05921d21e33c96078b4342d2&oe=5D15FA1D" alt="profile" id="playerpic" />
+                                <img className="img-fluid rounded p-2" src="https://scontent-lax3-2.xx.fbcdn.net/v/t31.0-8/26840579_10212742167642767_4145880265233871200_o.jpg?_nc_cat=105&_nc_ht=scontent-lax3-2.xx&oh=56dff2be42d16a92159ecdbd74ed5475&oe=5D6D5A8C" alt="profile" id="playerpic" />
                             </div>
                         </div>
                         <div className="row">
                             <div className="col-md-12 text-right">
-                                <ul class="list-group">
-                                    <li className="list-group-item d-flex justify-content-between align-items-center border-0"><span className="badge badge-secondary">#33</span>JOHN HONG<i class="fas fa-trophy">x2</i></li>
-                                    <li className="list-group-item d-flex justify-content-between align-items-center border-0" id="playerstats"><span className="badge badge-dark">25.2 PTS</span><span className="badge badge-dark">12.4 REB</span><span className="badge badge-dark">6.2 AST</span></li>
+                                <ul class="list-group list-group">
+                                    <li className="list-group-item d-flex justify-content-between align-items-center border-0"><span className="badge badge-secondary">#22</span>ANDREW SHIN</li>
+                                    <li className="list-group-item d-flex justify-content-between align-items-center border-0" id="playerstats"><span className="badge badge-dark">- PTS</span><span className="badge badge-dark">- REB</span><span className="badge badge-dark">- AST</span></li>
                                 </ul>
                             </div>
                         </div>
@@ -55,45 +76,27 @@ function Players() {
                     <div className="card shadow-sm" id="playercard">
                         <div className="row">
                             <div className="col-md-12">
-                                <img className="img-fluid rounded p-2" src="https://scontent-lax3-2.xx.fbcdn.net/v/t1.0-1/c153.33.414.414a/222333_223776550971593_8025557_n.jpg?_nc_cat=106&_nc_ht=scontent-lax3-2.xx&oh=7b379a3bbe07f42442f05aafc63f257b&oe=5D1F70EA" alt="profile" id="playerpic" />
+                                <img className="img-fluid rounded p-2" src="https://scontent-lax3-2.xx.fbcdn.net/v/t31.0-1/c379.0.1290.1290a/10506738_10150004552801856_220367501106153455_o.jpg?_nc_cat=1&_nc_ht=scontent-lax3-2.xx&oh=e714aa39b48075c1da914b017e3bfc3d&oe=5D385C49" alt="profile" id="playerpic" />
                             </div>
                         </div>
                         <div className="row">
                             <div className="col-md-12 text-right">
                                 <ul class="list-group list-group">
-                                    <li className="list-group-item d-flex justify-content-between align-items-center border-0"><span className="badge badge-secondary">#0</span>ISAAC BAEK</li>
-                                    <li className="list-group-item d-flex justify-content-between align-items-center border-0" id="playerstats"><span className="badge badge-dark">25.2 PTS</span><span className="badge badge-dark">12.4 REB</span><span className="badge badge-dark">6.2 AST</span></li>
+                                    <li className="list-group-item d-flex justify-content-between align-items-center border-0"><span className="badge badge-secondary">#69</span>BENJAMIN LEE</li>
+                                    <li className="list-group-item d-flex justify-content-between align-items-center border-0" id="playerstats"><span className="badge badge-dark">- PTS</span><span className="badge badge-dark">- REB</span><span className="badge badge-dark">- AST</span></li>
                                 </ul>
                             </div>
                         </div>
                     </div>
-                </div>
-                
-                <div className="col-md-3 text-center">
-                    <div className="card shadow-sm" id="playercard">
-                        <div className="row">
-                            <div className="col-md-12">
-                                <img className="img-fluid rounded p-2" src="https://scontent-lax3-2.xx.fbcdn.net/v/t1.0-9/23172773_10211927155667988_6262282094605372622_n.jpg?_nc_cat=108&_nc_ht=scontent-lax3-2.xx&oh=a8ea21270556653a8f4278ba0b35e899&oe=5D1AB4AE" alt="profile" id="playerpic" />
-                            </div>
-                        </div>
-                        <div className="row">
-                            <div className="col-md-12 text-right">
-                                <ul class="list-group list-group">
-                                    <li className="list-group-item d-flex justify-content-between align-items-center border-0"><span className="badge badge-secondary">#13</span>DANIEL PARK</li>
-                                    <li className="list-group-item d-flex justify-content-between align-items-center border-0" id="playerstats"><span className="badge badge-dark">25.2 PTS</span><span className="badge badge-dark">12.4 REB</span><span className="badge badge-dark">6.2 AST</span></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+                </div>                
             </div>
             <div className="row mt-5">
                 <div className="col-md-12">
                     <nav aria-label="Page navigation example">
                         <ul class="pagination justify-content-center">
                             <li class="page-item">
-                                <a class="page-link text-dark border-0" href="#" aria-label="Previous">
-                                <span aria-hidden="true">&laquo;</span>
+                                <a class="page-link text-dark border-0" href="#" aria-label="Previous" id="left">
+                                <span aria-hidden="true"><i class="fas fa-angle-left"></i></span>
                                 </a>
                             </li>
                             <li class="page-item">
@@ -124,8 +127,17 @@ function Players() {
                                 <a class="page-link text-dark border-0" href="#">9</a>
                             </li>
                             <li class="page-item">
-                                <a class="page-link text-dark border-0" href="#" aria-label="Next">
-                                <span aria-hidden="true">&raquo;</span>
+                                <a class="page-link text-dark border-0" href="#">10</a>
+                            </li>
+                            <li class="page-item">
+                                <a class="page-link text-dark border-0" href="#">11</a>
+                            </li>
+                            <li class="page-item">
+                                <a class="page-link text-dark border-0" href="#">12</a>
+                            </li>
+                            <li class="page-item">
+                                <a class="page-link text-dark border-0" href="#" aria-label="Next" id="right">
+                                <span aria-hidden="true"><i class="fas fa-angle-right"></i></span>
                             </a>
                             </li>
                         </ul>
