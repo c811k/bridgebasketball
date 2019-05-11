@@ -35,7 +35,7 @@ class Stats extends Component {
                     <div className="col-md-4">
                         <div className="row">
                             <div className="col-md-6">
-                                <img className="img-fluid rounded mt-3 border" src="https://scontent-lax3-2.xx.fbcdn.net/v/t31.0-1/c379.0.1290.1290a/10506738_10150004552801856_220367501106153455_o.jpg?_nc_cat=1&_nc_ht=scontent-lax3-2.xx&oh=e714aa39b48075c1da914b017e3bfc3d&oe=5D385C49" alt="profile" height="300" width="200" id="playerpic" />
+                                <img className="img-fluid rounded mt-3 border" src="https://scontent-lax3-1.xx.fbcdn.net/v/t1.0-9/48416545_1993639637358593_8942590435369418752_o.jpg?_nc_cat=104&_nc_ht=scontent-lax3-1.xx&oh=974375b447ecdd4467c74c2ba86711c3&oe=5D751106" alt="profile" height="300" width="200" id="playerpic" />
                             </div>
                             <div className="col-md-6 mt-3 text-right">
                                 P O I N T S
@@ -47,51 +47,51 @@ class Stats extends Component {
                             <ul className="list-group list-group-flush">
                                     <li className="list-group-item border-0 bg-light">
                                         <div className="row">
-                                            <div className="col-md-6">
-                                                1. Benjamin Lee
+                                            <div className="col-md-9">
+                                                Steve Joo <span class="small text-muted font-italic font-weight-light">Lord of the Rims</span>
                                             </div>
-                                            <div className="col-md-6 text-right">
-                                                29.0
+                                            <div className="col-md-3 text-right">
+                                                <h5>28.0</h5>
                                             </div>
                                         </div>
                                     </li>
                                     <li className="list-group-item border-0">
                                         <div className="row">
-                                            <div className="col-md-6">
-                                                2. Daniel Park 
+                                            <div className="col-md-9">
+                                                Benjamin Lee <span class="small text-muted font-italic font-weight-light">Lord of the Rims</span>
                                             </div>
-                                            <div className="col-md-6 text-right">
+                                            <div className="col-md-3 text-right">
+                                                27.0
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li className="list-group-item border-0 bg-light">
+                                        <div className="row">
+                                            <div className="col-md-9">
+                                               Daniel Park <span class="small text-muted font-italic font-weight-light">Double Up</span>
+                                            </div>
+                                            <div className="col-md-3 text-right">
                                                 22.0
                                             </div>
                                         </div>
                                     </li>
-                                    <li className="list-group-item border-0 bg-light">
-                                        <div className="row">
-                                            <div className="col-md-6">
-                                               3. Caleb Kang 
-                                            </div>
-                                            <div className="col-md-6 text-right">
-                                                21.0
-                                            </div>
-                                        </div>
-                                    </li>
                                     <li className="list-group-item border-0">
                                         <div className="row">
-                                            <div className="col-md-6">
-                                                4. Andrew Kim 
+                                            <div className="col-md-8">
+                                                Smith Kang <span class="small text-muted font-italic font-weight-light">The Chosen</span>
                                             </div>
-                                            <div className="col-md-6 text-right">
-                                                18.0 
+                                            <div className="col-md-4 text-right">
+                                                20.5 
                                             </div>
                                         </div>
                                     </li>
                                     <li className="list-group-item border-0 bg-light">
                                         <div className="row">
-                                            <div className="col-md-6">
-                                                5. Kevin Shim
+                                            <div className="col-md-8">
+                                                Caleb Kang <span class="small text-muted font-italic font-weight-light">The Chosen</span>
                                             </div>
-                                            <div className="col-md-6 text-right">
-                                                14.0
+                                            <div className="col-md-4 text-right">
+                                                19.0
                                             </div>
                                         </div>
                                     </li>
@@ -103,7 +103,7 @@ class Stats extends Component {
                     <div className="col-md-4">
                         <div className="row">
                             <div className="col-md-6">
-                                <img className="img-fluid rounded mt-3 border" src="https://scontent-lax3-2.xx.fbcdn.net/v/t31.0-1/c379.0.1290.1290a/10506738_10150004552801856_220367501106153455_o.jpg?_nc_cat=1&_nc_ht=scontent-lax3-2.xx&oh=e714aa39b48075c1da914b017e3bfc3d&oe=5D385C49" alt="profile" height="300" width="200" id="playerpic" />
+                                <img className="rounded mt-3 border" src="https://scontent-lax3-1.xx.fbcdn.net/v/t1.0-9/51092613_10211237318209206_2639680315936735232_o.jpg?_nc_cat=106&_nc_ht=scontent-lax3-1.xx&oh=6ada2091019d715b20d0c0e2c5ff81c7&oe=5D748CDF" alt="profile" height="160" width="128" id="playerpic" />
                             </div>
                             <div className="col-md-6 mt-3 text-right">
                                 R E B O U N D S
@@ -115,50 +115,50 @@ class Stats extends Component {
                             <ul className="list-group list-group-flush">
                                     <li className="list-group-item border-0 bg-light">
                                         <div className="row">
-                                            <div className="col-md-6">
-                                                1. Benjamin Lee
+                                            <div className="col-md-9">
+                                                Isak Shin <span class="small text-muted font-italic font-weight-light">Double Up</span>
                                             </div>
-                                            <div className="col-md-6 text-right">
-                                                14.0
-                                            </div>
-                                        </div>
-                                    </li>
-                                    <li className="list-group-item border-0">
-                                        <div className="row">
-                                            <div className="col-md-6">
-                                                2. David Cho
-                                            </div>
-                                            <div className="col-md-6 text-right">
-                                                12.0
-                                            </div>
-                                        </div>
-                                    </li>
-                                    <li className="list-group-item border-0 bg-light">
-                                        <div className="row">
-                                            <div className="col-md-6">
-                                                3. Kevin Shim
-                                            </div>
-                                            <div className="col-md-6 text-right">
-                                                10.0
+                                            <div className="col-md-3 text-right">
+                                                <h5>14.0</h5>
                                             </div>
                                         </div>
                                     </li>
                                     <li className="list-group-item border-0">
                                         <div className="row">
-                                            <div className="col-md-6">
-                                                4. Isak Shin  
+                                            <div className="col-md-9">
+                                                Smith Kang <span class="small text-muted font-italic font-weight-light">The Chosen</span>
                                             </div>
-                                            <div className="col-md-6 text-right">
+                                            <div className="col-md-3 text-right">
+                                                13.0
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li className="list-group-item border-0 bg-light">
+                                        <div className="row">
+                                            <div className="col-md-9">
+                                                Benjamin Lee <span class="small text-muted font-italic font-weight-light">Lord of the Rims</span>
+                                            </div>
+                                            <div className="col-md-3 text-right">
+                                                11.0
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li className="list-group-item border-0">
+                                        <div className="row">
+                                            <div className="col-md-9">
+                                                Jacob Cho <span class="small text-muted font-italic font-weight-light">Lord of the Rims</span>
+                                            </div>
+                                            <div className="col-md-3 text-right">
                                                 10.0
                                             </div>
                                         </div>
                                     </li>
                                     <li className="list-group-item border-0 bg-light">
                                         <div className="row">
-                                            <div className="col-md-6">
-                                                5. Moses Kim 
+                                            <div className="col-md-9">
+                                                Moses Kim <span class="small text-muted font-italic font-weight-light">Lord of the Rims</span>
                                             </div>
-                                            <div className="col-md-6 text-right">
+                                            <div className="col-md-3 text-right">
                                                 10.0
                                             </div>
                                         </div>
@@ -171,7 +171,7 @@ class Stats extends Component {
                     <div className="col-md-4">
                         <div className="row">
                             <div className="col-md-6">
-                                <img className="rounded mt-3 border" src="https://scontent-lax3-1.xx.fbcdn.net/v/t1.0-9/51092613_10211237318209206_2639680315936735232_o.jpg?_nc_cat=106&_nc_ht=scontent-lax3-1.xx&oh=6ada2091019d715b20d0c0e2c5ff81c7&oe=5D748CDF" alt="profile" id="playerpic" height="160" width="160" />
+                                <img className="rounded mt-3 border" src="https://scontent-lax3-2.xx.fbcdn.net/v/t31.0-1/c379.0.1290.1290a/10506738_10150004552801856_220367501106153455_o.jpg?_nc_cat=1&_nc_ht=scontent-lax3-2.xx&oh=e714aa39b48075c1da914b017e3bfc3d&oe=5D385C49" alt="profile" id="playerpic" height="160" width="160" />
                             </div>
                             <div className="col-md-6 mt-3 text-right">
                                A S S I S T S
@@ -183,51 +183,51 @@ class Stats extends Component {
                             <ul className="list-group list-group-flush">
                                     <li className="list-group-item border-0 bg-light">
                                         <div className="row">
-                                            <div className="col-md-6">
-                                                1. Isak Shin
+                                            <div className="col-md-9">
+                                                Benjamin Lee <span class="small text-muted font-italic font-weight-light">Lord of the Rims</span>
                                             </div>
-                                            <div className="col-md-6 text-right">
-                                                8.0
+                                            <div className="col-md-3 text-right">
+                                                <h5>5.5</h5>
                                             </div>
                                         </div>
                                     </li>
                                     <li className="list-group-item border-0">
                                         <div className="row">
-                                            <div className="col-md-6">
-                                                2. Benjamin Lee
+                                            <div className="col-md-9">
+                                                Isak Shin <span class="small text-muted font-italic font-weight-light">Double Up</span>
                                             </div>
-                                            <div className="col-md-6 text-right">
-                                                6.0
+                                            <div className="col-md-3 text-right">
+                                                5.0
                                             </div>
                                         </div>
                                     </li>
                                     <li className="list-group-item border-0 bg-light">
                                         <div className="row">
-                                            <div className="col-md-6">
-                                                3. David Lee
+                                            <div className="col-md-9">
+                                                David Lee <span class="small text-muted font-italic font-weight-light">Angry Birdz</span>
                                             </div>
-                                            <div className="col-md-6 text-right">
-                                                6.0
+                                            <div className="col-md-3 text-right">
+                                                3.5
                                             </div>
                                         </div>
                                     </li>
                                     <li className="list-group-item border-0">
                                         <div className="row">
-                                            <div className="col-md-6">
-                                                4. Brandon Oh
+                                            <div className="col-md-9">
+                                                John Hong <span class="small text-muted font-italic font-weight-light">BH</span>
                                             </div>
-                                            <div className="col-md-6 text-right">
+                                            <div className="col-md-3 text-right">
                                                 3.0
                                             </div>
                                         </div>
                                     </li>
                                     <li className="list-group-item border-0 bg-light">
                                         <div className="row">
-                                            <div className="col-md-6">
-                                                5. Bryan Park
+                                            <div className="col-md-9">
+                                                Andrew Kim <span class="small text-muted font-italic font-weight-light">Angry Birdz</span>
                                             </div>
-                                            <div className="col-md-6 text-right">
-                                                2.0
+                                            <div className="col-md-3 text-right">
+                                                2.5
                                             </div>
                                         </div>
                                     </li>
@@ -240,7 +240,7 @@ class Stats extends Component {
                     <div className="col-md-4">
                         <div className="row">
                             <div className="col-md-6">
-                                <img className="rounded mt-3 border" src="https://scontent-lax3-1.xx.fbcdn.net/v/t1.0-9/51092613_10211237318209206_2639680315936735232_o.jpg?_nc_cat=106&_nc_ht=scontent-lax3-1.xx&oh=6ada2091019d715b20d0c0e2c5ff81c7&oe=5D748CDF" alt="profile" height="160" width="160" id="playerpic" />
+                                <img className="img-fluid rounded mt-3 border" src="https://scontent-lax3-1.xx.fbcdn.net/v/t1.0-9/23172773_10211927155667988_6262282094605372622_n.jpg?_nc_cat=108&_nc_ht=scontent-lax3-1.xx&oh=b1963a9c1d6972f38891b68b2126f171&oe=5D69CEAE" alt="profile" id="playerpic" />
                             </div>
                             <div className="col-md-6 mt-3 text-right">
                                 F I E L D <span className="text-warning">G O A L</span> %
@@ -252,51 +252,51 @@ class Stats extends Component {
                             <ul className="list-group list-group-flush">
                                     <li className="list-group-item border-0 bg-light">
                                         <div className="row">
-                                            <div className="col-md-6">
-                                                1. Isak Shin
+                                            <div className="col-md-9">
+                                                Daniel Park <span class="small text-muted font-italic font-weight-light">Double Up</span>
                                             </div>
-                                            <div className="col-md-6 text-right">
-                                                .750
-                                            </div>
-                                        </div>
-                                    </li>
-                                    <li className="list-group-item border-0">
-                                        <div className="row">
-                                            <div className="col-md-6">
-                                                2. Caleb Kang
-                                            </div>
-                                            <div className="col-md-6 text-right">
-                                                .727
-                                            </div>
-                                        </div>
-                                    </li>
-                                    <li className="list-group-item border-0 bg-light">
-                                        <div className="row">
-                                            <div className="col-md-6">
-                                                3. Daniel Park
-                                            </div>
-                                            <div className="col-md-6 text-right">
-                                                .700
+                                            <div className="col-md-3 text-right">
+                                                <h5>.700</h5>
                                             </div>
                                         </div>
                                     </li>
                                     <li className="list-group-item border-0">
                                         <div className="row">
-                                            <div className="col-md-6">
-                                                4. Benjamin Lee
+                                            <div className="col-md-9">
+                                                Isak Shin <span class="small text-muted font-italic font-weight-light">Double Up</span>
                                             </div>
-                                            <div className="col-md-6 text-right">
-                                                .500
+                                            <div className="col-md-3 text-right">
+                                                .563
                                             </div>
                                         </div>
                                     </li>
                                     <li className="list-group-item border-0 bg-light">
                                         <div className="row">
-                                            <div className="col-md-6">
-                                                5. David Cho
+                                            <div className="col-md-9">
+                                                Benjamin Lee <span class="small text-muted font-italic font-weight-light">Lord of the Rims</span>
                                             </div>
-                                            <div className="col-md-6 text-right">
-                                                .500
+                                            <div className="col-md-3 text-right">
+                                                .486
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li className="list-group-item border-0">
+                                        <div className="row">
+                                            <div className="col-md-9">
+                                                Caleb Kang <span class="small text-muted font-italic font-weight-light">The Chosen</span>
+                                            </div>
+                                            <div className="col-md-3 text-right">
+                                                .464
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li className="list-group-item border-0 bg-light">
+                                        <div className="row">
+                                            <div className="col-md-9">
+                                                Steve Joo <span class="small text-muted font-italic font-weight-light">Lord of the Rims</span>
+                                            </div>
+                                            <div className="col-md-3 text-right">
+                                                .458
                                             </div>
                                         </div>
                                     </li>
@@ -318,53 +318,53 @@ class Stats extends Component {
                         <div className="row mt-3">
                             <div className="col-md-12">
                             <ul className="list-group list-group-flush">
-                                    <li className="list-group-item border-0 bg-light">
+                                    <li className="list-group-item border-0 bg-light ">
                                         <div className="row">
-                                            <div className="col-md-6">
-                                                1. Yunjae Chung
+                                            <div className="col-md-9">
+                                                Yunjae Chung <span class="small text-muted font-italic font-weight-light">Angry Birdz</span>
                                             </div>
-                                            <div className="col-md-6 text-right">
-                                                6.0
+                                            <div className="col-md-3 text-right">
+                                                <h5>4.5</h5>
                                             </div>
                                         </div>
                                     </li>
                                     <li className="list-group-item border-0">
                                         <div className="row">
-                                            <div className="col-md-6">
-                                                2. David Lee
+                                            <div className="col-md-9">
+                                                Jain Choe <span class="small text-muted font-italic font-weight-light">Double Up</span>
                                             </div>
-                                            <div className="col-md-6 text-right">
+                                            <div className="col-md-3 text-right">
                                                 3.0
                                             </div>
                                         </div>
                                     </li>
                                     <li className="list-group-item border-0 bg-light">
                                         <div className="row">
-                                            <div className="col-md-6">
-                                                3. Denny Lee
+                                            <div className="col-md-9">
+                                                David Cho <span class="small text-muted font-italic font-weight-light">Angry Birdz</span>
                                             </div>
-                                            <div className="col-md-6 text-right">
-                                                3.0
+                                            <div className="col-md-3 text-right">
+                                                2.5
                                             </div>
                                         </div>
                                     </li>
                                     <li className="list-group-item border-0">
                                         <div className="row">
-                                            <div className="col-md-6">
-                                                4. Jain Choe
+                                            <div className="col-md-9">
+                                                Denny Lee <span class="small text-muted font-italic font-weight-light">BH</span>
                                             </div>
-                                            <div className="col-md-6 text-right">
-                                                3.0
+                                            <div className="col-md-3 text-right">
+                                                2.5
                                             </div>
                                         </div>
                                     </li>
                                     <li className="list-group-item border-0 bg-light">
                                         <div className="row">
-                                            <div className="col-md-6">
-                                                5. Bumsu Kim
+                                            <div className="col-md-9">
+                                                Joseph Jung <span class="small text-muted font-italic font-weight-light">The Chosen</span>
                                             </div>
-                                            <div className="col-md-6 text-right">
-                                                2.0
+                                            <div className="col-md-3 text-right">
+                                                2.5
                                             </div>
                                         </div>
                                     </li>
@@ -376,7 +376,7 @@ class Stats extends Component {
                     <div className="col-md-4">
                         <div className="row">
                             <div className="col-md-6">
-                                <img className="img-fluid rounded mt-3 border" src="https://scontent-lax3-2.xx.fbcdn.net/v/t31.0-1/c379.0.1290.1290a/10506738_10150004552801856_220367501106153455_o.jpg?_nc_cat=1&_nc_ht=scontent-lax3-2.xx&oh=e714aa39b48075c1da914b017e3bfc3d&oe=5D385C49" alt="profile" height="300" width="200" id="playerpic" />
+                                <img className="img-fluid rounded mt-3 border" src="https://scontent-lax3-1.xx.fbcdn.net/v/t1.0-9/11025663_10204159636207633_5032983061615525533_n.jpg?_nc_cat=102&_nc_ht=scontent-lax3-1.xx&oh=80e6423a3da13517539c2f871fc1f31a&oe=5D7269D9" alt="profile" height="300" width="200" id="playerpic" />
                             </div>
                             <div className="col-md-6 mt-3 text-right">
                                B L O C K S
@@ -388,51 +388,51 @@ class Stats extends Component {
                             <ul className="list-group list-group-flush">
                                     <li className="list-group-item border-0 bg-light">
                                         <div className="row">
-                                            <div className="col-md-6">
-                                                1. Benjamin Lee
+                                            <div className="col-md-9">
+                                                Kevin Shim <span class="small text-muted font-italic font-weight-light">Angry Birdz</span>
                                             </div>
-                                            <div className="col-md-6 text-right">
-                                                1.0
+                                            <div className="col-md-3 text-right">
+                                                <h5>1.5</h5>
                                             </div>
                                         </div>
                                     </li>
                                     <li className="list-group-item border-0">
                                         <div className="row">
-                                            <div className="col-md-6">
-                                                2. Isaac Baek
+                                            <div className="col-md-9">
+                                                Jun Kim <span class="small text-muted font-italic font-weight-light">BH</span>
                                             </div>
-                                            <div className="col-md-6 text-right">
+                                            <div className="col-md-3 text-right">
                                                 1.0
                                             </div>
                                         </div>
                                     </li>
                                     <li className="list-group-item border-0 bg-light">
                                         <div className="row">
-                                            <div className="col-md-8">
-                                                3. James Choi, #20
+                                            <div className="col-md-9">
+                                                James Choi, #20 <span class="small text-muted font-italic font-weight-light">The Chosen</span>
                                             </div>
-                                            <div className="col-md-4 text-right">
+                                            <div className="col-md-3 text-right">
                                                 1.0
                                             </div>
                                         </div>
                                     </li>
                                     <li className="list-group-item border-0">
                                         <div className="row">
-                                            <div className="col-md-6">
-                                                4. John Hong
+                                            <div className="col-md-9">
+                                                Andrew Kim <span class="small text-muted font-italic font-weight-light">Angry Birdz</span>
                                             </div>
-                                            <div className="col-md-6 text-right">
-                                                1.0
+                                            <div className="col-md-3 text-right">
+                                                0.5
                                             </div>
                                         </div>
                                     </li>
                                     <li className="list-group-item border-0 bg-light">
                                         <div className="row">
-                                            <div className="col-md-6">
-                                                5. Jun Kim
+                                            <div className="col-md-9">
+                                                Benjamin Lee <span class="small text-muted font-italic font-weight-light">Lord of the Rims</span>
                                             </div>
-                                            <div className="col-md-6 text-right">
-                                                1.0
+                                            <div className="col-md-3 text-right">
+                                                0.5
                                             </div>
                                         </div>
                                     </li>

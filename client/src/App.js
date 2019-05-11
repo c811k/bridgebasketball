@@ -3,9 +3,10 @@ import { BrowserRouter as Router, Route } from "react-router-dom";
 import Navbar from "./components/Navbar";
 import Home from "./components/pages/Home";
 import Players from "./components/pages/Players";
-import Scores from "./components/pages/Scores";
+import Week1 from "./components/pages/Scores/Week1";
+import Week2 from "./components/pages/Scores/Week2";
+import Week3 from "./components/pages/Scores/Week3";
 import Schedule from "./components/pages/Schedule/Schedule";
-import May from "./components/pages/Schedule/May";
 import Standing from "./components/pages/Standing";
 import Stats from "./components/pages/Stats";
 import Rules from "./components/pages/Rules";
@@ -20,7 +21,9 @@ class App extends Component {
             <Navbar />
             <Route exact path="/" component={Home} />
             <Route exact path="/players" component={Players} />
-            <Route exact path="/scores" component={Scores} />
+            <Route exact path="/scores/week1" component={Week1} />
+            <Route exact path="/scores/week2" component={Week2} />
+            <Route exact path="/scores/week3" component={Week3} />
             <Route path="/schedule" component={Schedule} />
             <Route exact path="/standing" component={Standing} />
             <Route exact path="/stats" component={Stats} />

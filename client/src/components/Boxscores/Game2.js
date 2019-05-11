@@ -1,11 +1,15 @@
 import React from "react";
 import { Button, Modal, ModalBody, ModalFooter } from "reactstrap";
+import Home from "./team2/game1";
+import Away from "./team1/game1";
 
 class Game2 extends React.Component {
     constructor(props) {
         super(props);
         this.state= {
-            modal: false
+            modal: false,
+            isHomeOpen: true,
+            isAwayOpen: false
         };
 
         this.toggle = this.toggle.bind(this);
@@ -17,26 +21,40 @@ class Game2 extends React.Component {
         }));
     }
 
+    showHome = () => {
+        this.setState({
+            isHomeOpen: true,
+            isAwayOpen: false
+        })
+    }
+
+    showAway = () => {
+        this.setState({
+            isAwayOpen: true,
+            isHomeOpen: false
+        })
+    }
+
     render() {
         return(
             <div>
                 <Button className="btn btn-sm shadow-sm" onClick={this.toggle} id="btn">BOX SCORE</Button>
-                <Modal isOpen={this.state.modal} toggle={this.toggle} className="modal-dialog-centered modal-lg">
-                <ModalBody className="bg-white rounded-lg" id="modal">
+                <Modal isOpen={this.state.modal} toggle={this.toggle} className="modal-dialog-centered modal-xl">
+                <ModalBody className="bg-white rounded-xl" id="modal">
                 <div>
                     <div className="container">
                         <div className="row mt-3">
-                            <div className="col-md-5 text-center">
+                            <div className="col-md-5 text-center" onClick={this.showHome}>
                                 <h4>Angry Birdz</h4>
-                                <hr className="bg-warning" />
+                                <hr className={"bg-warning" + (this.state.isHomeOpen ? " active" : null)} />
                                 <span className="small">HOME</span>
                             </div>
                             <div className="col-md-2 text-center">
                                 <span className="text-secondary small">v</span>
                             </div>
-                            <div className="col-md-5 text-center">
+                            <div className="col-md-5 text-center" onClick={this.showAway}>
                                 <h4>The Chosen</h4>
-                                <hr className="bg-white" />
+                                <hr className={"bg-warning" + (this.state.isAwayOpen ? " active" : null)} />
                                 <span className="small">AWAY</span>
                             </div>
                         </div>
@@ -45,6 +63,8 @@ class Game2 extends React.Component {
                                 <h6>April 28, 2019</h6>
                             </div>
                         </div>
+                        {this.state.isHomeOpen && <Home/>}
+                        {this.state.isAwayOpen && <Away/>}
                     </div>
                 </div>
                 </ModalBody>

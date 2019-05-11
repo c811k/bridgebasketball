@@ -1,14 +1,17 @@
 import React from "react";
-import Footer from "../Footer";
-import Game1 from "../Teamstats/Game1";
-import Game2 from "../Teamstats/Game2";
-import Game3 from "../Teamstats/Game3";
-import Watch1 from "../Watch/Game1";
-import Watch2 from "../Watch/Game2";
-import Watch3 from "../Watch/Game3";
-import logo from "../../assets/images/logo.jpg";
+import Footer from "../../Footer";
+import Game1 from "../../Teamstats/Game1";
+import Game2 from "../../Teamstats/Game2";
+import Game3 from "../../Teamstats/Game3";
+import Watch1 from "../../Watch/Game1";
+import Watch2 from "../../Watch/Game2";
+import Watch3 from "../../Watch/Game3";
+import Boxscore1 from "../../Boxscores/Game1";
+import Boxscore2 from "../../Boxscores/Game2";
+import Boxscore3 from "../../Boxscores/Game3";
+import logo from "../../../assets/images/logo.jpg";
 
-function Scores() {
+function Week1() {
     return(
         <div>
         <div className="container" id="scores">
@@ -24,7 +27,7 @@ function Scores() {
                 <div className="col-md-12">
                 <nav aria-label="Page navigation example">
                         <ul class="pagination justify-content-center">
-                            <li class="page-item mt-3">
+                            <li class="page-item mt-3 disabled">
                                 <a class="page-link text-dark border-0" href="#" aria-label="Previous" id="left">
                                 <span aria-hidden="true"><i class="fas fa-angle-left"></i></span>
                                 </a>
@@ -33,7 +36,7 @@ function Scores() {
                                 <a class="page-link text-dark border-0"><h5>WEEK 1</h5><p class="small">APRIL 28, 2019</p></a>
                             </li>
                             <li class="page-item mt-3">
-                                <a class="page-link text-dark border-0" href="#" aria-label="Next" id="right">
+                                <a class="page-link text-dark border-0" href="/scores/week2" aria-label="Next" id="right">
                                 <span aria-hidden="true"><i class="fas fa-angle-right"></i></span>
                             </a>
                             </li>
@@ -77,7 +80,8 @@ function Scores() {
                                         <Watch1 />
                                         {/* <a id="btn" className="btn btn-sm shadow-sm" href="/teamstats">TEAM STATS</a> */}
                                         <Game1 />
-                                        <button id="btn" className="btn btn-sm shadow-sm disabled">BOX SCORE</button>
+                                        {/* <button id="btn" className="btn btn-sm shadow-sm disabled">BOX SCORE</button> */}
+                                        <Boxscore1 />
                                     </div>
                                 </div>
                             </li>
@@ -119,8 +123,8 @@ function Scores() {
                                         <Watch2 />
                                         {/* <a id="btn" className="btn btn-sm shadow-sm disabled" href="/teamstats">TEAM STATS</a> */}
                                         <Game2 />
-                                        {/* <Boxscore2 /> */}
-                                        <button id="btn" className="btn btn-sm shadow-sm disabled">BOX SCORE</button>
+                                        <Boxscore2 />
+                                        {/* <button id="btn" className="btn btn-sm shadow-sm disabled">BOX SCORE</button> */}
                                     </div>
                                 </div>
                             </li>
@@ -162,7 +166,8 @@ function Scores() {
                                         <Watch3 />
                                         {/* <a id="btn" className="btn btn-sm shadow-sm disabled" href="/teamstats">TEAM STATS</a> */}
                                         <Game3 />
-                                        <button id="btn" className="btn btn-sm shadow-sm disabled">BOX SCORE</button>
+                                        {/* <button id="btn" className="btn btn-sm shadow-sm disabled">BOX SCORE</button> */}
+                                        <Boxscore3 />
                                     </div>
                                 </div>
                             </li>
@@ -177,4 +182,4 @@ function Scores() {
     );
 }
 
-export default Scores;
+export default Week1;

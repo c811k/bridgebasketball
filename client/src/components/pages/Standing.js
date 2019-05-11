@@ -35,74 +35,74 @@ function Standing() {
                                 <tr>
                                 <th scope="row">1</th>
                                 <td>Double Up</td>
-                                <td className="text-right">1</td>
+                                <td className="text-right">2</td>
                                 <td className="text-right">0</td>
                                 <td className="text-right">1.000</td>
                                 <td className="text-right">-</td>
-                                <td className="text-right">57.0</td>
-                                <td className="text-right">29.0</td>
-                                <td className="text-right">+28.0</td>
-                                <td className="text-right">W1</td>
+                                <td className="text-right">50.0</td>
+                                <td className="text-right">35.0</td>
+                                <td className="text-right text-success">+15.0</td>
+                                <td className="text-right">W2</td>
                                 </tr>
                                 <tr>
                                 <th scope="row">2</th>
                                 <td>Lord of the Rims</td>
-                                <td className="text-right">1</td>
+                                <td className="text-right">2</td>
                                 <td className="text-right">0</td>
                                 <td className="text-right">1.000</td>
                                 <td className="text-right">-</td>
-                                <td className="text-right">53.0</td>
-                                <td className="text-right">42.0</td>
-                                <td className="text-right">+11.0</td>
-                                <td className="text-right">W1</td>
+                                <td className="text-right">54.5</td>
+                                <td className="text-right">47.5</td>
+                                <td className="text-right text-success">+7.0</td>
+                                <td className="text-right">W2</td>
                                 </tr>
                                 <tr>
                                 <th scope="row">3</th>
                                 <td>The Chosen</td>
                                 <td className="text-right">1</td>
-                                <td className="text-right">0</td>
-                                <td className="text-right">1.000</td>
-                                <td className="text-right">-</td>
-                                <td className="text-right">39.0</td>
-                                <td className="text-right">36.0</td>
-                                <td className="text-right">+3.0</td>
-                                <td className="text-right">W1</td>
+                                <td className="text-right">1</td>
+                                <td className="text-right">.500</td>
+                                <td className="text-right">1</td>
+                                <td className="text-right">46.0</td>
+                                <td className="text-right">46.0</td>
+                                <td className="text-right">0.0</td>
+                                <td className="text-right">L1</td>
                                 </tr>
                                 <tr>
                                 <th scope="row">4</th>
-                                <td>Angry Birdz</td>
-                                <td className="text-right">0</td>
+                                <td>Fantastic</td>
                                 <td className="text-right">1</td>
-                                <td className="text-right">.000</td>
                                 <td className="text-right">1</td>
-                                <td className="text-right">36.0</td>
-                                <td className="text-right">39.0</td>
-                                <td className="text-right">-3.0</td>
-                                <td className="text-right">L1</td>
+                                <td className="text-right">.500</td>
+                                <td className="text-right">1</td>
+                                <td className="text-right">32.0</td>
+                                <td className="text-right">43.0</td>
+                                <td className="text-right text-danger">-11.0</td>
+                                <td className="text-right">W1</td>
                                 </tr>
                                 <tr>
                                 <th scope="row">5</th>
-                                <td>BH</td>
+                                <td>Angry Birdz</td>
                                 <td className="text-right">0</td>
-                                <td className="text-right">1</td>
+                                <td className="text-right">2</td>
                                 <td className="text-right">.000</td>
-                                <td className="text-right">1</td>
-                                <td className="text-right">42.0</td>
-                                <td className="text-right">53.0</td>
-                                <td className="text-right">-11.0</td>
-                                <td className="text-right">L1</td>
+                                <td className="text-right">2</td>
+                                <td className="text-right">32.5</td>
+                                <td className="text-right">37.0</td>
+                                <td className="text-right text-danger">-4.5</td>
+                                <td className="text-right">L2</td>
                                 </tr>
                                 <tr>
                                 <th scope="row">6</th>
-                                <td>Fantastic</td>
+                                <td>BH</td>
                                 <td className="text-right">0</td>
-                                <td className="text-right">1</td>
+                                <td className="text-right">2</td>
                                 <td className="text-right">.000</td>
-                                <td className="text-right">1</td>
-                                <td className="text-right">29.0</td>
-                                <td className="text-right">57.0</td>
-                                <td className="text-right">-28.0</td>
-                                <td className="text-right">L1</td>
+                                <td className="text-right">2</td>
+                                <td className="text-right">41.5</td>
+                                <td className="text-right">48.0</td>
+                                <td className="text-right text-danger">-6.5</td>
+                                <td className="text-right">L2</td>
                                 </tr>
                             </tbody>
                         </table>
