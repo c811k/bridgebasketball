@@ -20,7 +20,7 @@ class Game6 extends React.Component {
     render() {
         return(
             <div>
-                <Button className="btn btn-sm shadow-sm" onClick={this.toggle} id="btn">TEAM STATS</Button>
+                <Button color="link" size="sm" className="rounded-0" outline block onClick={this.toggle}>TEAM STATS</Button>
                 <Modal isOpen={this.state.modal} toggle={this.toggle} className="modal-dialog-centered modal-lg">
                 <ModalBody className="bg-white rounded-lg" id="modal">
                 <div>
@@ -28,15 +28,15 @@ class Game6 extends React.Component {
                 <div className="row mt-3">
                     <div className="col-md-5 text-center">
                         <h4>Double Up</h4>
-                        <hr className="bg-warning" />
+                        <hr className="bg-secondary" />
                         <span className="small">HOME</span>
                     </div>
-                    <div className="col-md-2 text-center">
-                        <span className="text-secondary small">v</span>
+                    <div className="col-md-2 text-center mt-4">
+                        <span className="text-secondary small">V</span>
                     </div>
                     <div className="col-md-5 text-center">
                         <h4>BH</h4>
-                        <hr className="bg-white" />
+                        <hr className="bg-warning" />
                         <span className="small">AWAY</span>
                     </div>
                 </div>
@@ -57,8 +57,8 @@ class Game6 extends React.Component {
                                         Double Up
                                     </div>
                                     <div className="col-md-3 nopadding">
-                                        <div className="progress flex-fill">
-                                            <div className="progress-bar bg-warning" role="progressbar" style={{ width: `29.4%` }}></div>
+                                        <div className="progress flex-fill rounded-pill">
+                                            <div className="progress-bar bg-secondary" role="progressbar" style={{ width: `95.1%` }}></div>
                                         </div>
                                     </div>
                                     <div className="col-md-3 text-right">
@@ -72,8 +72,8 @@ class Game6 extends React.Component {
                                         BH
                                     </div>
                                     <div className="col-md-3 nopadding">
-                                        <div className="progress flex-fill">
-                                            <div className="progress-bar bg-secondary" role="progressbar" style={{ width: `30.9%`}}></div>
+                                        <div className="progress flex-fill rounded-pill">
+                                            <div className="progress-bar bg-warning" role="progressbar" style={{ width: `100%`}}></div>
                                         </div>
                                     </div>
                                     <div className="col-md-3 text-right">
@@ -94,8 +94,8 @@ class Game6 extends React.Component {
                                         Double Up
                                     </div>
                                     <div className="col-md-3 nopadding">
-                                        <div className="progress flex-fill">
-                                            <div className="progress-bar bg-warning" role="progressbar" style={{ width: `24.0%` }}></div>
+                                        <div className="progress flex-fill rounded-pill">
+                                            <div className="progress-bar bg-secondary" role="progressbar" style={{ width: `100%` }}></div>
                                         </div>
                                     </div>
                                     <div className="col-md-3 text-right">
@@ -108,8 +108,8 @@ class Game6 extends React.Component {
                                         BH
                                     </div>
                                     <div className="col-md-3 nopadding">
-                                        <div className="progress flex-fill">
-                                            <div className="progress-bar bg-secondary" role="progressbar" style={{ width: `16.7%`}}></div>
+                                        <div className="progress flex-fill rounded-pill">
+                                            <div className="progress-bar bg-warning" role="progressbar" style={{ width: `69.6%`}}></div>
                                         </div>
                                     </div>
                                     <div className="col-md-3 text-right">
@@ -133,8 +133,8 @@ class Game6 extends React.Component {
                                         Double Up
                                     </div>
                                     <div className="col-md-3 nopadding">
-                                        <div className="progress flex-fill">
-                                            <div className="progress-bar bg-warning" role="progressbar" style={{ width: `43.8%` }}></div>
+                                        <div className="progress flex-fill rounded-pill">
+                                            <div className="progress-bar bg-secondary" role="progressbar" style={{ width: `100%` }}></div>
                                         </div>
                                     </div>
                                     <div className="col-md-3 text-right">
@@ -147,8 +147,8 @@ class Game6 extends React.Component {
                                         BH
                                     </div>
                                     <div className="col-md-3 nopadding">
-                                        <div className="progress flex-fill">
-                                            <div className="progress-bar bg-secondary" role="progressbar" style={{ width: `37.5%`}}></div>
+                                        <div className="progress flex-fill rounded-pill">
+                                            <div className="progress-bar bg-warning" role="progressbar" style={{ width: `85.6%`}}></div>
                                         </div>
                                     </div>
                                     <div className="col-md-3 text-right">
@@ -169,8 +169,8 @@ class Game6 extends React.Component {
                                         Double Up
                                     </div>
                                     <div className="col-md-3 nopadding">
-                                        <div className="progress flex-fill">
-                                            <div className="progress-bar bg-warning" role="progressbar" style={{ width: `6%` }}></div>
+                                        <div className="progress flex-fill rounded-pill">
+                                            <div className="progress-bar bg-secondary" role="progressbar" style={{ width: `100%` }}></div>
                                         </div>
                                     </div>
                                     <div className="col-md-3 text-right">
@@ -183,8 +183,8 @@ class Game6 extends React.Component {
                                         BH
                                     </div>
                                     <div className="col-md-3 nopadding">
-                                        <div className="progress flex-fill">
-                                            <div className="progress-bar bg-secondary" role="progressbar" style={{ width: `4%`}}></div>
+                                        <div className="progress flex-fill rounded-pill">
+                                            <div className="progress-bar bg-warning" role="progressbar" style={{ width: `66.7%`}}></div>
                                         </div>
                                     </div>
                                     <div className="col-md-3 text-right">
@@ -207,8 +207,8 @@ class Game6 extends React.Component {
                                         Double Up
                                     </div>
                                     <div className="col-md-3 nopadding">
-                                        <div className="progress flex-fill">
-                                            <div className="progress-bar bg-warning" role="progressbar" style={{ width: `37%` }}></div>
+                                        <div className="progress flex-fill rounded-pill">
+                                            <div className="progress-bar bg-secondary" role="progressbar" style={{ width: `92.5%` }}></div>
                                         </div>
                                     </div>
                                     <div className="col-md-3 text-right">
@@ -221,8 +221,8 @@ class Game6 extends React.Component {
                                         BH
                                     </div>
                                     <div className="col-md-3 nopadding">
-                                        <div className="progress flex-fill">
-                                            <div className="progress-bar bg-secondary" role="progressbar" style={{ width: `40%`}}></div>
+                                        <div className="progress flex-fill rounded-pill">
+                                            <div className="progress-bar bg-warning" role="progressbar" style={{ width: `100%`}}></div>
                                         </div>
                                     </div>
                                     <div className="col-md-3 text-right">
@@ -243,8 +243,8 @@ class Game6 extends React.Component {
                                         Double Up
                                     </div>
                                     <div className="col-md-3 nopadding">
-                                        <div className="progress flex-fill">
-                                            <div className="progress-bar bg-warning" role="progressbar" style={{ width: `6%` }}></div>
+                                        <div className="progress flex-fill rounded-pill">
+                                            <div className="progress-bar bg-secondary" role="progressbar" style={{ width: `46.2%` }}></div>
                                         </div>
                                     </div>
                                     <div className="col-md-3 text-right">
@@ -257,8 +257,8 @@ class Game6 extends React.Component {
                                         BH
                                     </div>
                                     <div className="col-md-3 nopadding">
-                                        <div className="progress flex-fill">
-                                            <div className="progress-bar bg-secondary" role="progressbar" style={{ width: `13%`}}></div>
+                                        <div className="progress flex-fill rounded-pill">
+                                            <div className="progress-bar bg-warning" role="progressbar" style={{ width: `100%`}}></div>
                                         </div>
                                     </div>
                                     <div className="col-md-3 text-right">
@@ -282,8 +282,8 @@ class Game6 extends React.Component {
                                         Double Up
                                     </div>
                                     <div className="col-md-3 nopadding">
-                                        <div className="progress flex-fill">
-                                            <div className="progress-bar bg-warning" role="progressbar" style={{ width: `9%` }}></div>
+                                        <div className="progress flex-fill rounded-pill">
+                                            <div className="progress-bar bg-secondary" role="progressbar" style={{ width: `90%` }}></div>
                                         </div>
                                     </div>
                                     <div className="col-md-3 text-right">
@@ -296,8 +296,8 @@ class Game6 extends React.Component {
                                     BH
                                     </div>
                                     <div className="col-md-3 nopadding">
-                                        <div className="progress flex-fill">
-                                            <div className="progress-bar bg-secondary" role="progressbar" style={{ width: `10%`}}></div>
+                                        <div className="progress flex-fill rounded-pill">
+                                            <div className="progress-bar bg-warning" role="progressbar" style={{ width: `100%`}}></div>
                                         </div>
                                     </div>
                                     <div className="col-md-3 text-right">
@@ -318,8 +318,8 @@ class Game6 extends React.Component {
                                         Double Up
                                     </div>
                                     <div className="col-md-3 nopadding">
-                                        <div className="progress flex-fill">
-                                            <div className="progress-bar bg-warning" role="progressbar" style={{ width: `0%` }}></div>
+                                        <div className="progress flex-fill rounded-pill">
+                                            <div className="progress-bar bg-secondary" role="progressbar" style={{ width: `0%` }}></div>
                                         </div>
                                     </div>
                                     <div className="col-md-3 text-right">
@@ -332,8 +332,8 @@ class Game6 extends React.Component {
                                         BH
                                     </div>
                                     <div className="col-md-3 nopadding">
-                                        <div className="progress flex-fill">
-                                            <div className="progress-bar bg-secondary" role="progressbar" style={{ width: `1%`}}></div>
+                                        <div className="progress flex-fill rounded-pill">
+                                            <div className="progress-bar bg-warning" role="progressbar" style={{ width: `100%`}}></div>
                                         </div>
                                     </div>
                                     <div className="col-md-3 text-right">
@@ -351,7 +351,7 @@ class Game6 extends React.Component {
                 <div className="container">
                     <div className="row">
                         <div className="col-md-12 text-right">
-                            <button className="btn btn-secondary" onClick={this.toggle}>CLOSE</button>
+                            <button className="btn btn-sm" onClick={this.toggle}>CLOSE</button>
                         </div>
                     </div>
                 </div>

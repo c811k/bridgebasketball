@@ -1,9 +1,7 @@
 import React from "react";
-import { Link, Route } from "react-router-dom";
 import Footer from "../../Footer";
-import May from "./May";
 
-function Schedule(props) {
+function Schedule() {
     return(
         <div>
         <div className="container" id="schedule">
@@ -15,25 +13,23 @@ function Schedule(props) {
                     <h3 className="pb-3 border-bottom text-secondary">S E A S O N<span className="text-warning"> 2 0 1 9 </span></h3>
                 </div>
             </div>
-            <Route exact path={`${props.match.url}/may`} component={May} />
-
             <div className="row mt-5">
                 <div className="col-md-12">
                 <nav aria-label="Page navigation example">
-                        <ul class="pagination justify-content-center">
-                            <Link to={`${props.match.url}/may`} class="page-item disabled">
-                                <a class="page-link text-dark border-0" aria-label="Previous" id="left">
-                                <span aria-hidden="true"><i class="fas fa-angle-left"></i></span>
-                                </a>
-                            </Link>
-                            <li class="page-item disabled">
-                                <a class="page-link text-dark border-0" href="/schedule">APRIL 2019</a>
+                        <ul className="pagination justify-content-center">
+                            <li className="page-item disabled">
+                                <button className="page-link text-white border-0" aria-label="Previous" id="left">
+                                <span aria-hidden="true"><i className="fas fa-angle-left"></i></span>
+                                </button>
                             </li>
-                            <Link to={`${props.match.url}/may`} class="page-item">
-                                <a class="page-link text-dark border-0" aria-label="Next" id="right">
-                                <span aria-hidden="true"><i class="fas fa-angle-right"></i></span>
+                            <li className="page-item disabled">
+                                <a className="page-link text-dark border-0" href="/schedule"><h5 className="text-center"><i className="far fa-calendar-alt fa-2x"></i></h5>APRIL 2019</a>
+                            </li>
+                            <li className="page-item mt-3">
+                                <a className="page-link text-dark border-0" href="/schedule/may" aria-label="Next" id="right">
+                                <span aria-hidden="true"><i className="fas fa-angle-right"></i></span>
                             </a>
-                            </Link>
+                            </li>
                         </ul>
                     </nav>
                 </div>
@@ -47,7 +43,7 @@ function Schedule(props) {
                                     MATCH UP
                                 </div>
                                 <div className="col-md-4 text-center">
-                                    APRIL 28, 2019
+                                    APRIL 28TH 2019
                                 </div>
                                 <div className="col-md-4 text-right">
                                     TIME (PT)

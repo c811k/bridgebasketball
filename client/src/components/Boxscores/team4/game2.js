@@ -1,6 +1,6 @@
 import React from "react";
 
-function game1(props) {
+function game2(props) {
     return (
         <div className="row mt-5">
             <div className="col-md-12">
@@ -22,86 +22,86 @@ function game1(props) {
                     </thead>
                     <tbody>
                         <tr>
-                        <th scope="row">91</th>
-                        <td>Andrew Kim</td>
-                        <td className="text-right">7-16</td>
-                        <td className="text-right">2-7</td>
-                        <td className="text-right">2-3</td>
-                        <td className="text-right">7</td>
-                        <td className="text-right">1</td>
+                        <th scope="row">96</th>
+                        <td>Adam Cho</td>
+                        <td className="text-right">1-5</td>
+                        <td className="text-right">1-2</td>
+                        <td className="text-right">0-0</td>
+                        <td className="text-right">2</td>
+                        <td className="text-right">0</td>
                         <td className="text-right">0</td>
                         <td className="text-right">0</td>
                         <td className="text-right">2</td>
-                        <td className="text-right">18</td>
+                        <td className="text-right">3</td>
                         </tr>
                         <tr>
-                        <th scope="row">50</th>
-                        <td>Bryan Park</td>
-                        <td className="text-right">0-9</td>
-                        <td className="text-right">0-1</td>
-                        <td className="text-right">0-2</td>
-                        <td className="text-right">4</td>
-                        <td className="text-right">2</td>
-                        <td className="text-right">1</td>
-                        <td className="text-right">0</td>
-                        <td className="text-right">1</td>
-                        <td className="text-right">0</td>
-                        </tr>
-                        <tr>
-                        <th scope="row">14</th>
-                        <td>David Cho</td>
-                        <td className="text-right">5-10</td>
-                        <td className="text-right">2-4</td>
-                        <td className="text-right">0-2</td>
-                        <td className="text-right">12</td>
-                        <td className="text-right">2</td>
-                        <td className="text-right">2</td>
-                        <td className="text-right">0</td>
-                        <td className="text-right">4</td>
-                        <td className="text-right">12</td>
-                        </tr>
-                        <tr>
-                        <th scope="row">66</th>
-                        <td>David Lee</td>
-                        <td className="text-right">1-9</td>
-                        <td className="text-right">1-3</td>
-                        <td className="text-right">3-5</td>
-                        <td className="text-right">9</td>
-                        <td className="text-right">6</td>
+                        <th scope="row">69</th>
+                        <td>Benjamin Lee</td>
+                        <td className="text-right">9-19</td>
+                        <td className="text-right">4-8</td>
+                        <td className="text-right">3-3</td>
+                        <td className="text-right">8</td>
+                        <td className="text-right">5</td>
                         <td className="text-right">3</td>
                         <td className="text-right">0</td>
-                        <td className="text-right">2</td>
-                        <td className="text-right">6</td>
+                        <td className="text-right">5</td>
+                        <td className="text-right">25</td>
                         </tr>
                         <tr>
-                        <th scope="row">18</th>
-                        <td>Johnathan Lee</td>
-                        <td className="text-right">0-8</td>
-                        <td className="text-right">0-6</td>
+                        <th scope="row">27</th>
+                        <td>Brandon Oh</td>
+                        <td className="text-right">0-5</td>
+                        <td className="text-right">0-5</td>
+                        <td className="text-right">0-3</td>
+                        <td className="text-right">4</td>
+                        <td className="text-right">1</td>
+                        <td className="text-right">1</td>
+                        <td className="text-right">0</td>
+                        <td className="text-right">3</td>
+                        <td className="text-right">0</td>
+                        </tr>
+                        <tr>
+                        <th scope="row">23</th>
+                        <td>Eric Kim</td>
+                        <td className="text-right">0-3</td>
+                        <td className="text-right">0-1</td>
                         <td className="text-right">0-0</td>
+                        <td className="text-right">3</td>
+                        <td className="text-right">0</td>
+                        <td className="text-right">0</td>
+                        <td className="text-right">0</td>
+                        <td className="text-right">1</td>
+                        <td className="text-right">0</td>
+                        </tr>
+                        <tr>
+                        <th scope="row">5</th>
+                        <td>Jacob Cho</td>
+                        <td className="text-right">0-3</td>
+                        <td className="text-right">0-1</td>
+                        <td className="text-right">0-2</td>
+                        <td className="text-right">16</td>
+                        <td className="text-right">2</td>
+                        <td className="text-right">3</td>
+                        <td className="text-right">0</td>
                         <td className="text-right">4</td>
                         <td className="text-right">0</td>
-                        <td className="text-right">1</td>
-                        <td className="text-right">0</td>
-                        <td className="text-right">1</td>
-                        <td className="text-right">0</td>
                         </tr>
                         <tr>
-                        <th scope="row">73</th>
-                        <td>Yunjae Chung</td>
-                        <td className="text-right">0-6</td>
-                        <td className="text-right">0-2</td>
-                        <td className="text-right">0-2</td>
+                        <th scope="row">88</th>
+                        <td>Steve Joo</td>
+                        <td className="text-right">11-24</td>
+                        <td className="text-right">2-11</td>
+                        <td className="text-right">4-4</td>
+                        <td className="text-right">5</td>
+                        <td className="text-right">1</td>
                         <td className="text-right">2</td>
                         <td className="text-right">0</td>
-                        <td className="text-right">6</td>
-                        <td className="text-right">0</td>
                         <td className="text-right">1</td>
-                        <td className="text-right">0</td>
+                        <td className="text-right">28</td>
                         </tr>
                         <tr>
-                        <th scope="row">0</th>
-                        <td>Daniel Kim</td>
+                        <th scope="row">32</th>
+                        <td>Joshua Chang</td>
                         <td className="text-right"></td>
                         <td className="text-right"></td>
                         <td className="text-right"></td>
@@ -113,8 +113,8 @@ function game1(props) {
                         <td className="text-right"></td>
                         </tr>
                         <tr>
-                        <th scope="row">19</th>
-                        <td>Richard Song</td>
+                        <th scope="row">52</th>
+                        <td>Moses Kim</td>
                         <td className="text-right"></td>
                         <td className="text-right"></td>
                         <td className="text-right"></td>
@@ -128,22 +128,22 @@ function game1(props) {
                         <tr className="border-top border-bottom">
                         <th scope="row"><span className="text-weight-bold">Team</span></th>
                         <td></td>
-                        <td className="text-right font-weight-bolder">13-58</td>
-                        <td className="text-right font-weight-bolder">5-23</td>
-                        <td className="text-right font-weight-bolder">5-14</td>
+                        <td className="text-right font-weight-bolder">21-59</td>
+                        <td className="text-right font-weight-bolder">7-28</td>
+                        <td className="text-right font-weight-bolder">7-12</td>
                         <td className="text-right font-weight-bolder">38</td>
-                        <td className="text-right font-weight-bolder">11</td>
-                        <td className="text-right font-weight-bolder">13</td>
+                        <td className="text-right font-weight-bolder">9</td>
+                        <td className="text-right font-weight-bolder">9</td>
                         <td className="text-right font-weight-bolder">0</td>
-                        <td className="text-right font-weight-bolder">11</td>
-                        <td className="text-right font-weight-bolder">36</td>
+                        <td className="text-right font-weight-bolder">16</td>
+                        <td className="text-right font-weight-bolder">56</td>
                         </tr>
                         <tr>
                         <th scope="row"></th>
                         <td></td>
-                        <td className="text-right font-weight-bolder">22.4%</td>
-                        <td className="text-right font-weight-bolder">21.7%</td>
-                        <td className="text-right font-weight-bolder">35.7%</td>
+                        <td className="text-right font-weight-bolder">35.6%</td>
+                        <td className="text-right font-weight-bolder">25.0%</td>
+                        <td className="text-right font-weight-bolder">58.3%</td>
                         </tr>
                     </tbody>
                 </table>
@@ -152,4 +152,4 @@ function game1(props) {
     );
 }
 
-export default game1;
+export default game2;

@@ -13,14 +13,14 @@ function Rules() {
             <div className="row">
                 <div className="col-md-12">
                     <ul className="list-group">
-                        <li className="list-group-item rounded-0 border-0">
+                        <li className="list-group-item rounded-0 border-0 font-weight-bold">
                             Players will be required to attend worship services on Sundays during the season. The captain of each team will be monitored by the league to enforce this rule.
                         </li>
                         <li className="list-group-item bg-light border-0">
-                            6 game season with single elimination playoffs. Top 4 teams will make the playoffs.
+                            6 game season with single elimination playoffs. <span className="font-weight-bold">Top 4 teams will make the playoffs.</span>
                         </li>
                         <li className="list-group-item border-0">
-                            Players must participate in at least 3 games throughout the regular season in order to become eligible to participate in the playoffs.
+                            Players must participate in at least <span className="font-weight-bold">3 games</span> throughout the regular season in order to become eligible to participate in the playoffs.
                         </li>
                         <li className="list-group-item bg-light border-0">
                             League fees must be paid before the start of the season.
@@ -46,7 +46,7 @@ function Rules() {
                 <div className="col-md-12">
                     <ul className="list-group">
                         <li className="list-group-item rounded-0 border-0">
-                            Games will consist of two 20 minute halves. The clock will stop on all fouls and violations only during the last two minutes of the second half. The clock will not stop if a team is ahead by 10 points or more. Games will be played with 5 minute half times.
+                            Games will consist of two 20 minute halves. The clock will stop on all fouls and violations only during the last two minutes of the second half. The clock will not stop if a team is ahead by 10 points or more. Games will be played with 3 minute half times.
                         </li>
                         <li className="list-group-item bg-light border-0">
                             All jewelry and accessory must be removed prior to tip-off. An automatic technical foul will be assessed on any player who enters the court with any of these items on their person. Game clock will start regardless of this technical foul being assessed at the beginning of a game.
@@ -55,7 +55,7 @@ function Rules() {
                             No cursing during games. The cursing violation will result in an individual technical foul (also counting against the player’s person foul allotment) for the offender and an automatic benching of that player for the rest of a game.
                         </li>
                         <li className="list-group-item bg-light border-0">
-                            All technical fouls count as both a personal foul and a team foul. An automatic benching for five minutes is given to a player that commits a technical foul.
+                            All technical fouls count as both a personal foul and a team foul. <span className="font-weight-bold">An automatic benching for five minutes is given to a player that commits a technical foul.</span>
                         </li>
                         <li className="list-group-item border-0">
                             All players are allowed five personal fouls before having to sit for the rest of a game. Two technical fouls within one game will result in an ejection and a one game suspension.

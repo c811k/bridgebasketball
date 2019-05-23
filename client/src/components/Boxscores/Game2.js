@@ -38,7 +38,7 @@ class Game2 extends React.Component {
     render() {
         return(
             <div>
-                <Button className="btn btn-sm shadow-sm" onClick={this.toggle} id="btn">BOX SCORE</Button>
+                <Button color="link" size="sm" className="rounded-0" block outline onClick={this.toggle}>BOX SCORE</Button>
                 <Modal isOpen={this.state.modal} toggle={this.toggle} className="modal-dialog-centered modal-xl">
                 <ModalBody className="bg-white rounded-xl" id="modal">
                 <div>
@@ -49,8 +49,8 @@ class Game2 extends React.Component {
                                 <hr className={"bg-warning" + (this.state.isHomeOpen ? " active" : null)} />
                                 <span className="small">HOME</span>
                             </div>
-                            <div className="col-md-2 text-center">
-                                <span className="text-secondary small">v</span>
+                            <div className="col-md-2 text-center mt-4">
+                                <span className="text-secondary small">V</span>
                             </div>
                             <div className="col-md-5 text-center" onClick={this.showAway}>
                                 <h4>The Chosen</h4>
@@ -69,7 +69,13 @@ class Game2 extends React.Component {
                 </div>
                 </ModalBody>
                 <ModalFooter className="border-0">
-                    <button className="btn btn-secondary" onClick={this.toggle}>CLOSE</button>
+                    <div className="container">
+                        <div className="row">
+                            <div className="col-md-12 text-right">
+                                <button className="btn btn-sm" onClick={this.toggle}>CLOSE</button>
+                            </div>
+                        </div>
+                    </div>
                 </ModalFooter>
                 </Modal>
             </div>

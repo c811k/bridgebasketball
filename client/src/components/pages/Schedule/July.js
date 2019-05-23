@@ -1,7 +1,7 @@
 import React from "react";
 import Footer from "../../Footer";
 
-function Schedule() {
+function July() {
     return(
         <div>
         <div className="container" id="schedule">
@@ -16,19 +16,19 @@ function Schedule() {
             <div className="row mt-5">
                 <div className="col-md-12">
                 <nav aria-label="Page navigation example">
-                        <ul class="pagination justify-content-center">
-                            <li class="page-item">
-                                <a class="page-link text-dark border-0" href="#" aria-label="Previous" id="left">
-                                <span aria-hidden="true"><i class="fas fa-angle-left"></i></span>
+                        <ul className="pagination justify-content-center">
+                            <li className="page-item">
+                                <a className="page-link text-dark border-0 mt-3" href="/schedule/june" aria-label="Previous" id="left">
+                                <span aria-hidden="true"><i className="fas fa-angle-left"></i></span>
                                 </a>
                             </li>
-                            <li class="page-item disabled">
-                                <a class="page-link text-dark border-0" href="/schedule">APRIL 2019</a>
+                            <li className="page-item disabled">
+                                <a className="page-link text-dark border-0" href="/schedule"><h5 className="text-center"><i className="far fa-calendar-alt fa-2x"></i></h5>JULY</a>
                             </li>
-                            <li class="page-item">
-                                <a class="page-link text-dark border-0" href="#" aria-label="Next" id="right">
-                                <span aria-hidden="true"><i class="fas fa-angle-right"></i></span>
-                            </a>
+                            <li className="page-item disabled">
+                                <div className="page-link text-white border-0" aria-label="Next" id="right">
+                                <span aria-hidden="true"><i className="fas fa-angle-right"></i></span>
+                            </div>
                             </li>
                         </ul>
                     </nav>
@@ -43,7 +43,7 @@ function Schedule() {
                                     MATCH UP
                                 </div>
                                 <div className="col-md-4 text-center">
-                                    APRIL 28, 2019
+                                    JULY 7TH
                                 </div>
                                 <div className="col-md-4 text-right">
                                     TIME (PT)
@@ -54,7 +54,7 @@ function Schedule() {
                             <li className="list-group-item border-0 rounded-0">
                             <div className="row">
                                 <div className="col-md-6">
-                                    Double Up v Fantastic
+                                    Consolation
                                 </div>
                                 <div className="col-md-6 text-right">
                                     4:30PM
@@ -64,20 +64,10 @@ function Schedule() {
                             <li className="list-group-item border-0 bg-light">
                             <div className="row">
                                 <div className="col-md-6">
-                                    Team 1 v Angry Birdz
+                                    Championship
                                 </div>
                                 <div className="col-md-6 text-right">
                                     5:30PM
-                                </div>
-                            </div>
-                            </li>
-                            <li className="list-group-item border-0">
-                            <div className="row">
-                                <div className="col-md-6">
-                                    Lord of the Rims v BH
-                                </div>
-                                <div className="col-md-6 text-right">
-                                    6:30PM
                                 </div>
                             </div>
                             </li>
@@ -91,4 +81,4 @@ function Schedule() {
     );
 }
 
-export default Schedule;
+export default July;

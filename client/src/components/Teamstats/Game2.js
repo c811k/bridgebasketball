@@ -20,7 +20,7 @@ class Game2 extends React.Component {
     render() {
         return(
             <div>
-                <Button className="btn btn-sm shadow-sm" onClick={this.toggle} id="btn">TEAM STATS</Button>
+                <Button color="link" size="sm" className="rounded-0" outline block onClick={this.toggle}>TEAM STATS</Button>
                 <Modal isOpen={this.state.modal} toggle={this.toggle} className="modal-dialog-centered modal-lg">
                 <ModalBody className="bg-white rounded-lg" id="modal">
                 <div>
@@ -28,15 +28,15 @@ class Game2 extends React.Component {
                 <div className="row mt-3">
                     <div className="col-md-5 text-center">
                         <h4>Angry Birdz</h4>
-                        <hr className="bg-warning" />
+                        <hr className="bg-secondary" />
                         <span className="small">HOME</span>
                     </div>
-                    <div className="col-md-2 text-center">
-                        <span className="text-secondary small">v</span>
+                    <div className="col-md-2 text-center mt-4">
+                        <span className="text-secondary small">V</span>
                     </div>
                     <div className="col-md-5 text-center">
                         <h4>The Chosen</h4>
-                        <hr className="bg-white" />
+                        <hr className="bg-warning" />
                         <span className="small">AWAY</span>
                     </div>
                 </div>
@@ -57,8 +57,8 @@ class Game2 extends React.Component {
                                         Angry Birdz
                                     </div>
                                     <div className="col-md-3 nopadding">
-                                        <div className="progress flex-fill">
-                                            <div className="progress-bar bg-warning" role="progressbar" style={{ width: `22.4%` }}></div>
+                                        <div className="progress flex-fill rounded-pill">
+                                            <div className="progress-bar bg-secondary" role="progressbar" style={{ width: `67.3%` }}></div>
                                         </div>
                                     </div>
                                     <div className="col-md-3 text-right">
@@ -71,8 +71,8 @@ class Game2 extends React.Component {
                                         The Chosen
                                     </div>
                                     <div className="col-md-3 nopadding">
-                                        <div className="progress flex-fill">
-                                            <div className="progress-bar bg-secondary" role="progressbar" style={{ width: `33.3%`}}></div>
+                                        <div className="progress flex-fill rounded-pill">
+                                            <div className="progress-bar bg-warning" role="progressbar" style={{ width: `100%`}}></div>
                                         </div>
                                     </div>
                                     <div className="col-md-3 text-right">
@@ -93,8 +93,8 @@ class Game2 extends React.Component {
                                         Angry Birdz
                                     </div>
                                     <div className="col-md-3 nopadding">
-                                        <div className="progress flex-fill">
-                                            <div className="progress-bar bg-warning" role="progressbar" style={{ width: `21.7%` }}></div>
+                                        <div className="progress flex-fill rounded-pill">
+                                            <div className="progress-bar bg-secondary" role="progressbar" style={{ width: `82.5%` }}></div>
                                         </div>
                                     </div>
                                     <div className="col-md-3 text-right">
@@ -107,8 +107,8 @@ class Game2 extends React.Component {
                                         The Chosen
                                     </div>
                                     <div className="col-md-3 nopadding">
-                                        <div className="progress flex-fill">
-                                            <div className="progress-bar bg-secondary" role="progressbar" style={{ width: `26.3%`}}></div>
+                                        <div className="progress flex-fill rounded-pill">
+                                            <div className="progress-bar bg-warning" role="progressbar" style={{ width: `100%`}}></div>
                                         </div>
                                     </div>
                                     <div className="col-md-3 text-right">
@@ -132,8 +132,8 @@ class Game2 extends React.Component {
                                         Angry Birdz
                                     </div>
                                     <div className="col-md-3 nopadding">
-                                        <div className="progress flex-fill">
-                                            <div className="progress-bar bg-warning" role="progressbar" style={{ width: `35.7%` }}></div>
+                                        <div className="progress flex-fill rounded-pill">
+                                            <div className="progress-bar bg-secondary" role="progressbar" style={{ width: `59.5%` }}></div>
                                         </div>
                                     </div>
                                     <div className="col-md-3 text-right">
@@ -146,8 +146,8 @@ class Game2 extends React.Component {
                                         The Chosen
                                     </div>
                                     <div className="col-md-3 nopadding">
-                                        <div className="progress flex-fill">
-                                            <div className="progress-bar bg-secondary" role="progressbar" style={{ width: `60.0%`}}></div>
+                                        <div className="progress flex-fill rounded-pill">
+                                            <div className="progress-bar bg-warning" role="progressbar" style={{ width: `100%`}}></div>
                                         </div>
                                     </div>
                                     <div className="col-md-3 text-right">
@@ -168,8 +168,8 @@ class Game2 extends React.Component {
                                         Angry Birdz
                                     </div>
                                     <div className="col-md-3 nopadding">
-                                        <div className="progress flex-fill">
-                                            <div className="progress-bar bg-warning" role="progressbar" style={{ width: `5%` }}></div>
+                                        <div className="progress flex-fill rounded-pill">
+                                            <div className="progress-bar bg-secondary" role="progressbar" style={{ width: `100%` }}></div>
                                         </div>
                                     </div>
                                     <div className="col-md-3 text-right">
@@ -182,8 +182,8 @@ class Game2 extends React.Component {
                                     The Chosen
                                     </div>
                                     <div className="col-md-3 nopadding">
-                                        <div className="progress flex-fill">
-                                            <div className="progress-bar bg-secondary" role="progressbar" style={{ width: `5%`}}></div>
+                                        <div className="progress flex-fill rounded-pill">
+                                            <div className="progress-bar bg-warning" role="progressbar" style={{ width: `100%`}}></div>
                                         </div>
                                     </div>
                                     <div className="col-md-3 text-right">
@@ -206,8 +206,8 @@ class Game2 extends React.Component {
                                         Angry Birdz
                                     </div>
                                     <div className="col-md-3 nopadding">
-                                        <div className="progress flex-fill">
-                                            <div className="progress-bar bg-warning" role="progressbar" style={{ width: `33%` }}></div>
+                                        <div className="progress flex-fill rounded-pill">
+                                            <div className="progress-bar bg-secondary" role="progressbar" style={{ width: `92.1%` }}></div>
                                         </div>
                                     </div>
                                     <div className="col-md-3 text-right">
@@ -220,8 +220,8 @@ class Game2 extends React.Component {
                                         The Chosen
                                     </div>
                                     <div className="col-md-3 nopadding">
-                                        <div className="progress flex-fill">
-                                            <div className="progress-bar bg-secondary" role="progressbar" style={{ width: `35%`}}></div>
+                                        <div className="progress flex-fill rounded-pill">
+                                            <div className="progress-bar bg-warning" role="progressbar" style={{ width: `100%`}}></div>
                                         </div>
                                     </div>
                                     <div className="col-md-3 text-right">
@@ -242,8 +242,8 @@ class Game2 extends React.Component {
                                         Angry Birdz
                                     </div>
                                     <div className="col-md-3 nopadding">
-                                        <div className="progress flex-fill">
-                                            <div className="progress-bar bg-warning" role="progressbar" style={{ width: `15%` }}></div>
+                                        <div className="progress flex-fill rounded-pill">
+                                            <div className="progress-bar bg-secondary" role="progressbar" style={{ width: `100%` }}></div>
                                         </div>
                                     </div>
                                     <div className="col-md-3 text-right">
@@ -256,8 +256,8 @@ class Game2 extends React.Component {
                                         The Chosen
                                     </div>
                                     <div className="col-md-3 nopadding">
-                                        <div className="progress flex-fill">
-                                            <div className="progress-bar bg-secondary" role="progressbar" style={{ width: `3%`}}></div>
+                                        <div className="progress flex-fill rounded-pill">
+                                            <div className="progress-bar bg-warning" role="progressbar" style={{ width: `54.5%`}}></div>
                                         </div>
                                     </div>
                                     <div className="col-md-3 text-right">
@@ -281,8 +281,8 @@ class Game2 extends React.Component {
                                         Angry Birdz
                                     </div>
                                     <div className="col-md-3 nopadding">
-                                        <div className="progress flex-fill">
-                                            <div className="progress-bar bg-warning" role="progressbar" style={{ width: `8%` }}></div>
+                                        <div className="progress flex-fill rounded-pill">
+                                            <div className="progress-bar bg-secondary" role="progressbar" style={{ width: `100%` }}></div>
                                         </div>
                                     </div>
                                     <div className="col-md-3 text-right">
@@ -295,8 +295,8 @@ class Game2 extends React.Component {
                                         The Chosen
                                     </div>
                                     <div className="col-md-3 nopadding">
-                                        <div className="progress flex-fill">
-                                            <div className="progress-bar bg-secondary" role="progressbar" style={{ width: `4%`}}></div>
+                                        <div className="progress flex-fill rounded-pill">
+                                            <div className="progress-bar bg-warning" role="progressbar" style={{ width: `38.5%`}}></div>
                                         </div>
                                     </div>
                                     <div className="col-md-3 text-right">
@@ -317,8 +317,8 @@ class Game2 extends React.Component {
                                         Angry Birdz
                                     </div>
                                     <div className="col-md-3 nopadding">
-                                        <div className="progress flex-fill">
-                                            <div className="progress-bar bg-warning" role="progressbar" style={{ width: `0%` }}></div>
+                                        <div className="progress flex-fill rounded-pill">
+                                            <div className="progress-bar bg-secondary" role="progressbar" style={{ width: `0%` }}></div>
                                         </div>
                                     </div>
                                     <div className="col-md-3 text-right">
@@ -331,8 +331,8 @@ class Game2 extends React.Component {
                                         The Chosen
                                     </div>
                                     <div className="col-md-3 nopadding">
-                                        <div className="progress flex-fill">
-                                            <div className="progress-bar bg-secondary" role="progressbar" style={{ width: `2%`}}></div>
+                                        <div className="progress flex-fill rounded-pill">
+                                            <div className="progress-bar bg-warning" role="progressbar" style={{ width: `100%`}}></div>
                                         </div>
                                     </div>
                                     <div className="col-md-3 text-right">
@@ -350,7 +350,7 @@ class Game2 extends React.Component {
                 <div className="container">
                     <div className="row">
                         <div className="col-md-12 text-right">
-                            <button className="btn btn-secondary" onClick={this.toggle}>CLOSE</button>
+                            <button className="btn btn-sm" onClick={this.toggle}>CLOSE</button>
                         </div>
                     </div>
                 </div>

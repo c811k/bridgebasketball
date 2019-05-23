@@ -10,10 +10,10 @@ function Navbar() {
                 <div className="collapse navbar-collapse">
                 <ul className="navbar-nav ml-auto mb-1">
                     <li className="btn nav-item">
-                        <Link to="/scores/week1" className={window.location.pathname === "/scores/week1" ? "nav-link active rounded shadow-sm" : "nav-link rounded"}>SCORES</Link>
+                        <Link to="/scores/week2" className={window.location.pathname === "/scores/week2" ? "nav-link active rounded shadow-sm" : "nav-link rounded"}>SCORES</Link>
                     </li>
-                    <li className="btn nav-item disabled">
-                        <Link to="#" className={window.location.pathname === "/schedule" ? "nav-link active rounded shadow-sm" : "nav-link rounded"}>SCHEDULE</Link>
+                    <li className="btn nav-item">
+                        <Link to="/schedule/may" className={window.location.pathname === "/schedule/may" ? "nav-link active rounded shadow-sm" : "nav-link rounded"}>SCHEDULE</Link>
                     </li>
                     <li className="btn nav-item">
                         <Link to="/standing" className={window.location.pathname === "/standing" ? "nav-link active rounded shadow-sm" : "nav-link rounded"}>STANDING</Link>
@@ -21,8 +21,8 @@ function Navbar() {
                     <li className="btn nav-item">
                         <Link to="/stats" className={window.location.pathname === "/stats" ? "nav-link active rounded shadow-sm" : "nav-link rounded"}>STATS</Link>
                     </li>
-                    <li className="btn nav-item disabled">
-                        <Link to="#" className={window.location.pathname === "/players" ? "nav-link active rounded shadow-sm" : "nav-link rounded"}>PLAYERS</Link>
+                    <li className="btn nav-item">
+                        <Link to="/players/1" className={window.location.pathname === "/players/1" ? "nav-link active rounded shadow-sm" : "nav-link rounded"}>PLAYERS</Link>
                     </li>
                     <li className="btn nav-item">
                         <Link to="/rules" className={window.location.pathname === "/rules" ? "nav-link active rounded shadow-sm" : "nav-link rounded"}>RULES</Link>

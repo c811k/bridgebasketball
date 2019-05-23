@@ -31,12 +31,10 @@ body {
     border-color: #0e395c !important;
 }
 
-#playercard, 
 #score-card {
-    transition: transform .2s;
+    transition: transform 0.2s;
 }
 
-#playercard:hover,
 #score-card:hover {
     transform: scale(1.05);
 }
@@ -47,11 +45,6 @@ footer {
 #standing, #schedule, #scores, #players, #stats {
     height: 100vh;
 }
-
-/* #playerpic {
-    height: 253px;
-    width: 253px;
-} */
 
 #stats {
     font-size: 18px;
@@ -99,7 +92,7 @@ h2 {
     border: none;
 }
 
-.badge {
+.badge-warning {
     background-color: #0e395c;
     color: white;
 }
@@ -145,9 +138,16 @@ h2 {
     border-color: #fad778;
 }
 
-#userInput:focus {
+[type=button]:focus {
     box-shadow: none;
-    border-color:  #fad778;
+}
+
+[type=button]:hover {
+    color: #0e395c;
+}
+
+.btn:focus {
+    box-shadow: none;
 }
 
 .form-control {
@@ -180,7 +180,7 @@ h2 {
 }
 
 .progress {
-    height: 25px;
+    height: 15px;
 }
 
 .progress .progress-bar {
@@ -197,4 +197,46 @@ h2 {
 .nopadding {
     padding: 0 !important;
     margin: 0 !important;
+}
+
+hr {
+    height: 1.2px;
+}
+
+.border-dark {
+    border-color: #FFD700 !important;
+}
+
+#playercard {
+    perspective: 1000px;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+} 
+
+#playercard:hover {
+    transform: rotateY(180deg);
+    border: none;
+}
+
+.card-front, .card-back {
+    backface-visibility: hidden;
+}
+
+.card-front {
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    z-index: 1;
+}
+
+.card-back {
+    border: none;
+    transform: rotateY(-180deg);
+}
+
+.page-item.active .page-link {
+    background-color: #0e395c !important;
+    color: #ffffff !important;
+
 }

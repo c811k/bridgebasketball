@@ -20,22 +20,22 @@ class Game3 extends React.Component {
     render() {
         return(
             <div>
-                <Button className="btn btn-sm shadow-sm" onClick={this.toggle} id="btn">WATCH</Button>
+                <Button color="link" size="sm" className="rounded-0" outline onClick={this.toggle} block>WATCH</Button>
                 <Modal isOpen={this.state.modal} toggle={this.toggle} className="modal-dialog-centered modal-lg">
                 <ModalBody className="bg-white rounded-lg" id="modal">
                     <div className="container">
                         <div className="row mt-3">
                             <div className="col-md-5 text-center">
                                 <h4>Lord of the Rims</h4>
-                                <hr className="bg-warning" />
+                                <hr className="bg-white" />
                                 <span className="small">HOME</span>
                             </div>
-                            <div className="col-md-2 text-center">
-                                <span className="text-secondary small">v</span>
+                            <div className="col-md-2 text-center mt-4">
+                                <span className="text-secondary small">V</span>
                             </div>
                             <div className="col-md-5 text-center">
                                 <h4>BH</h4>
-                                <hr className="bg-white" />
+                                <hr className="bg-warning" />
                                 <span className="small">AWAY</span>
                             </div>
                         </div>
@@ -45,7 +45,7 @@ class Game3 extends React.Component {
                             </div>
                         </div>
                         <div class="embed-responsive embed-responsive-16by9 mt-3">
-                            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/4vU7PfRu_jI" allowFullScreen></iframe>
+                            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/4vU7PfRu_jI" allowFullScreen title="Game3"></iframe>
                         </div>
                     </div>
                 </ModalBody>
@@ -53,7 +53,7 @@ class Game3 extends React.Component {
                     <div className="container">
                         <div className="row">
                             <div className="col-md-12 text-right">
-                                <button className="btn btn-secondary" onClick={this.toggle}>CLOSE</button>
+                                <button className="btn btn-sm" onClick={this.toggle}>CLOSE</button>
                             </div>
                         </div>
                     </div>

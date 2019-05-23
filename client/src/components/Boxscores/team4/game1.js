@@ -6,7 +6,7 @@ function game1(props) {
             <div className="col-md-12">
                 <table className="table table-striped">
                     <thead>
-                        <tr className="shadow-sm bg-warning text-white" id="standing-header">
+                        <tr className="border-top border-bottom" id="standing-header">
                         <th scope="col">#</th>
                         <th scope="col">PLAYER NAME</th>
                         <th scope="col" className="text-right">FG</th>
@@ -125,7 +125,7 @@ function game1(props) {
                         <td className="text-right"></td>
                         <td className="text-right"></td>
                         </tr>
-                        <tr>
+                        <tr className="border-top border-bottom">
                         <th scope="row"><span className="text-weight-bold">Team</span></th>
                         <td></td>
                         <td className="text-right font-weight-bolder">18-46</td>

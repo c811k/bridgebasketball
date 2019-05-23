@@ -1,11 +1,15 @@
 import React from "react";
 import { Button, Modal, ModalBody, ModalFooter } from "reactstrap";
+import Home from "./team1/game2";
+import Away from "./team4/game2";
 
-class Game2 extends React.Component {
+class Game5 extends React.Component {
     constructor(props) {
         super(props);
         this.state= {
-            modal: false
+            modal: false,
+            isHomeOpen: true,
+            isAwayOpen: false
         };
 
         this.toggle = this.toggle.bind(this);
@@ -17,37 +21,52 @@ class Game2 extends React.Component {
         }));
     }
 
+    showHome = () => {
+        this.setState({
+            isHomeOpen: true,
+            isAwayOpen: false
+        })
+    }
+
+    showAway = () => {
+        this.setState({
+            isAwayOpen: true,
+            isHomeOpen: false
+        })
+    }
+
     render() {
         return(
             <div>
-                <Button color="link" size="sm" className="rounded-0" outline onClick={this.toggle} block>WATCH</Button>
-                <Modal isOpen={this.state.modal} toggle={this.toggle} className="modal-dialog-centered modal-lg">
-                <ModalBody className="bg-white rounded-lg" id="modal">
+                <Button color="link" size="sm" className="rounded-0" block outline onClick={this.toggle}>BOX SCORE</Button>
+                <Modal isOpen={this.state.modal} toggle={this.toggle} className="modal-dialog-centered modal-xl">
+                <ModalBody className="bg-white rounded-xl" id="modal">
+                <div>
                     <div className="container">
-                        <div className="row mt-3">
-                            <div className="col-md-5 text-center">
-                                <h4>Angry Birdz</h4>
-                                <hr className="bg-white" />
+                         <div className="row mt-3">
+                            <div className="col-md-5 text-center" onClick={this.showHome}>
+                                <h4>The Chosen</h4>
+                                <hr className={"bg-warning" + (this.state.isHomeOpen ? " active" : null)} />
                                 <span className="small">HOME</span>
                             </div>
                             <div className="col-md-2 text-center mt-4">
                                 <span className="text-secondary small">V</span>
                             </div>
-                            <div className="col-md-5 text-center">
-                                <h4>The Chosen</h4>
-                                <hr className="bg-warning" />
+                            <div className="col-md-5 text-center" onClick={this.showAway}>
+                                <h4>Lord of the Rims</h4>
+                                <hr className={"bg-warning" + (this.state.isAwayOpen ? " active" : null)} />
                                 <span className="small">AWAY</span>
                             </div>
                         </div>
                         <div className="row">
                             <div className="col-md-12 text-center">
-                                <h6>April 28, 2019</h6>
+                                <h6>May 5, 2019</h6>
                             </div>
                         </div>
-                        <div class="embed-responsive embed-responsive-16by9 mt-3">
-                            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/MsudAR_zkeI" allowFullScreen title="Game2"></iframe>
-                        </div>
+                        {this.state.isHomeOpen && <Home/>}
+                        {this.state.isAwayOpen && <Away/>}
                     </div>
+                </div>
                 </ModalBody>
                 <ModalFooter className="border-0">
                     <div className="container">
@@ -65,4 +84,4 @@ class Game2 extends React.Component {
     }
 }
 
-export default Game2;
+export default Game5;
