@@ -21,7 +21,7 @@ function game2(props) {
                         </tr>
                     </thead>
                     <tbody>
-                        <tr>
+                        <tr className="small">
                         <th scope="row">22</th>
                         <td>Andrew Shin</td>
                         <td className="text-right">0-2</td>
@@ -34,7 +34,7 @@ function game2(props) {
                         <td className="text-right">2</td>
                         <td className="text-right">0</td>
                         </tr>
-                        <tr>
+                        <tr className="small">
                         <th scope="row">21</th>
                         <td>Brian Kim</td>
                         <td className="text-right">0-0</td>
@@ -47,7 +47,7 @@ function game2(props) {
                         <td className="text-right">3</td>
                         <td className="text-right">0</td>
                         </tr>
-                        <tr>
+                        <tr className="small">
                         <th scope="row">37</th>
                         <td>Daniel Hwang</td>
                         <td className="text-right">1-3</td>
@@ -60,7 +60,7 @@ function game2(props) {
                         <td className="text-right">1</td>
                         <td className="text-right">3</td>
                         </tr>
-                        <tr>
+                        <tr className="small">
                         <th scope="row">57</th>
                         <td>Isaac Baek</td>
                         <td className="text-right">1-6</td>
@@ -73,7 +73,7 @@ function game2(props) {
                         <td className="text-right">0</td>
                         <td className="text-right">8</td>
                         </tr>
-                        <tr>
+                        <tr className="small">
                         <th scope="row">70</th>
                         <td>Juel Park</td>
                         <td className="text-right">1-3</td>
@@ -86,7 +86,7 @@ function game2(props) {
                         <td className="text-right">3</td>
                         <td className="text-right">3</td>
                         </tr>
-                        <tr>
+                        <tr className="small">
                         <th scope="row">15</th>
                         <td>Kevin Shim</td>
                         <td className="text-right">4-9</td>
@@ -99,7 +99,7 @@ function game2(props) {
                         <td className="text-right">2</td>
                         <td className="text-right">13</td>
                         </tr>
-                        <tr>
+                        <tr className="small">
                         <th scope="row">36</th>
                         <td>Tony Kim</td>
                         <td className="text-right">3-12</td>
@@ -112,7 +112,7 @@ function game2(props) {
                         <td className="text-right">3</td>
                         <td className="text-right">8</td>
                         </tr>
-                        <tr>
+                        <tr className="small">
                         <th scope="row">17</th>
                         <td>Mark Cho</td>
                         <td className="text-right"></td>

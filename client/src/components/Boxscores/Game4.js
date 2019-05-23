@@ -45,7 +45,7 @@ class Game4 extends React.Component {
                     <div className="container">
                          <div className="row mt-3">
                             <div className="col-md-5 text-center" onClick={this.showHome}>
-                                <h4>Fantastic</h4>
+                                <h5>Fantastic</h5>
                                 <hr className={"bg-warning" + (this.state.isHomeOpen ? " active" : null)} />
                                 <span className="small">HOME</span>
                             </div>
@@ -53,7 +53,7 @@ class Game4 extends React.Component {
                                 <span className="text-secondary small">V</span>
                             </div>
                             <div className="col-md-5 text-center" onClick={this.showAway}>
-                                <h4>Angry Birdz</h4>
+                                <h5>Angry Birdz</h5>
                                 <hr className={"bg-warning" + (this.state.isAwayOpen ? " active" : null)} />
                                 <span className="small">AWAY</span>
                             </div>

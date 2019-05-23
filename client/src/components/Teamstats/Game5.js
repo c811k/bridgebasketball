@@ -27,16 +27,16 @@ class Game5 extends React.Component {
             <div className="container">
                 <div className="row mt-3">
                     <div className="col-md-5 text-center">
-                        <h4>The Chosen</h4>
-                        <hr className="bg-secondary" />
+                        <h5>The Chosen</h5>
+                        <hr className="bg-secondary mx-3" />
                         <span className="small">HOME</span>
                     </div>
                     <div className="col-md-2 text-center mt-4">
                         <span className="text-secondary small">V</span>
                     </div>
                     <div className="col-md-5 text-center">
-                        <h4>Lord of the Rims</h4>
-                        <hr className="bg-warning" />
+                        <h5>Lord of the Rims</h5>
+                        <hr className="bg-warning mx-3" />
                         <span className="small">AWAY</span>
                     </div>
                 </div>
@@ -45,7 +45,7 @@ class Game5 extends React.Component {
                     <h6>May 5, 2019</h6>
                     </div>
                 </div>
-                <div className="row mt-5">
+                <div className="row mt-5 px-3">
                     <div className="col-md-6">
                         <div className="card shadow-sm">
                             <div className="card-header mr-auto bg-white border-0 font-weight-bold">
@@ -121,7 +121,7 @@ class Game5 extends React.Component {
                     </div>
                 </div>
 
-                <div className="row mt-3">
+                <div className="row mt-3 px-3">
                     <div className="col-md-6">
                         <div className="card shadow-sm">
                             <div className="card-header mr-auto bg-white border-0 font-weight-bold">
@@ -195,7 +195,7 @@ class Game5 extends React.Component {
                         </div>
                     </div>
                 </div>
-                <div className="row my-3">
+                <div className="row my-3 px-3">
                     <div className="col-md-6">
                         <div className="card shadow-sm">
                             <div className="card-header mr-auto bg-white border-0 font-weight-bold">
@@ -270,7 +270,7 @@ class Game5 extends React.Component {
                     </div>
                 </div>
                 
-                <div className="row my-3">
+                <div className="row my-3 px-3">
                     <div className="col-md-6">
                         <div className="card shadow-sm">
                             <div className="card-header mr-auto bg-white border-0 font-weight-bold">
@@ -348,7 +348,7 @@ class Game5 extends React.Component {
             </div>
                 </ModalBody>
                 <ModalFooter className="border-0">
-                <div className="container">
+                <div className="container mx-3">
                     <div className="row">
                         <div className="col-md-12 text-right">
                             <button className="btn btn-sm" onClick={this.toggle}>CLOSE</button>
