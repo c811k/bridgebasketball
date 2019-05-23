@@ -17,7 +17,7 @@ import Week5 from "./components/pages/Scores/Week5";
 import Week6 from "./components/pages/Scores/Week6";
 import Week7 from "./components/pages/Scores/Week7";
 import Week8 from "./components/pages/Scores/Week8";
-import Schedule from "./components/pages/Schedule/Schedule";
+import April from "./components/pages/Schedule/April";
 import May from "./components/pages/Schedule/May";
 import June from "./components/pages/Schedule/June";
 import July from "./components/pages/Schedule/July";
@@ -49,7 +49,7 @@ class App extends Component {
             <Route exact path="/scores/week6" component={Week6} />
             <Route exact path="/scores/week7" component={Week7} />
             <Route exact path="/scores/week8" component={Week8} />
-            <Route exact path="/schedule" component={Schedule} />
+            <Route exact path="/schedule/april" component={April} />
             <Route exact path="/schedule/may" component={May} />
             <Route exact path="/schedule/june" component={June} />
             <Route exact path="/schedule/july" component={July} />

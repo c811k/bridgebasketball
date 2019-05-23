@@ -1,7 +1,7 @@
 import React from "react";
 import Footer from "../../Footer";
 
-function Schedule() {
+function April() {
     return(
         <div>
         <div className="container" id="schedule">
@@ -22,8 +22,8 @@ function Schedule() {
                                 <span aria-hidden="true"><i className="fas fa-angle-left"></i></span>
                                 </button>
                             </li>
-                            <li className="page-item disabled">
-                                <a className="page-link text-dark border-0" href="/schedule"><h5 className="text-center"><i className="far fa-calendar-alt fa-2x"></i></h5>APRIL 2019</a>
+                            <li className="page-item disabled text-center">
+                                <a className="page-link text-dark border-0" href="/schedule"><h5><i className="far fa-calendar-alt fa-2x"></i></h5><span className="small">APRIL</span></a>
                             </li>
                             <li className="page-item mt-3">
                                 <a className="page-link text-dark border-0" href="/schedule/may" aria-label="Next" id="right">
@@ -91,4 +91,4 @@ function Schedule() {
     );
 }
 
-export default Schedule;
+export default April;

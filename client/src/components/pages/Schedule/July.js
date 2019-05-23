@@ -22,8 +22,8 @@ function July() {
                                 <span aria-hidden="true"><i className="fas fa-angle-left"></i></span>
                                 </a>
                             </li>
-                            <li className="page-item disabled">
-                                <a className="page-link text-dark border-0" href="/schedule"><h5 className="text-center"><i className="far fa-calendar-alt fa-2x"></i></h5>JULY</a>
+                            <li className="page-item disabled text-center">
+                                <a className="page-link text-dark border-0" href="/schedule"><h5><i className="far fa-calendar-alt fa-2x"></i></h5><span className="small">JULY</span></a>
                             </li>
                             <li className="page-item disabled">
                                 <div className="page-link text-white border-0" aria-label="Next" id="right">
