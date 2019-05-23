@@ -43,7 +43,7 @@ function April() {
                                     MATCH UP
                                 </div>
                                 <div className="col-md-4 text-center">
-                                    APRIL 28TH 2019
+                                    APRIL 28TH
                                 </div>
                                 <div className="col-md-4 text-right">
                                     TIME (PT)
