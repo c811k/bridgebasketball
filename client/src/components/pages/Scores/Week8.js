@@ -38,7 +38,7 @@ function Week4() {
             <div className="row mt-5">
                 <div className="col-md-2">
                 </div>
-                <div className="col-md-4">
+                <div className="col-md-4 p-2">
                     <div className="card shadow-sm" id="score-card">
                         <div className="card-header bg-white border-0 d-flex justify-content-between align-items-center" id="standing-header">
                             <img src={logo} alt="logo" height="50" width="50" id="scorelogo"/>
@@ -78,7 +78,7 @@ function Week4() {
                         </ul>
                     </div>
                 </div>
-                <div className="col-md-4">
+                <div className="col-md-4 p-2">
                     <div className="card shadow-sm" id="score-card">
                         <div className="card-header bg-white border-0 d-flex justify-content-between align-items-center" id="standing-header">
                             <img src={logo} alt="logo" height="50" width="50" id="scorelogo"/>
