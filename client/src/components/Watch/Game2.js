@@ -26,7 +26,7 @@ class Game2 extends React.Component {
                     <div className="container">
                         <div className="row mt-3">
                             <div className="col-md-5 text-center">
-                                <h4>Angry Birdz</h4>
+                                <h5>Angry Birdz</h5>
                                 <hr className="bg-white" />
                                 <span className="small">HOME</span>
                             </div>
@@ -34,7 +34,7 @@ class Game2 extends React.Component {
                                 <span className="text-secondary small">V</span>
                             </div>
                             <div className="col-md-5 text-center">
-                                <h4>The Chosen</h4>
+                                <h5>The Chosen</h5>
                                 <hr className="bg-warning" />
                                 <span className="small">AWAY</span>
                             </div>

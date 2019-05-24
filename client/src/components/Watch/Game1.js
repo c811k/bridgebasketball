@@ -26,16 +26,16 @@ class Game1 extends React.Component {
                     <div className="container">
                         <div className="row mt-3">
                             <div className="col-md-5 text-center">
-                                <h4>Double Up</h4>
-                                <hr className="bg-white mx-3" />
+                                <h5>Double Up</h5>
+                                <hr className="bg-white" />
                                 <span className="small">HOME</span>
                             </div>
                             <div className="col-md-2 text-center mt-4">
                                 <span className="text-secondary small">V</span>
                             </div>
                             <div className="col-md-5 text-center">
-                                <h4>Fantastic</h4>
-                                <hr className="bg-warning mx-3" />
+                                <h5>Fantastic</h5>
+                                <hr className="bg-warning" />
                                 <span className="small">AWAY</span>
                             </div>
                         </div>
@@ -45,15 +45,15 @@ class Game1 extends React.Component {
                             </div>
                         </div>
                         <div class="embed-responsive embed-responsive-16by9 mt-3">
-                            <iframe class="embed-responsive-item px-3" src="https://www.youtube.com/embed/0H1nXdds-3k" allowFullScreen title="Game1"></iframe>
+                            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/0H1nXdds-3k" allowFullScreen title="Game1"></iframe>
                         </div>
                     </div>
                 </ModalBody>
                 <ModalFooter className="border-0">
-                    <div className="container mx-3">
+                    <div className="container">
                         <div className="row">
                             <div className="col-md-12 text-right">
-                                <button className="btn btn-sm border-warning rounded-0" onClick={this.toggle}>CLOSE</button>
+                                <button className="btn btn-sm" onClick={this.toggle}>CLOSE</button>
                             </div>
                         </div>
                     </div>

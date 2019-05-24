@@ -26,7 +26,7 @@ class Game3 extends React.Component {
                     <div className="container">
                         <div className="row mt-3">
                             <div className="col-md-5 text-center">
-                                <h4>Lord of the Rims</h4>
+                                <h5>Lord of the Rims</h5>
                                 <hr className="bg-white" />
                                 <span className="small">HOME</span>
                             </div>
@@ -34,7 +34,7 @@ class Game3 extends React.Component {
                                 <span className="text-secondary small">V</span>
                             </div>
                             <div className="col-md-5 text-center">
-                                <h4>BH</h4>
+                                <h5>BH</h5>
                                 <hr className="bg-warning" />
                                 <span className="small">AWAY</span>
                             </div>
