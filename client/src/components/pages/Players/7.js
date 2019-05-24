@@ -4,7 +4,7 @@ import Footer from "../../Footer";
 function Players1(props) {
     return(
         <div>
-        <div className="container">
+        <div className="container" id="players">
             <div className="row mt-5">
                 <div className="col-md-6">
                     <h3 className="pb-3 border-bottom border-warning">P L A Y E R S</h3> 
