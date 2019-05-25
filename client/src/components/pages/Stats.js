@@ -91,7 +91,7 @@ class Stats extends Component {
                     <div className="col-md-4">
                         <div className="row">
                             <div className="col-md-6">
-                                <img className="rounded mt-3 border" src="https://scontent-lax3-1.xx.fbcdn.net/v/t1.0-9/51092613_10211237318209206_2639680315936735232_o.jpg?_nc_cat=106&_nc_ht=scontent-lax3-1.xx&oh=6ada2091019d715b20d0c0e2c5ff81c7&oe=5D748CDF" alt="profile" height="160" width="128" id="playerpic" />
+                                <img className="rounded mt-3 border" src="https://scontent-lax3-1.xx.fbcdn.net/v/t1.0-9/60813095_10211881944924471_3523127841451409408_o.jpg?_nc_cat=111&_nc_ht=scontent-lax3-1.xx&oh=ffc200453e59d86d6378bce9f88c649c&oe=5D9E58CA" alt="profile" height="160" width="128" id="playerpic" />
                             </div>
                             <div className="col-md-6 mt-3 text-right">
                                 R E B O U N D S

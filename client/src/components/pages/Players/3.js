@@ -153,7 +153,7 @@ function Players1(props) {
                             <div className="card-front">
                                 <div className="row">
                                     <div className="col-md-12 justify-content-center">
-                                        <img className="rounded p-2" src="https://scontent-lax3-1.xx.fbcdn.net/v/t1.0-9/51092613_10211237318209206_2639680315936735232_o.jpg?_nc_cat=106&_nc_ht=scontent-lax3-1.xx&oh=6ada2091019d715b20d0c0e2c5ff81c7&oe=5D748CDF" height="253px" alt="profile" id="playerpic" />
+                                        <img className="rounded p-2" src="https://scontent-lax3-1.xx.fbcdn.net/v/t1.0-9/60813095_10211881944924471_3523127841451409408_o.jpg?_nc_cat=111&_nc_ht=scontent-lax3-1.xx&oh=ffc200453e59d86d6378bce9f88c649c&oe=5D9E58CA" height="253px" alt="profile" id="playerpic" />
                                     </div>
                                 </div>
                                 <div className="row">
