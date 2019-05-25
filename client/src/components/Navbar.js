@@ -6,7 +6,7 @@ function Navbar() {
     return (
         <div>
             <nav className="navbar navbar-expand-lg sticky-top navbar-light bg-white px-3">
-                <a className="navbar-brand" href="/"><img src={logo} alt="logo" height="50" width="50" /><span className="text-secondary">B R I D G E</span> <span className="text-warning">B A S K E T B A L L</span></a>
+                <a className="navbar-brand" href="/"><img src={logo} alt="logo" height="50" width="50" /><span className="text-secondary">BRIDGE</span> <span className="text-warning">BASKETBALL</span></a>
                 <button className="navbar-toggler border-0 " type="button" data-toggle="collapse" data-target="#navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span className="navbar-toggler-icon"></span>
                 </button>

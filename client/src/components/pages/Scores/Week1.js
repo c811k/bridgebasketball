@@ -54,7 +54,7 @@ function Week1() {
                         </div>
                         <ul className="list-group flush">
                             <li className="list-group-item border-0">
-                                <div className="row">
+                                <div className="row justify-content-center">
                                     <div className="col-md-8">
                                         <h6>Double Up <span className="text-muted small">(1-0)</span></h6>
                                     </div>
