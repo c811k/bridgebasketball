@@ -7,7 +7,10 @@ function Navbar() {
         <div>
             <nav className="navbar navbar-expand-lg sticky-top navbar-light bg-white px-3">
                 <a className="navbar-brand" href="/"><img src={logo} alt="logo" height="50" width="50" /><span className="text-secondary">B R I D G E</span> <span className="text-warning">B A S K E T B A L L</span></a>
-                <div className="collapse navbar-collapse">
+                <button className="navbar-toggler border-0 " type="button" data-toggle="collapse" data-target="#navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span className="navbar-toggler-icon"></span>
+                </button>
+                <div className="collapse navbar-collapse" id="navbarNav">
                 <ul className="navbar-nav ml-auto mb-1">
                     <li className="btn nav-item">
                         <Link to="/scores/week2" className={window.location.pathname === "/scores/week2" ? "nav-link active rounded shadow-sm" : "nav-link rounded"}>SCORES</Link>
