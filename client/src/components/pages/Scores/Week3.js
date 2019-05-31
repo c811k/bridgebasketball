@@ -7,6 +7,7 @@ import Boxscore7 from "../../Boxscores/Game7";
 import Boxscore8 from "../../Boxscores/Game8";
 import Boxscore9 from "../../Boxscores/Game9";
 import Watch7 from "../../Watch/Game7";
+import Watch8 from "../../Watch/Game8";
 import logo from "../../../assets/images/logo.jpg";
 
 function Week3() {
@@ -114,7 +115,7 @@ function Week3() {
                             <li className="list-group-item border-0">
                                 <div className="row">
                                     <div className="col-md-12 d-flex justify-content-between">
-                                        <button className="btn btn-sm disabled flex-fill border-right rounded-0">WATCH</button>
+                                        <div className="flex-fill border-right"><Watch8 /></div>
                                         <div className="flex-fill border-right"><Game8 /></div>
                                         <div className="flex-fill"><Boxscore8 /></div>
                                     </div>
