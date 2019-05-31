@@ -407,7 +407,7 @@ class Stats extends Component {
                                     <li className="list-group-item border-0">
                                         <div className="row">
                                             <div className="col-md-9">
-                                                Isaac Baek <span className="small text-muted font-italic font-weight-light">BH</span>
+                                                Isaac Baek <span className="small text-muted font-italic font-weight-light">Fantastic</span>
                                             </div>
                                             <div className="col-md-3 text-right">
                                                 0.5
@@ -417,7 +417,7 @@ class Stats extends Component {
                                     <li className="list-group-item border-0 bg-light">
                                         <div className="row">
                                             <div className="col-md-9">
-                                                Benjamin Lee <span className="small text-muted font-italic font-weight-light">Fantastic</span>
+                                                Benjamin Lee <span className="small text-muted font-italic font-weight-light">Lord of the Rims</span>
                                             </div>
                                             <div className="col-md-3 text-right">
                                                 0.3
