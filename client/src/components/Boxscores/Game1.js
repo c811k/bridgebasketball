@@ -46,7 +46,7 @@ class Game1 extends React.Component {
                             <div className="col-md-5 text-center" onClick={this.showHome}>
                                 <h5>Double Up</h5>
                                 <hr className={"bg-warning" + (this.state.isHomeOpen ? " active" : null)} />
-                                <span className="small">HOME</span>
+                                <span className={"small badge badge-dark" + (this.state.isHomeOpen ? " active" : null)}>HOME</span>
                             </div>
                             <div className="col-md-2 text-center mt-4">
                                 <span className="text-secondary small">V</span>
@@ -54,7 +54,7 @@ class Game1 extends React.Component {
                             <div className="col-md-5 text-center" onClick={this.showAway}>
                                 <h5>Fantastic</h5>
                                 <hr className={"bg-warning" + (this.state.isAwayOpen ? " active" : null)} />
-                                <span className="small">AWAY</span>
+                                <span className={"small badge badge-dark" + (this.state.isAwayOpen ? " active" : null)}>AWAY</span>
                             </div>
                         </div>
                         <div className="row">
