@@ -215,7 +215,7 @@ class Stats extends Component {
                                                 John Hong <span className="small text-muted font-italic font-weight-light">BH</span>
                                             </div>
                                             <div className="col-md-3 text-right">
-                                                3.0
+                                                3.3
                                             </div>
                                         </div>
                                     </li>
@@ -329,17 +329,17 @@ class Stats extends Component {
                                     <li className="list-group-item border-0 bg-light">
                                         <div className="row">
                                             <div className="col-md-9">
-                                                Benjamin Lee <span className="small text-muted font-italic font-weight-light">Lord of the Rims</span>
+                                                John Song <span className="small text-muted font-italic font-weight-light">BH</span>
                                             </div>
                                             <div className="col-md-3 text-right">
-                                                2.7
+                                                3.0
                                             </div>
                                         </div>
                                     </li>
                                     <li className="list-group-item border-0">
                                         <div className="row">
                                             <div className="col-md-9">
-                                                David Cho <span className="small text-muted font-italic font-weight-light">Angry Birdz</span>
+                                                Benjamin Lee <span className="small text-muted font-italic font-weight-light">Lord of the Rims</span>
                                             </div>
                                             <div className="col-md-3 text-right">
                                                 2.7
@@ -349,10 +349,10 @@ class Stats extends Component {
                                     <li className="list-group-item border-0 bg-light">
                                         <div className="row">
                                             <div className="col-md-9">
-                                                Denny Lee <span className="small text-muted font-italic font-weight-light">BH</span>
+                                                David Cho <span className="small text-muted font-italic font-weight-light">Angry Birdz</span>
                                             </div>
                                             <div className="col-md-3 text-right">
-                                                2.5
+                                                2.7
                                             </div>
                                         </div>
                                     </li>
@@ -387,16 +387,6 @@ class Stats extends Component {
                                     <li className="list-group-item border-0">
                                         <div className="row">
                                             <div className="col-md-9">
-                                                Jun Kim <span className="small text-muted font-italic font-weight-light">BH</span>
-                                            </div>
-                                            <div className="col-md-3 text-right">
-                                                1.0
-                                            </div>
-                                        </div>
-                                    </li>
-                                    <li className="list-group-item border-0 bg-light">
-                                        <div className="row">
-                                            <div className="col-md-9">
                                                 James Choi, #20 <span className="small text-muted font-italic font-weight-light">The Chosen</span>
                                             </div>
                                             <div className="col-md-3 text-right">
@@ -404,10 +394,20 @@ class Stats extends Component {
                                             </div>
                                         </div>
                                     </li>
+                                    <li className="list-group-item border-0 bg-light">
+                                        <div className="row">
+                                            <div className="col-md-9">
+                                                Jun Kim <span className="small text-muted font-italic font-weight-light">BH</span>
+                                            </div>
+                                            <div className="col-md-3 text-right">
+                                                0.7
+                                            </div>
+                                        </div>
+                                    </li>
                                     <li className="list-group-item border-0">
                                         <div className="row">
                                             <div className="col-md-9">
-                                                John Hong <span className="small text-muted font-italic font-weight-light">BH</span>
+                                                Isaac Baek <span className="small text-muted font-italic font-weight-light">BH</span>
                                             </div>
                                             <div className="col-md-3 text-right">
                                                 0.5
@@ -417,10 +417,10 @@ class Stats extends Component {
                                     <li className="list-group-item border-0 bg-light">
                                         <div className="row">
                                             <div className="col-md-9">
-                                                Isaac Baek <span className="small text-muted font-italic font-weight-light">Fantastic</span>
+                                                Benjamin Lee <span className="small text-muted font-italic font-weight-light">Fantastic</span>
                                             </div>
                                             <div className="col-md-3 text-right">
-                                                0.5
+                                                0.3
                                             </div>
                                         </div>
                                     </li>
