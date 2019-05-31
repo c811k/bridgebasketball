@@ -78,8 +78,8 @@ h2 {
 #details {
     font-size: 11px;
 }
+
 .nav-link.active {
-    /* background-color: #fad778; */
     background-color: #0e395c;
     color: #ffffff !important;
 
@@ -88,7 +88,7 @@ h2 {
 .nav-link:hover {
     background-color: #0e395c;
     color: #ffffff !important;
-    transition: background-color 0.2s ease-in;
+    transition: background-color 0.2s ease-out;
 }
 
 .table thead th, .table td, .table th {
@@ -251,5 +251,9 @@ hr {
 
     h3 {
         font-size: 20px;
-    }   
+    }
+
+    #text {
+        font-size: 10px;
+    }
 }

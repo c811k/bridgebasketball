@@ -25,7 +25,6 @@ import Standing from "./components/pages/Standing";
 import Stats from "./components/pages/Stats";
 import Rules from "./components/pages/Rules";
 import "./App.css";
-import Teamstats from "./components/pages/Teamstats";
 
 class App extends Component {
   render() {
@@ -55,7 +54,6 @@ class App extends Component {
             <Route exact path="/schedule/july" component={July} />
             <Route exact path="/standing" component={Standing} />
             <Route exact path="/stats" component={Stats} />
-            <Route exact path="/teamstats" component={Teamstats} />
             <Route exact path="/rules" component={Rules} />
           </div>
         </Router>

@@ -47,7 +47,7 @@ function Week4() {
                             <li className="list-group-item border-0">
                                 <div className="row">
                                     <div className="col-md-9">
-                                        <h6>Angry Birdz <span className="text-muted small">(0-2)</span></h6>
+                                        <h6>Angry Birdz <span className="text-muted small">(0-3)</span></h6>
                                     </div>
                                     {/* <div className="col-md-3 text-right align-bottom">
                                         <h5>35 <i class="fas fa-caret-left"></i></h5>
@@ -57,7 +57,7 @@ function Week4() {
                             <li className="list-group-item border-0">
                                 <div className="row">
                                     <div className="col-md-9">
-                                        <h6>Double Up <span className="text-muted small">(2-0)</span></h6>
+                                        <h6>Double Up <span className="text-muted small">(3-0)</span></h6>
                                     </div>
                                     {/* <div className="col-md-3 text-right align-bottom">
                                         <h5 className="text-muted">29 <i class="fas fa-caret-left text-white"></i></h5>
@@ -87,7 +87,7 @@ function Week4() {
                             <li className="list-group-item border-0">
                                 <div className="row">
                                     <div className="col-md-9">
-                                        <h6>BH <span className="text-muted small">(0-2)</span></h6>
+                                        <h6>The Chosen <span className="text-muted small">(2-1)</span></h6>
                                     </div>
                                     {/* <div className="col-md-3 text-right align-bottom">
                                         <h5 className="text-muted">53 <i class="fas fa-caret-left text-white"></i></h5>
@@ -97,7 +97,7 @@ function Week4() {
                             <li className="list-group-item border-0">
                                 <div className="row">
                                     <div className="col-md-9">
-                                        <h6>Fantastic <span className="text-muted small">(1-1)</span></h6>
+                                        <h6>BH <span className="text-muted small">(0-3)</span></h6>
                                     </div>
                                     {/* <div className="col-md-3 text-right align-bottom">
                                         <h5>56 <i class="fas fa-caret-left"></i></h5>
@@ -127,7 +127,7 @@ function Week4() {
                             <li className="list-group-item border-0">
                                 <div className="row">
                                     <div className="col-md-9">
-                                        <h6>Angry Birdz <span className="text-muted small">(0-2)</span></h6>
+                                        <h6>Lord of the Rims <span className="text-muted small">(3-0)</span></h6>
                                     </div>
                                     {/* <div className="col-md-3 text-right align-bottom">
                                         <h5>43 <i class="fas fa-caret-left"></i></h5>
@@ -137,7 +137,7 @@ function Week4() {
                             <li className="list-group-item border-0">
                                 <div className="row">
                                     <div className="col-md-9">
-                                        <h6>Lord of the Rims <span className="text-muted small">(2-0)</span></h6>
+                                        <h6>Fantastic <span className="text-muted small">(1-2)</span></h6>
                                     </div>
                                     {/* <div className="col-md-3 text-right align-bottom">
                                         <h5 className="text-muted">41 <i class="fas fa-caret-left text-white"></i></h5>

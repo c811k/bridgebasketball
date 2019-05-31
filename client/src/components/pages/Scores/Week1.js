@@ -16,10 +16,10 @@ function Week1() {
         <div>
         <div className="container" id="scores">
             <div className="row mt-5">
-                <div className="col-md-6">
+                <div className="col-sm-6">
                     <h3 className="pb-3 border-bottom border-warning">S C O R E S</h3> 
                 </div>
-                <div className="col-md-6 text-right">
+                <div className="col-sm-6 text-right">
                     <h3 className="pb-3 border-bottom text-secondary">S E A S O N<span className="text-warning"> 2 0 1 9 </span></h3>
                 </div>
             </div>
@@ -45,7 +45,7 @@ function Week1() {
                 </div>
             </div>
             <div className="row mt-5">
-                <div className="col-md-4 p-2">
+                <div className="col-sm-4 p-2">
                     <div className="card shadow-sm" id="score-card">
                         <div className="card-header bg-white border-0 d-flex justify-content-between align-items-center" id="standing-header">
                             <img src={logo} alt="logo" height="50" width="50" id="scorelogo"/>
@@ -54,28 +54,28 @@ function Week1() {
                         </div>
                         <ul className="list-group flush">
                             <li className="list-group-item border-0">
-                                <div className="row justify-content-center">
-                                    <div className="col-md-8">
+                                <div className="row">
+                                    <div className="col-sm-9">
                                         <h6>Double Up <span className="text-muted small">(1-0)</span></h6>
                                     </div>
-                                    <div className="col-md-4 text-right">
+                                    <div className="col-sm-3 text-right">
                                         <h5>57 <i className="fas fa-caret-left"></i></h5>
                                     </div>
                                 </div>
                             </li>
                             <li className="list-group-item border-0">
                                 <div className="row">
-                                    <div className="col-md-6">
+                                    <div className="col-sm-9">
                                         <h6 className="text-muted">Fantastic <span className="text-muted small">(0-1)</span></h6>
                                     </div>
-                                    <div className="col-md-6 text-right">
+                                    <div className="col-sm-3 text-right">
                                         <h5 className="text-muted">29 <i className="fas fa-caret-left text-white"></i></h5>
                                     </div>
                                 </div>
                             </li>
                             <li className="list-group-item border-0">
                                 <div className="row">
-                                    <div className="col-md-12 d-flex justify-content-between">
+                                    <div className="col-sm-12 d-flex justify-content-between">
                                         <div className="flex-fill border-right"><Watch1 /></div>
                                         <div className="flex-fill border-right"><Game1 /></div>
                                         <div className="flex-fill"><Boxscore1 /></div>
