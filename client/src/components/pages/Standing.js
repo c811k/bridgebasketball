@@ -51,7 +51,7 @@ function Standing() {
                                 <td className="text-right">0</td>
                                 <td className="text-right">1.000</td>
                                 <td className="text-right">-</td>
-                                <td className="text-right">55</td>
+                                <td className="text-right">55.0</td>
                                 <td className="text-right">46.7</td>
                                 <td className="text-right text-success">+8.3</td>
                                 <td className="text-right">W3</td>
