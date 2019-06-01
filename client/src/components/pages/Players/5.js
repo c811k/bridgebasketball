@@ -43,13 +43,13 @@ function Players1(props) {
                                     <div className="col-md-12 text-right">
                                         <ul className="list-group list-group">
                                             <li className="list-group-item border-0">
-                                                <span className="badge badge-light d-flex justify-content-between align-items-center border-0 small my-1">#7<span>GP - <span className="text-danger">2</span></span></span>
-                                                <span className="badge badge-warning d-flex justify-content-between align-items-center border-0 small">FG%<span>.300</span></span><span className="small">T-16th</span>
-                                                <span className="badge badge-secondary d-flex justify-content-between align-items-center border-0 small">3P%<span>.250</span></span><span className="small">T-11th</span>
-                                                <span className="badge badge-warning d-flex justify-content-between align-items-center border-0 small">FT%<span>-</span></span><span className="small">NA</span>
-                                                <span className="badge badge-secondary d-flex justify-content-between align-items-center border-0">PPG<span>7.5</span></span><span className="small">T-17th</span>
-                                                <span className="badge badge-warning d-flex justify-content-between align-items-center border-0">RPG<span>8.0</span></span><span className="small">T-8th</span>
-                                                <span className="badge badge-secondary d-flex justify-content-between align-items-center border-0">APG<span>2.0</span></span><span className="small">T-6th</span>
+                                                <span className="badge badge-light d-flex justify-content-between align-items-center border-0 small my-1">#7<span>GP - <span className="text-success">3</span></span></span>
+                                                <span className="badge badge-warning d-flex justify-content-between align-items-center border-0 small">FG%<span>.257</span></span><span className="small">25th</span>
+                                                <span className="badge badge-secondary d-flex justify-content-between align-items-center border-0 small">3P%<span>.250</span></span><span className="small">T-15th</span>
+                                                <span className="badge badge-warning d-flex justify-content-between align-items-center border-0 small">FT%<span>1.000</span></span><span className="small">1st</span>
+                                                <span className="badge badge-secondary d-flex justify-content-between align-items-center border-0">PPG<span>9.0</span></span><span className="small">T-14th</span>
+                                                <span className="badge badge-warning d-flex justify-content-between align-items-center border-0">RPG<span>9.0</span></span><span className="small">T-8th</span>
+                                                <span className="badge badge-secondary d-flex justify-content-between align-items-center border-0">APG<span>2.3</span></span><span className="small">10th</span>
                                             </li>
                                         </ul>
                                     </div>
@@ -88,12 +88,12 @@ function Players1(props) {
                                         <ul className="list-group list-group">
                                             <li className="list-group-item border-0">
                                                 <span className="badge badge-light d-flex justify-content-between align-items-center border-0 small my-1">#30<span>GP - <span className="text-danger">2</span></span></span>
-                                                <span className="badge badge-warning d-flex justify-content-between align-items-center border-0 small">FG%<span>.238</span></span><span className="small">25th</span>
-                                                <span className="badge badge-secondary d-flex justify-content-between align-items-center border-0 small">3P%<span>.278</span></span><span className="small">10th</span>
+                                                <span className="badge badge-warning d-flex justify-content-between align-items-center border-0 small">FG%<span>.238</span></span><span className="small">29th</span>
+                                                <span className="badge badge-secondary d-flex justify-content-between align-items-center border-0 small">3P%<span>.278</span></span><span className="small">14th</span>
                                                 <span className="badge badge-warning d-flex justify-content-between align-items-center border-0 small">FT%<span>-</span></span><span className="small">NA</span>
-                                                <span className="badge badge-secondary d-flex justify-content-between align-items-center border-0">PPG<span>7.5</span></span><span className="small">T-17th</span>
-                                                <span className="badge badge-warning d-flex justify-content-between align-items-center border-0">RPG<span>3.0</span></span><span className="small">T-30th</span>
-                                                <span className="badge badge-secondary d-flex justify-content-between align-items-center border-0">APG<span>1.0</span></span><span className="small">T-20th</span>
+                                                <span className="badge badge-secondary d-flex justify-content-between align-items-center border-0">PPG<span>7.5</span></span><span className="small">21st</span>
+                                                <span className="badge badge-warning d-flex justify-content-between align-items-center border-0">RPG<span>3.0</span></span><span className="small">T-32nd</span>
+                                                <span className="badge badge-secondary d-flex justify-content-between align-items-center border-0">APG<span>1.0</span></span><span className="small">T-18th</span>
                                             </li>
                                         </ul>
                                     </div>
@@ -131,13 +131,13 @@ function Players1(props) {
                                     <div className="col-md-12 text-right">
                                         <ul className="list-group list-group">
                                             <li className="list-group-item border-0">
-                                                <span className="badge badge-light d-flex justify-content-between align-items-center border-0 small my-1">#15 C<span>GP - <span className="text-danger">2</span></span></span>
-                                                <span className="badge badge-warning d-flex justify-content-between align-items-center border-0 small">FG%<span>.321</span></span><span className="small">T-11th</span>
+                                                <span className="badge badge-light d-flex justify-content-between align-items-center border-0 small my-1">#15 C<span>GP - <span className="text-success">3</span></span></span>
+                                                <span className="badge badge-warning d-flex justify-content-between align-items-center border-0 small">FG%<span>.390</span></span><span className="small">7th</span>
                                                 <span className="badge badge-secondary d-flex justify-content-between align-items-center border-0 small">3P%<span>.000</span></span><span className="small">T-24th</span>
-                                                <span className="badge badge-warning d-flex justify-content-between align-items-center border-0 small">FT%<span>.750</span></span><span className="small">4th</span>
-                                                <span className="badge badge-secondary d-flex justify-content-between align-items-center border-0">PPG<span>13.5</span></span><span className="small">T-6th</span>
-                                                <span className="badge badge-warning d-flex justify-content-between align-items-center border-0">RPG<span>9.0</span></span><span className="small">7th</span>
-                                                <span className="badge badge-secondary d-flex justify-content-between align-items-center border-0">APG<span>0.5</span></span><span className="small">T-29th</span>
+                                                <span className="badge badge-warning d-flex justify-content-between align-items-center border-0 small">FT%<span>.760</span></span><span className="small">4th</span>
+                                                <span className="badge badge-secondary d-flex justify-content-between align-items-center border-0">PPG<span>17.0</span></span><span className="small">4th</span>
+                                                <span className="badge badge-warning d-flex justify-content-between align-items-center border-0">RPG<span>9.0</span></span><span className="small">T-8th</span>
+                                                <span className="badge badge-secondary d-flex justify-content-between align-items-center border-0">APG<span>1.0</span></span><span className="small">T-18th</span>
                                             </li>
                                         </ul>
                                     </div>
@@ -220,13 +220,13 @@ function Players1(props) {
                                     <div className="col-md-12 text-right">
                                         <ul className="list-group list-group">
                                             <li className="list-group-item border-0">
-                                                <span className="badge badge-light d-flex justify-content-between align-items-center border-0 small my-1">#89<span>GP - <span className="text-danger">2</span></span></span>
-                                                <span className="badge badge-warning d-flex justify-content-between align-items-center border-0 small">FG%<span>.000</span></span><span className="small">T-32nd</span>
+                                                <span className="badge badge-light d-flex justify-content-between align-items-center border-0 small my-1">#89<span>GP - <span className="text-success">3</span></span></span>
+                                                <span className="badge badge-warning d-flex justify-content-between align-items-center border-0 small">FG%<span>.200</span></span><span className="small">T-30th</span>
                                                 <span className="badge badge-secondary d-flex justify-content-between align-items-center border-0 small">3P%<span>-</span></span><span className="small">NA</span>
-                                                <span className="badge badge-warning d-flex justify-content-between align-items-center border-0 small">FT%<span>.000</span></span><span className="small">T-21st</span>
-                                                <span className="badge badge-secondary d-flex justify-content-between align-items-center border-0">PPG<span>0.0</span></span><span className="small">T-33rd</span>
-                                                <span className="badge badge-warning d-flex justify-content-between align-items-center border-0">RPG<span>5.5</span></span><span className="small">T-21st</span>
-                                                <span className="badge badge-secondary d-flex justify-content-between align-items-center border-0">APG<span>1.5</span></span><span className="small">T-15th</span>
+                                                <span className="badge badge-warning d-flex justify-content-between align-items-center border-0 small">FT%<span>.000</span></span><span className="small">T-23rd</span>
+                                                <span className="badge badge-secondary d-flex justify-content-between align-items-center border-0">PPG<span>0.7</span></span><span className="small">36th</span>
+                                                <span className="badge badge-warning d-flex justify-content-between align-items-center border-0">RPG<span>4.0</span></span><span className="small">T-24th</span>
+                                                <span className="badge badge-secondary d-flex justify-content-between align-items-center border-0">APG<span>1.0</span></span><span className="small">T-18th</span>
                                             </li>
                                         </ul>
                                     </div>
@@ -264,13 +264,13 @@ function Players1(props) {
                                     <div className="col-md-12 text-right">
                                         <ul className="list-group list-group">
                                             <li className="list-group-item border-0">
-                                                <span className="badge badge-light d-flex justify-content-between align-items-center border-0 small my-1">#52<span>GP - <span className="text-danger">1</span></span></span>
-                                                <span className="badge badge-warning d-flex justify-content-between align-items-center border-0 small">FG%<span>.000</span></span><span className="small">T-32nd</span>
-                                                <span className="badge badge-secondary d-flex justify-content-between align-items-center border-0 small">3P%<span>-</span></span><span className="small">NA</span>
-                                                <span className="badge badge-warning d-flex justify-content-between align-items-center border-0 small">FT%<span>.000</span></span><span className="small">T-21st</span>
-                                                <span className="badge badge-secondary d-flex justify-content-between align-items-center border-0">PPG<span>0.0</span></span><span className="small">T-33rd</span>
-                                                <span className="badge badge-warning d-flex justify-content-between align-items-center border-0">RPG<span>10.0</span></span><span className="small">T-4th</span>
-                                                <span className="badge badge-secondary d-flex justify-content-between align-items-center border-0">APG<span>0.0</span></span><span className="small">T-33rd</span>
+                                                <span className="badge badge-light d-flex justify-content-between align-items-center border-0 small my-1">#52<span>GP - <span className="text-danger">2</span></span></span>
+                                                <span className="badge badge-warning d-flex justify-content-between align-items-center border-0 small">FG%<span>.600</span></span><span className="small">2nd</span>
+                                                <span className="badge badge-secondary d-flex justify-content-between align-items-center border-0 small">3P%<span>1.000</span></span><span className="small">1st</span>
+                                                <span className="badge badge-warning d-flex justify-content-between align-items-center border-0 small">FT%<span>.000</span></span><span className="small">T-24th</span>
+                                                <span className="badge badge-secondary d-flex justify-content-between align-items-center border-0">PPG<span>4.0</span></span><span className="small">T-29th</span>
+                                                <span className="badge badge-warning d-flex justify-content-between align-items-center border-0">RPG<span>12.5</span></span><span className="small">2nd</span>
+                                                <span className="badge badge-secondary d-flex justify-content-between align-items-center border-0">APG<span>0.0</span></span><span className="small">T-38th</span>
                                             </li>
                                         </ul>
                                     </div>
@@ -308,13 +308,13 @@ function Players1(props) {
                                     <div className="col-md-12 text-right">
                                         <ul className="list-group list-group">
                                             <li className="list-group-item border-0">
-                                                <span className="badge badge-light d-flex justify-content-between align-items-center border-0 small my-1">#2<span>GP - <span className="text-danger">1</span></span></span>
-                                                <span className="badge badge-warning d-flex justify-content-between align-items-center border-0 small">FG%<span>.286</span></span><span className="small">18th</span>
-                                                <span className="badge badge-secondary d-flex justify-content-between align-items-center border-0 small">3P%<span>.143</span></span><span className="small">T-20th</span>
-                                                <span className="badge badge-warning d-flex justify-content-between align-items-center border-0 small">FT%<span>-</span></span><span className="small">NA</span>
-                                                <span className="badge badge-secondary d-flex justify-content-between align-items-center border-0">PPG<span>9.0</span></span><span className="small">T-12th</span>
-                                                <span className="badge badge-warning d-flex justify-content-between align-items-center border-0">RPG<span>6.0</span></span><span className="small">T-18th</span>
-                                                <span className="badge badge-secondary d-flex justify-content-between align-items-center border-0">APG<span>2.0</span></span><span className="small">T-6th</span>
+                                                <span className="badge badge-light d-flex justify-content-between align-items-center border-0 small my-1">#2<span>GP - <span className="text-danger">2</span></span></span>
+                                                <span className="badge badge-warning d-flex justify-content-between align-items-center border-0 small">FG%<span>.368</span></span><span className="small">T-12th</span>
+                                                <span className="badge badge-secondary d-flex justify-content-between align-items-center border-0 small">3P%<span>.200</span></span><span className="small">T-21st</span>
+                                                <span className="badge badge-warning d-flex justify-content-between align-items-center border-0 small">FT%<span>.000</span></span><span className="small">T-24th</span>
+                                                <span className="badge badge-secondary d-flex justify-content-between align-items-center border-0">PPG<span>8.0</span></span><span className="small">T-17th</span>
+                                                <span className="badge badge-warning d-flex justify-content-between align-items-center border-0">RPG<span>5.0</span></span><span className="small">T-21st</span>
+                                                <span className="badge badge-secondary d-flex justify-content-between align-items-center border-0">APG<span>2.0</span></span><span className="small">T-11th</span>
                                             </li>
                                         </ul>
                                     </div>
