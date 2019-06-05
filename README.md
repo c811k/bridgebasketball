@@ -11,11 +11,4 @@ https://basketball.nlvcbridge.com
 * Express
 * React.js
 * Node.js
-
-## Author
-
-### Caleb Kang
-
-<a href="https://www.linkedin.com/in/calebkang">LinkedIn</a>
-
-<a href="https://www.github.com/c811k">Github</a>
+* Bootstrap
