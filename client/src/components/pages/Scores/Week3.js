@@ -58,7 +58,7 @@ function Week3() {
                                     <div className="col-md-9">
                                         <h6 className="text-muted">Angry Birdz <span className="text-muted small">(0-3)</span></h6>
                                     </div>
-                                    <div className="col-md-3 text-right align-bottom">
+                                    <div className="col-md-3 text-right">
                                         <h5 className="text-muted">38 <i class="fas fa-caret-left text-white"></i></h5>
                                     </div>
                                 </div>
@@ -68,7 +68,7 @@ function Week3() {
                                     <div className="col-md-9">
                                         <h6>Double Up <span className="text-muted small">(3-0)</span></h6>
                                     </div>
-                                    <div className="col-md-3 text-right align-bottom">
+                                    <div className="col-md-3 text-right">
                                         <h5>72 <i class="fas fa-caret-left"></i></h5>
                                     </div>
                                 </div>
@@ -98,7 +98,7 @@ function Week3() {
                                     <div className="col-md-9">
                                         <h6>Lord of the Rims <span className="text-muted small">(3-0)</span></h6>
                                     </div>
-                                    <div className="col-md-3 text-right align-bottom">
+                                    <div className="col-md-3 text-right">
                                         <h5>56 <i class="fas fa-caret-left"></i></h5>
                                     </div>
                                 </div>
@@ -108,7 +108,7 @@ function Week3() {
                                     <div className="col-md-9">
                                         <h6 className="text-muted">Fantastic <span className="text-muted small">(1-2)</span></h6>
                                     </div>
-                                    <div className="col-md-3 text-right align-bottom">
+                                    <div className="col-md-3 text-right">
                                         <h5 className="text-muted">45 <i class="fas fa-caret-left text-white"></i></h5>
                                     </div>
                                 </div>
@@ -138,7 +138,7 @@ function Week3() {
                                     <div className="col-md-9">
                                         <h6 className="text-muted">BH <span className="text-muted small">(0-3)</span></h6>
                                     </div>
-                                    <div className="col-md-3 text-right align-bottom">
+                                    <div className="col-md-3 text-right">
                                         <h5 className="text-muted">44 <i class="fas fa-caret-left text-white"></i></h5>
                                     </div>
                                 </div>
@@ -148,7 +148,7 @@ function Week3() {
                                     <div className="col-md-9">
                                         <h6>The Chosen <span className="text-muted small">(2-1)</span></h6>
                                     </div>
-                                    <div className="col-md-3 text-right align-bottom">
+                                    <div className="col-md-3 text-right">
                                         <h5>48 <i class="fas fa-caret-left"></i></h5>
                                     </div>
                                 </div>

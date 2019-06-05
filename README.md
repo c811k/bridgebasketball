@@ -1,29 +1,20 @@
-# Create React Express App
+# Bridge Basketball
 
-## About This Boilerplate
+Bridge Basketball is a website created for players in Bridge Basketball League to check their individual stats, scores, schedule, team standing, and watch their games.
 
-This setup allows for a Node/Express/React app which can be easily deployed to Heroku.
+## Deployed Website
 
-The front-end React app will auto-reload as it's updated via webpack dev server, and the backend Express app will auto-reload independently with nodemon.
+https://basketball.nlvcbridge.com
 
-## Starting the app locally
+## Built With
 
-Start by installing front and backend dependencies. While in this directory, run the following command:
+* Express
+* React.js
+* Node.js
 
-```
-yarn install
-```
+## Contributor
 
-This should install node modules within the server and the client folder.
+### Caleb Kang
 
-After both installations complete, run the following command in your terminal:
-
-```
-yarn start
-```
-
-Your app should now be running on <http://localhost:3000>. The Express server should intercept any AJAX requests from the client.
-
-## Deployment (Heroku)
-
-To deploy, simply add and commit your changes, and push to Heroku. As is, the NPM scripts should take care of the rest. Note: you need to check in your `yarn.lock` file so Heroku knows to run yarn.
+linkedin.com/in/calebkang
+github.com/c811k

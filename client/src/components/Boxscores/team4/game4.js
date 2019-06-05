@@ -1,6 +1,6 @@
 import React from "react";
 
-function game2() {
+function game3(props) {
     return (
         <div className="row mt-5">
             <div className="col-md-12">
@@ -22,99 +22,99 @@ function game2() {
                     </thead>
                     <tbody>
                         <tr className="small">
-                        <th scope="row">90</th>
-                        <td>Bumsu Kim</td>
-                        <td className="text-right">2-8</td>
+                        <th scope="row">96</th>
+                        <td>Adam Cho</td>
                         <td className="text-right">1-4</td>
-                        <td className="text-right">0-0</td>
-                        <td className="text-right">4</td>
-                        <td className="text-right">1</td>
-                        <td className="text-right">0</td>
-                        <td className="text-right">0</td>
-                        <td className="text-right">1</td>
-                        <td className="text-right">5</td>
-                        </tr>
-                        <tr className="small">
-                        <th scope="row">6</th>
-                        <td>Denny Lee</td>
-                        <td className="text-right">2-8</td>
-                        <td className="text-right">1-3</td>
-                        <td className="text-right">2-4</td>
-                        <td className="text-right">7</td>
-                        <td className="text-right">1</td>
-                        <td className="text-right">2</td>
-                        <td className="text-right">0</td>
-                        <td className="text-right">2</td>
-                        <td className="text-right">7</td>
-                        </tr>
-                        <tr className="small">
-                        <th scope="row">8</th>
-                        <td>Jiwon Lee</td>
-                        <td className="text-right">5-12</td>
-                        <td className="text-right">0-4</td>
-                        <td className="text-right">0-2</td>
-                        <td className="text-right">6</td>
-                        <td className="text-right">2</td>
-                        <td className="text-right">0</td>
-                        <td className="text-right">0</td>
-                        <td className="text-right">1</td>
-                        <td className="text-right">10</td>
-                        </tr>
-                        <tr className="small">
-                        <th scope="row">1</th>
-                        <td>John Hong</td>
-                        <td className="text-right">4-12</td>
-                        <td className="text-right">1-4</td>
-                        <td className="text-right">1-2</td>
-                        <td className="text-right">14</td>
-                        <td className="text-right">4</td>
-                        <td className="text-right">2</td>
-                        <td className="text-right">0</td>
-                        <td className="text-right">4</td>
-                        <td className="text-right">10</td>
-                        </tr>
-                        <tr className="small">
-                        <th scope="row">7</th>
-                        <td>Jun Kim</td>
-                        <td className="text-right">1-2</td>
-                        <td className="text-right">0-0</td>
-                        <td className="text-right">0-0</td>
-                        <td className="text-right">8</td>
-                        <td className="text-right">3</td>
-                        <td className="text-right">2</td>
-                        <td className="text-right">1</td>
-                        <td className="text-right">5</td>
-                        <td className="text-right">2</td>
-                        </tr>
-                        <tr className="small">
-                        <th scope="row">87</th>
-                        <td>Robert Suh</td>
-                        <td className="text-right">0-3</td>
                         <td className="text-right">0-1</td>
                         <td className="text-right">0-0</td>
+                        <td className="text-right">2</td>
                         <td className="text-right">0</td>
+                        <td className="text-right">1</td>
                         <td className="text-right">0</td>
-                        <td className="text-right">0</td>
-                        <td className="text-right">0</td>
-                        <td className="text-right">0</td>
-                        <td className="text-right">0</td>
-                        </tr>
-                        <tr className="small">
-                        <th scope="row">84</th>
-                        <td>Sean Lee</td>
-                        <td className="text-right">3-10</td>
-                        <td className="text-right">1-8</td>
-                        <td className="text-right">0-0</td>
                         <td className="text-right">1</td>
                         <td className="text-right">2</td>
-                        <td className="text-right">4</td>
-                        <td className="text-right">0</td>
-                        <td className="text-right">2</td>
-                        <td className="text-right">7</td>
                         </tr>
                         <tr className="small">
-                        <th scope="row">16</th>
-                        <td>John Song</td>
+                        <th scope="row">69</th>
+                        <td>Benjamin Lee</td>
+                        <td className="text-right">3-18</td>
+                        <td className="text-right">2-12</td>
+                        <td className="text-right">1-2</td>
+                        <td className="text-right">3</td>
+                        <td className="text-right">2</td>
+                        <td className="text-right">3</td>
+                        <td className="text-right">0</td>
+                        <td className="text-right">5</td>
+                        <td className="text-right">9</td>
+                        </tr>
+                        <tr className="small">
+                        <th scope="row">27</th>
+                        <td>Brandon Oh</td>
+                        <td className="text-right">4-12</td>
+                        <td className="text-right">2-9</td>
+                        <td className="text-right">0-0</td>
+                        <td className="text-right">2</td>
+                        <td className="text-right">0</td>
+                        <td className="text-right">5</td>
+                        <td className="text-right">0</td>
+                        <td className="text-right">3</td>
+                        <td className="text-right">10</td>
+                        </tr>
+                        <tr className="small">
+                        <th scope="row">23</th>
+                        <td>Eric Kim</td>
+                        <td className="text-right">1-2</td>
+                        <td className="text-right">1-1</td>
+                        <td className="text-right">0-0</td>
+                        <td className="text-right">0</td>
+                        <td className="text-right">0</td>
+                        <td className="text-right">0</td>
+                        <td className="text-right">0</td>
+                        <td className="text-right">0</td>
+                        <td className="text-right">3</td>
+                        </tr>
+                        <tr className="small">
+                        <th scope="row">5</th>
+                        <td>Jacob Cho</td>
+                        <td className="text-right">4-9</td>
+                        <td className="text-right">2-7</td>
+                        <td className="text-right">1-2</td>
+                        <td className="text-right">4</td>
+                        <td className="text-right">0</td>
+                        <td className="text-right">3</td>
+                        <td className="text-right">0</td>
+                        <td className="text-right">5</td>
+                        <td className="text-right">11</td>
+                        </tr>
+                        <tr className="small">
+                        <th scope="row">52</th>
+                        <td>Moses Kim</td>
+                        <td className="text-right">0-3</td>
+                        <td className="text-right">0-2</td>
+                        <td className="text-right">0-0</td>
+                        <td className="text-right">20</td>
+                        <td className="text-right">3</td>
+                        <td className="text-right">0</td>
+                        <td className="text-right">0</td>
+                        <td className="text-right">4</td>
+                        <td className="text-right">0</td>
+                        </tr>
+                        <tr className="small">
+                        <th scope="row">88</th>
+                        <td>Steve Joo</td>
+                        <td className="text-right">7-18</td>
+                        <td className="text-right">3-11</td>
+                        <td className="text-right">0-0</td>
+                        <td className="text-right">4</td>
+                        <td className="text-right">2</td>
+                        <td className="text-right">0</td>
+                        <td className="text-right">0</td>
+                        <td className="text-right">1</td>
+                        <td className="text-right">17</td>
+                        </tr>
+                        <tr className="small">
+                        <th scope="row">32</th>
+                        <td>Joshua Chang</td>
                         <td className="text-right"></td>
                         <td className="text-right"></td>
                         <td className="text-right"></td>
@@ -128,22 +128,22 @@ function game2() {
                         <tr className="border-top border-bottom">
                         <th scope="row"><span className="text-weight-bold">Team</span></th>
                         <td></td>
-                        <td className="text-right font-weight-bolder">17-55</td>
-                        <td className="text-right font-weight-bolder">4-24</td>
-                        <td className="text-right font-weight-bolder">3-8</td>
-                        <td className="text-right font-weight-bolder">40</td>
-                        <td className="text-right font-weight-bolder">13</td>
-                        <td className="text-right font-weight-bolder">10</td>
-                        <td className="text-right font-weight-bolder">1</td>
-                        <td className="text-right font-weight-bolder">15</td>
-                        <td className="text-right font-weight-bolder">41</td>
+                        <td className="text-right font-weight-bolder">20-66</td>
+                        <td className="text-right font-weight-bolder">10-43</td>
+                        <td className="text-right font-weight-bolder">2-4</td>
+                        <td className="text-right font-weight-bolder">35</td>
+                        <td className="text-right font-weight-bolder">7</td>
+                        <td className="text-right font-weight-bolder">12</td>
+                        <td className="text-right font-weight-bolder">0</td>
+                        <td className="text-right font-weight-bolder">19</td>
+                        <td className="text-right font-weight-bolder">52</td>
                         </tr>
                         <tr>
                         <th scope="row"></th>
                         <td></td>
-                        <td className="text-right font-weight-bolder">30.9%</td>
-                        <td className="text-right font-weight-bolder">16.7%</td>
-                        <td className="text-right font-weight-bolder">37.5%</td>
+                        <td className="text-right font-weight-bolder">30.3%</td>
+                        <td className="text-right font-weight-bolder">23.3%</td>
+                        <td className="text-right font-weight-bolder">50.0%</td>
                         </tr>
                     </tbody>
                 </table>
@@ -152,4 +152,4 @@ function game2() {
     );
 }
 
-export default game2;
+export default game3;

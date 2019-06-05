@@ -1,6 +1,14 @@
 import React from "react";
 import Footer from "../../Footer";
 import logo from "../../../assets/images/logo.jpg";
+import Game10 from "../../Teamstats/Game10";
+import Game11 from "../../Teamstats/Game11";
+import Game12 from "../../Teamstats/Game12";
+import Boxscore10 from "../../Boxscores/Game10";
+import Boxscore11 from "../../Boxscores/Game11";
+import Boxscore12 from "../../Boxscores/Game12";
+import Watch10 from "../../Watch/Game10";
+import Watch11 from "../../Watch/Game11";
 
 function Week4() {
     return(
@@ -46,35 +54,35 @@ function Week4() {
                                 <span className="text-secondary">BRIDGE</span> 
                                 <span className="text-warning">BASKETBALL</span>
                             </span>
-                            <span>4:30PM PT</span>
+                            <span>Final</span>
                         </div>
                         <ul className="list-group flush">
                             <li className="list-group-item border-0">
                                 <div className="row">
                                     <div className="col-md-9">
-                                        <h6>The Chosen <span className="text-muted small">(2-1)</span></h6>
+                                        <h6 className="text-muted">The Chosen <span className="text-muted small">(2-2)</span></h6>
                                     </div>
-                                    {/* <div className="col-md-3 text-right align-bottom">
-                                        <h5>35 <i class="fas fa-caret-left"></i></h5>
-                                    </div> */}
+                                    <div className="col-md-3 text-right">
+                                        <h5 className="text-muted">47 <i class="fas fa-caret-left text-white"></i></h5>
+                                    </div>
                                 </div>
                             </li>
                             <li className="list-group-item border-0">
                                 <div className="row">
                                     <div className="col-md-9">
-                                        <h6>Double Up <span className="text-muted small">(3-0)</span></h6>
+                                        <h6>Double Up <span className="text-muted small">(4-0)</span></h6>
                                     </div>
-                                    {/* <div className="col-md-3 text-right align-bottom">
-                                        <h5 className="text-muted">29 <i class="fas fa-caret-left text-white"></i></h5>
-                                    </div> */}
+                                    <div className="col-md-3 text-right">
+                                        <h5>58 <i class="fas fa-caret-left"></i></h5>
+                                    </div>
                                 </div>
                             </li>
                             <li className="list-group-item border-0">
                                 <div className="row">
                                     <div className="col-md-12 d-flex justify-content-between">
-                                        <button className="btn btn-sm flex-fill rounded-0 border-right disabled">WATCH</button>
-                                        <button className="btn btn-sm flex-fill rounded-0 border-right disabled">TEAM STATS</button>
-                                        <button className="btn btn-sm flex-fill rounded-0 disabled">BOX SCORE</button>
+                                        <div className="flex-fill border-right"><Watch10 /></div>
+                                        <div className="flex-fill border-right"><Game10 /></div>
+                                        <div className="flex-fill"><Boxscore10 /></div>
                                     </div>
                                 </div>
                             </li>
@@ -87,35 +95,34 @@ function Week4() {
                         <div className="card-header bg-white border-0 d-flex justify-content-between align-items-center" id="standing-header">
                             <img src={logo} alt="logo" height="50" width="50" id="scorelogo"/>
                             <span className="flex-grow-1 small"><span className="text-secondary">BRIDGE</span> <span className="text-warning">BASKETBALL</span></span>
-                            5:30PM PT
+                            Final
                         </div>
                         <ul className="list-group flush">
                             <li className="list-group-item border-0">
                                 <div className="row">
                                     <div className="col-md-9">
-                                        <h6>BH <span className="text-muted small">(0-3)</span></h6>
+                                        <h6>BH <span className="text-muted small">(1-3)</span></h6>
                                     </div>
-                                    {/* <div className="col-md-3 text-right align-bottom">
+                                    <div className="col-md-3 text-right">
+                                        <h5>55 <i class="fas fa-caret-left"></i></h5>
+                                    </div>
+                                </div>
+                            </li>
+                            <li className="list-group-item border-0">
+                                <div className="row">
+                                    <div className="col-md-9">
+                                        <h6 className="text-muted">Fantastic <span className="text-muted small">(1-3)</span></h6>
+                                    </div>
+                                    <div className="col-md-3 text-right">
                                         <h5 className="text-muted">53 <i class="fas fa-caret-left text-white"></i></h5>
-                                    </div> */}
-                                </div>
-                            </li>
-                            <li className="list-group-item border-0">
-                                <div className="row">
-                                    <div className="col-md-9">
-                                        <h6>Fantastic <span className="text-muted small">(1-2)</span></h6>
                                     </div>
-                                    {/* <div className="col-md-3 text-right align-bottom">
-                                        <h5>56 <i class="fas fa-caret-left"></i></h5>
-                                    </div> */}
                                 </div>
                             </li>
                             <li className="list-group-item border-0">
                                 <div className="row">
                                     <div className="col-md-12 d-flex justify-content-between">
-                                        <button className="btn btn-sm flex-fill rounded-0 border-right disabled">WATCH</button>
-                                        <button className="btn btn-sm flex-fill rounded-0 border-right disabled">TEAM STATS</button>
-                                        <button className="btn btn-sm flex-fill rounded-0 disabled">BOX SCORE</button>
+                                        <div className="flex-fill border-right"><Watch11 /></div>
+                                        <div className="flex-fill border-right"><Game11 /></div>                                       <div className="flex-fill"><Boxscore11 /></div>
                                     </div>
                                 </div>
                             </li>
@@ -128,35 +135,35 @@ function Week4() {
                         <div className="card-header bg-white border-0 d-flex justify-content-between align-items-center" id="standing-header">
                             <img src={logo} alt="logo" height="50" width="50" id="scorelogo"/>
                             <span className="flex-grow-1 small"><span className="text-secondary">BRIDGE</span> <span className="text-warning">BASKETBALL</span></span>
-                            6:30PM PT
+                            Final
                         </div>
                         <ul className="list-group flush">
                             <li className="list-group-item border-0">
                                 <div className="row">
                                     <div className="col-md-9">
-                                        <h6>Angry Birdz <span className="text-muted small">(0-3)</span></h6>
+                                        <h6>Angry Birdz <span className="text-muted small">(1-3)</span></h6>
                                     </div>
-                                    {/* <div className="col-md-3 text-right align-bottom">
-                                        <h5>43 <i class="fas fa-caret-left"></i></h5>
-                                    </div> */}
+                                    <div className="col-md-3 text-right">
+                                        <h5>59 <i class="fas fa-caret-left"></i></h5>
+                                    </div>
                                 </div>
                             </li>
                             <li className="list-group-item border-0">
                                 <div className="row">
                                     <div className="col-md-9">
-                                        <h6>Lord of the Rims <span className="text-muted small">(3-0)</span></h6>
+                                        <h6 className="text-muted">Lord of the Rims <span className="text-muted small">(3-1)</span></h6>
                                     </div>
-                                    {/* <div className="col-md-3 text-right align-bottom">
-                                        <h5 className="text-muted">41 <i class="fas fa-caret-left text-white"></i></h5>
-                                    </div> */}
+                                    <div className="col-md-3 text-right">
+                                        <h5 className="text-muted">52 <i class="fas fa-caret-left text-white"></i></h5>
+                                    </div>
                                 </div>
                             </li>
                             <li className="list-group-item border-0">
                                 <div className="row">
                                     <div className="col-md-12 d-flex justify-content-between">
                                         <button className="btn btn-sm flex-fill rounded-0 border-right disabled">WATCH</button>
-                                        <button className="btn btn-sm flex-fill rounded-0 border-right disabled">TEAM STATS</button>
-                                        <button className="btn btn-sm flex-fill rounded-0 disabled">BOX SCORE</button>
+                                        <div className="flex-fill border-right"><Game12 /></div>
+                                        <div className="flex-fill"><Boxscore12 /></div>
                                     </div>
                                 </div>
                             </li>

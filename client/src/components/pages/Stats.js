@@ -39,7 +39,7 @@ class Stats extends Component {
                                                 Benjamin Lee <span className="small text-muted font-italic font-weight-light">Lord of the Rims</span>
                                             </div>
                                             <div className="col-md-3 text-right">
-                                                <h5>29.0</h5>
+                                                <h5>27.8</h5>
                                             </div>
                                         </div>
                                     </li>
@@ -49,37 +49,37 @@ class Stats extends Component {
                                                 Smith Kang <span className="small text-muted font-italic font-weight-light">The Chosen</span>
                                             </div>
                                             <div className="col-md-3 text-right">
-                                                18.0
+                                                18.8
                                             </div>
                                         </div>
                                     </li>
                                     <li className="list-group-item border-0 bg-light">
                                         <div className="row">
                                             <div className="col-md-9">
-                                               Steve Joo <span className="small text-muted font-italic font-weight-light">Lord of the Rims</span>
+                                               Kevin Shim <span className="small text-muted font-italic font-weight-light">Fantastic</span>
                                             </div>
                                             <div className="col-md-3 text-right">
-                                                17.5
+                                                17.8
                                             </div>
                                         </div>
                                     </li>
                                     <li className="list-group-item border-0">
                                         <div className="row">
                                             <div className="col-md-8">
-                                                Kevin Shim <span className="small text-muted font-italic font-weight-light">Fantastic</span>
+                                                Steve Joo <span className="small text-muted font-italic font-weight-light">Lord of the Rims</span>
                                             </div>
                                             <div className="col-md-4 text-right">
-                                                17.0 
+                                                17.3 
                                             </div>
                                         </div>
                                     </li>
                                     <li className="list-group-item border-0 bg-light">
                                         <div className="row">
                                             <div className="col-md-8">
-                                                James Choi <span className="small text-muted font-italic font-weight-light">The Chosen</span>
+                                                Isak Shin <span className="small text-muted font-italic font-weight-light">Double Up</span>
                                             </div>
                                             <div className="col-md-4 text-right">
-                                                16.0
+                                                15.5
                                             </div>
                                         </div>
                                     </li>
@@ -91,7 +91,7 @@ class Stats extends Component {
                     <div className="col-md-4">
                         <div className="row">
                             <div className="col-md-6">
-                                <img className="rounded mt-3 border" src="https://scontent-lax3-1.xx.fbcdn.net/v/t1.0-9/60813095_10211881944924471_3523127841451409408_o.jpg?_nc_cat=111&_nc_ht=scontent-lax3-1.xx&oh=ffc200453e59d86d6378bce9f88c649c&oe=5D9E58CA" alt="profile" height="160" id="playerpic" />
+                                <img className="rounded mt-3 border" src="https://scontent-lax3-2.xx.fbcdn.net/v/t1.0-9/13083149_555767254630333_6844609670552645503_n.jpg?_nc_cat=100&_nc_ht=scontent-lax3-2.xx&oh=12b3806cbcad5facbacdf7d168b3bc32&oe=5D9EA833" alt="profile" height="160" id="playerpic" />
                             </div>
                             <div className="col-md-6 mt-3 text-right">
                                 R E B O U N D S
@@ -104,7 +104,7 @@ class Stats extends Component {
                                     <li className="list-group-item border-0 bg-light">
                                         <div className="row">
                                             <div className="col-md-9">
-                                                Isak Shin <span className="small text-muted font-italic font-weight-light">Double Up</span>
+                                                Moses Kim <span className="small text-muted font-italic font-weight-light">Lord of the Rims</span>
                                             </div>
                                             <div className="col-md-3 text-right">
                                                 <h5>15.0</h5>
@@ -114,10 +114,10 @@ class Stats extends Component {
                                     <li className="list-group-item border-0">
                                         <div className="row">
                                             <div className="col-md-9">
-                                                Moses Kim <span className="small text-muted font-italic font-weight-light">Lord of the Rims</span>
+                                                Isak Shin <span className="small text-muted font-italic font-weight-light">Double Up</span>
                                             </div>
                                             <div className="col-md-3 text-right">
-                                                12.5
+                                                14.8
                                             </div>
                                         </div>
                                     </li>
@@ -127,7 +127,7 @@ class Stats extends Component {
                                                 Sung Jung <span className="small text-muted font-italic font-weight-light">Double Up</span>
                                             </div>
                                             <div className="col-md-3 text-right">
-                                                11.7
+                                                11.0
                                             </div>
                                         </div>
                                     </li>
@@ -137,17 +137,17 @@ class Stats extends Component {
                                                 Smith Kang <span className="small text-muted font-italic font-weight-light">The Chosen</span>
                                             </div>
                                             <div className="col-md-3 text-right">
-                                                11.3
+                                                10.8
                                             </div>
                                         </div>
                                     </li>
                                     <li className="list-group-item border-0 bg-light">
                                         <div className="row">
                                             <div className="col-md-9">
-                                                Benjamin Lee <span className="small text-muted font-italic font-weight-light">Lord of the Rims</span>
+                                                James Choi, #25 <span className="small text-muted font-italic font-weight-light">The Chosen</span>
                                             </div>
                                             <div className="col-md-3 text-right">
-                                                11.0
+                                                10.5
                                             </div>
                                         </div>
                                     </li>
@@ -182,17 +182,17 @@ class Stats extends Component {
                                     <li className="list-group-item border-0">
                                         <div className="row">
                                             <div className="col-md-9">
-                                                Benjamin Lee <span className="small text-muted font-italic font-weight-light">Lord of the Rims</span>
+                                                John Hong <span className="small text-muted font-italic font-weight-light">BH</span>
                                             </div>
                                             <div className="col-md-3 text-right">
-                                                4.3
+                                                4.5
                                             </div>
                                         </div>
                                     </li>
                                     <li className="list-group-item border-0 bg-light">
                                         <div className="row">
                                             <div className="col-md-9">
-                                                Tony Kim <span className="small text-muted font-italic font-weight-light">Fantastic</span>
+                                                Andrew Kim <span className="small text-muted font-italic font-weight-light">Angry Birdz</span>
                                             </div>
                                             <div className="col-md-3 text-right">
                                                 4.0
@@ -202,20 +202,20 @@ class Stats extends Component {
                                     <li className="list-group-item border-0">
                                         <div className="row">
                                             <div className="col-md-9">
-                                                Andrew Kim <span className="small text-muted font-italic font-weight-light">Angry Birdz</span>
+                                                Benjamin Lee <span className="small text-muted font-italic font-weight-light">Lord of the Rims</span>
                                             </div>
                                             <div className="col-md-3 text-right">
-                                                3.3
+                                                3.8
                                             </div>
                                         </div>
                                     </li>
                                     <li className="list-group-item border-0 bg-light">
                                         <div className="row">
                                             <div className="col-md-9">
-                                                John Hong <span className="small text-muted font-italic font-weight-light">BH</span>
+                                                David Lee <span className="small text-muted font-italic font-weight-light">Angry Birdz</span>
                                             </div>
                                             <div className="col-md-3 text-right">
-                                                3.3
+                                                3.5
                                             </div>
                                         </div>
                                     </li>
@@ -244,27 +244,7 @@ class Stats extends Component {
                                                 Isak Shin <span className="small text-muted font-italic font-weight-light">Double Up</span>
                                             </div>
                                             <div className="col-md-3 text-right">
-                                                <h5>.615</h5>
-                                            </div>
-                                        </div>
-                                    </li>
-                                    <li className="list-group-item border-0">
-                                        <div className="row">
-                                            <div className="col-md-9">
-                                                Moses Kim <span className="small text-muted font-italic font-weight-light">Lord of the Rims</span>
-                                            </div>
-                                            <div className="col-md-3 text-right">
-                                                .600
-                                            </div>
-                                        </div>
-                                    </li>
-                                    <li className="list-group-item border-0 bg-light">
-                                        <div className="row">
-                                            <div className="col-md-9">
-                                                Benjamin Lee <span className="small text-muted font-italic font-weight-light">Lord of the Rims</span>
-                                            </div>
-                                            <div className="col-md-3 text-right">
-                                                .509
+                                                <h5>.585</h5>
                                             </div>
                                         </div>
                                     </li>
@@ -281,10 +261,30 @@ class Stats extends Component {
                                     <li className="list-group-item border-0 bg-light">
                                         <div className="row">
                                             <div className="col-md-9">
-                                                Caleb Kang <span className="small text-muted font-italic font-weight-light">The Chosen</span>
+                                                David Cho <span className="small text-muted font-italic font-weight-light">Angry Birdz</span>
                                             </div>
                                             <div className="col-md-3 text-right">
-                                                .441
+                                                .435
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li className="list-group-item border-0">
+                                        <div className="row">
+                                            <div className="col-md-9">
+                                                Benjamin Lee <span className="small text-muted font-italic font-weight-light">Lord of the Rims</span>
+                                            </div>
+                                            <div className="col-md-3 text-right">
+                                                .427
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li className="list-group-item border-0 bg-light">
+                                        <div className="row">
+                                            <div className="col-md-9">
+                                                Smith Kang <span className="small text-muted font-italic font-weight-light">The Chosen</span>
+                                            </div>
+                                            <div className="col-md-3 text-right">
+                                                .414
                                             </div>
                                         </div>
                                     </li>
@@ -319,40 +319,40 @@ class Stats extends Component {
                                     <li className="list-group-item border-0">
                                         <div className="row">
                                             <div className="col-md-9">
-                                                James Choi, #25 <span className="small text-muted font-italic font-weight-light">The Chosen</span>
+                                                Benjamin Lee <span className="small text-muted font-italic font-weight-light">Lord of the Rims</span>
                                             </div>
                                             <div className="col-md-3 text-right">
-                                                3.0
+                                                2.8
                                             </div>
                                         </div>
                                     </li>
                                     <li className="list-group-item border-0 bg-light">
                                         <div className="row">
                                             <div className="col-md-9">
-                                                John Song <span className="small text-muted font-italic font-weight-light">BH</span>
+                                                Denny Lee <span className="small text-muted font-italic font-weight-light">BH</span>
                                             </div>
                                             <div className="col-md-3 text-right">
-                                                3.0
+                                                2.7
                                             </div>
                                         </div>
                                     </li>
                                     <li className="list-group-item border-0">
                                         <div className="row">
                                             <div className="col-md-9">
-                                                Benjamin Lee <span className="small text-muted font-italic font-weight-light">Lord of the Rims</span>
+                                                James Choi, #25 <span className="small text-muted font-italic font-weight-light">The Chosen</span>
                                             </div>
                                             <div className="col-md-3 text-right">
-                                                2.7
+                                                2.5
                                             </div>
                                         </div>
                                     </li>
                                     <li className="list-group-item border-0 bg-light">
                                         <div className="row">
                                             <div className="col-md-9">
-                                                David Cho <span className="small text-muted font-italic font-weight-light">Angry Birdz</span>
+                                                Brandon Oh <span className="small text-muted font-italic font-weight-light">Lord of the Rims</span>
                                             </div>
                                             <div className="col-md-3 text-right">
-                                                2.7
+                                                2.3
                                             </div>
                                         </div>
                                     </li>
@@ -380,7 +380,27 @@ class Stats extends Component {
                                                 Kevin Shim <span className="small text-muted font-italic font-weight-light">Fantastic</span>
                                             </div>
                                             <div className="col-md-3 text-right">
-                                                <h5>1.0</h5>
+                                                <h5>0.8</h5>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li className="list-group-item border-0">
+                                        <div className="row">
+                                            <div className="col-md-9">
+                                                Denny Lee <span className="small text-muted font-italic font-weight-light">BH</span>
+                                            </div>
+                                            <div className="col-md-3 text-right">
+                                                0.7
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li className="list-group-item border-0 bg-light">
+                                        <div className="row">
+                                            <div className="col-md-9">
+                                                James Choi, #25 <span className="small text-muted font-italic font-weight-light">The Chosen</span>
+                                            </div>
+                                            <div className="col-md-3 text-right">
+                                                0.5
                                             </div>
                                         </div>
                                     </li>
@@ -390,26 +410,6 @@ class Stats extends Component {
                                                 James Choi, #20 <span className="small text-muted font-italic font-weight-light">The Chosen</span>
                                             </div>
                                             <div className="col-md-3 text-right">
-                                                1.0
-                                            </div>
-                                        </div>
-                                    </li>
-                                    <li className="list-group-item border-0 bg-light">
-                                        <div className="row">
-                                            <div className="col-md-9">
-                                                Jun Kim <span className="small text-muted font-italic font-weight-light">BH</span>
-                                            </div>
-                                            <div className="col-md-3 text-right">
-                                                0.7
-                                            </div>
-                                        </div>
-                                    </li>
-                                    <li className="list-group-item border-0">
-                                        <div className="row">
-                                            <div className="col-md-9">
-                                                Isaac Baek <span className="small text-muted font-italic font-weight-light">Fantastic</span>
-                                            </div>
-                                            <div className="col-md-3 text-right">
                                                 0.5
                                             </div>
                                         </div>
@@ -417,10 +417,10 @@ class Stats extends Component {
                                     <li className="list-group-item border-0 bg-light">
                                         <div className="row">
                                             <div className="col-md-9">
-                                                Benjamin Lee <span className="small text-muted font-italic font-weight-light">Lord of the Rims</span>
+                                                John Hong <span className="small text-muted font-italic font-weight-light">BH</span>
                                             </div>
                                             <div className="col-md-3 text-right">
-                                                0.3
+                                                0.5
                                             </div>
                                         </div>
                                     </li>

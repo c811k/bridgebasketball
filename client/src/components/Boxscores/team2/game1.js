@@ -1,6 +1,6 @@
 import React from "react";
 
-function game1(props) {
+function game1() {
     return (
         <div className="row mt-5">
             <div className="col-md-12">
