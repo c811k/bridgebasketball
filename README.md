@@ -16,5 +16,6 @@ https://basketball.nlvcbridge.com
 
 ### Caleb Kang
 
-linkedin.com/in/calebkang
-github.com/c811k
+<a href="https://www.linkedin.com/in/calebkang"><i class="fab fa-linkedin"></i></a>
+
+<a href="https://www.github.com/c811k"><i class="fab fa-github"></i></a>
