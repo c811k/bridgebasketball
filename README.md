@@ -12,10 +12,10 @@ https://basketball.nlvcbridge.com
 * React.js
 * Node.js
 
-## Contributor
+## Author
 
 ### Caleb Kang
 
-<a href="https://www.linkedin.com/in/calebkang"><i class="fab fa-linkedin"></i></a>
+<a href="https://www.linkedin.com/in/calebkang">LinkedIn</a>
 
-<a href="https://www.github.com/c811k"><i class="fab fa-github"></i></a>
+<a href="https://www.github.com/c811k">Github</a>
