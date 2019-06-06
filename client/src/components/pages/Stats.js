@@ -39,7 +39,7 @@ class Stats extends Component {
                                                 Benjamin Lee <span className="small text-muted font-italic font-weight-light">Lord of the Rims</span>
                                             </div>
                                             <div className="col-md-3 text-right">
-                                                <h5>27.8</h5>
+                                                <h5>24.0</h5>
                                             </div>
                                         </div>
                                     </li>
@@ -397,7 +397,7 @@ class Stats extends Component {
                                     <li className="list-group-item border-0 bg-light">
                                         <div className="row">
                                             <div className="col-md-9">
-                                                James Choi, #25 <span className="small text-muted font-italic font-weight-light">The Chosen</span>
+                                                James Choi, #20 <span className="small text-muted font-italic font-weight-light">The Chosen</span>
                                             </div>
                                             <div className="col-md-3 text-right">
                                                 0.5
@@ -407,7 +407,7 @@ class Stats extends Component {
                                     <li className="list-group-item border-0">
                                         <div className="row">
                                             <div className="col-md-9">
-                                                James Choi, #20 <span className="small text-muted font-italic font-weight-light">The Chosen</span>
+                                                James Choi, #25 <span className="small text-muted font-italic font-weight-light">The Chosen</span>
                                             </div>
                                             <div className="col-md-3 text-right">
                                                 0.5
