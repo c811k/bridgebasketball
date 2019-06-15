@@ -1,6 +1,6 @@
 # Bridge Basketball
 
-Bridge Basketball is a website created for players in Bridge Basketball League to check their individual stats, scores, schedule, team standing, and watch their games.
+Bridge Basketball is a website developed for players in Bridge Basketball League to check their individual stats, scores, schedule, team standing, and watch their games.
 
 ## Deployed Website
 
