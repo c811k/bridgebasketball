@@ -7,13 +7,13 @@ function Navbar() {
         <div>
             <nav className="navbar navbar-expand-lg sticky-top navbar-light bg-white px-3">
                 <a className="navbar-brand" href="/"><img src={logo} alt="logo" height="50" width="50" /><span className="text-secondary">BRIDGE</span> <span className="text-warning">BASKETBALL</span></a>
-                <button className="navbar-toggler border-0 " type="button" data-toggle="collapse" data-target="#navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <button className="navbar-toggler border-0 " type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="#navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span className="navbar-toggler-icon"></span>
                 </button>
                 <div className="collapse navbar-collapse" id="navbarNav">
                 <ul className="navbar-nav ml-auto mb-1">
                     <li className="btn nav-item">
-                        <Link to="/scores/week4" className={window.location.pathname === "/scores/week4" ? "nav-link active rounded shadow-sm" : "nav-link rounded"}>SCORES</Link>
+                        <Link to="/scores/week5" className={window.location.pathname === "/scores/week5" ? "nav-link active rounded shadow-sm" : "nav-link rounded"}>SCORES</Link>
                     </li>
                     <li className="btn nav-item">
                         <Link to="/schedule/june" className={window.location.pathname === "/schedule/june" ? "nav-link active rounded shadow-sm" : "nav-link rounded"}>SCHEDULE</Link>
@@ -30,9 +30,6 @@ function Navbar() {
                     <li className="btn nav-item">
                         <Link to="/rules" className={window.location.pathname === "/rules" ? "nav-link active rounded shadow-sm" : "nav-link rounded"}>RULES</Link>
                     </li>
-                    {/* <li className="btn nav-item">
-                        <Link to="/login" className={window.location.pathname === "/login" ? "nav-link active rounded shadow-sm" : "nav-link rounded"}>LOGIN</Link>
-                    </li> */}
                 </ul>
                 </div>
             </nav>
