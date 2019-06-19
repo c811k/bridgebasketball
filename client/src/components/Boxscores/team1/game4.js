@@ -74,7 +74,7 @@ function game4(props) {
                         <td className="text-right">0</td>
                         </tr>
                         <tr className="small">
-                        <th scope="row">31</th>
+                        <th scope="row">3</th>
                         <td>Joseph Jung</td>
                         <td className="text-right">1-3</td>
                         <td className="text-right">0-1</td>

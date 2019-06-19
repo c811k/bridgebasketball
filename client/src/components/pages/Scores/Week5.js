@@ -1,8 +1,12 @@
 import React from "react";
 import Footer from "../../Footer";
 import logo from "../../../assets/images/logo.jpg";
+import Game13 from "../../Teamstats/Game13";
+import Game14 from "../../Teamstats/Game14";
+import Game15 from "../../Teamstats/Game15";
+import Boxscore14 from "../../Boxscores/Game14";
 
-function Week4() {
+function Week5() {
     return(
         <div>
         <div className="container" id="scores">
@@ -68,7 +72,7 @@ function Week4() {
                                 <div className="row">
                                     <div className="col-md-12 d-flex justify-content-between">
                                         <button className="btn btn-sm flex-fill rounded-0 border-right disabled">WATCH</button>
-                                        <button className="btn btn-sm flex-fill rounded-0 border-right disabled">TEAM STATS</button>
+                                        <div className="flex-fill border-right"><Game13 /></div>
                                         <button className="btn btn-sm flex-fill rounded-0 disabled">BOX SCORE</button>
                                     </div>
                                 </div>
@@ -108,8 +112,8 @@ function Week4() {
                                 <div className="row">
                                     <div className="col-md-12 d-flex justify-content-between">
                                         <button className="btn btn-sm flex-fill rounded-0 border-right disabled">WATCH</button>
-                                        <button className="btn btn-sm flex-fill rounded-0 border-right disabled">TEAM STATS</button>
-                                        <button className="btn btn-sm flex-fill rounded-0 disabled">BOX SCORE</button>
+                                        <div className="flex-fill border-right"><Game14 /></div>
+                                        <div className="flex-fill"><Boxscore14 /></div>
                                     </div>
                                 </div>
                             </li>
@@ -148,7 +152,7 @@ function Week4() {
                                 <div className="row">
                                     <div className="col-md-12 d-flex justify-content-between">
                                         <button className="btn btn-sm flex-fill rounded-0 border-right disabled">WATCH</button>
-                                        <button className="btn btn-sm flex-fill rounded-0 border-right disabled">TEAM STATS</button>
+                                        <div className="flex-fill border-right"><Game15 /></div>
                                         <button className="btn btn-sm flex-fill rounded-0 disabled">BOX SCORE</button>
                                     </div>
                                 </div>
@@ -164,4 +168,4 @@ function Week4() {
     );
 }
 
-export default Week4;
+export default Week5;
