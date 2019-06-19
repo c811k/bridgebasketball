@@ -1,6 +1,6 @@
 import React from "react";
 
-function game3(props) {
+function game4() {
     return (
         <div className="row mt-5">
             <div className="col-md-12">
@@ -152,4 +152,4 @@ function game3(props) {
     );
 }
 
-export default game3;
+export default game4;

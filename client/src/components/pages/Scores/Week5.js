@@ -4,7 +4,9 @@ import logo from "../../../assets/images/logo.jpg";
 import Game13 from "../../Teamstats/Game13";
 import Game14 from "../../Teamstats/Game14";
 import Game15 from "../../Teamstats/Game15";
+import Boxscore13 from "../../Boxscores/Game13";
 import Boxscore14 from "../../Boxscores/Game14";
+import Boxscore15 from "../../Boxscores/Game15";
 
 function Week5() {
     return(
@@ -73,7 +75,7 @@ function Week5() {
                                     <div className="col-md-12 d-flex justify-content-between">
                                         <button className="btn btn-sm flex-fill rounded-0 border-right disabled">WATCH</button>
                                         <div className="flex-fill border-right"><Game13 /></div>
-                                        <button className="btn btn-sm flex-fill rounded-0 disabled">BOX SCORE</button>
+                                        <div className="flex-fill"><Boxscore13 /></div>
                                     </div>
                                 </div>
                             </li>
@@ -153,7 +155,7 @@ function Week5() {
                                     <div className="col-md-12 d-flex justify-content-between">
                                         <button className="btn btn-sm flex-fill rounded-0 border-right disabled">WATCH</button>
                                         <div className="flex-fill border-right"><Game15 /></div>
-                                        <button className="btn btn-sm flex-fill rounded-0 disabled">BOX SCORE</button>
+                                        <div className="flex-fill"><Boxscore15 /></div>
                                     </div>
                                 </div>
                             </li>
