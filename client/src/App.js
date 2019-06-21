@@ -8,7 +8,6 @@ import Players3 from "./components/pages/Players/3";
 import Players4 from "./components/pages/Players/4";
 import Players5 from "./components/pages/Players/5";
 import Players6 from "./components/pages/Players/6";
-import Players7 from "./components/pages/Players/7";
 import Week1 from "./components/pages/Scores/Week1";
 import Week2 from "./components/pages/Scores/Week2";
 import Week3 from "./components/pages/Scores/Week3";
@@ -39,7 +38,6 @@ class App extends Component {
             <Route exact path="/players/4" component={Players4} />
             <Route exact path="/players/5" component={Players5} />
             <Route exact path="/players/6" component={Players6} />
-            <Route exact path="/players/7" component={Players7} />
             <Route exact path="/scores/week1" component={Week1} />
             <Route exact path="/scores/week2" component={Week2} />
             <Route exact path="/scores/week3" component={Week3} />
