@@ -7,6 +7,7 @@ import Game15 from "../../Teamstats/Game15";
 import Boxscore13 from "../../Boxscores/Game13";
 import Boxscore14 from "../../Boxscores/Game14";
 import Boxscore15 from "../../Boxscores/Game15";
+import Watch15 from "../../Watch/Game15";
 
 function Week5() {
     return(
@@ -153,7 +154,7 @@ function Week5() {
                             <li className="list-group-item border-0">
                                 <div className="row">
                                     <div className="col-md-12 d-flex justify-content-between">
-                                        <button className="btn btn-sm flex-fill rounded-0 border-right disabled">WATCH</button>
+                                        <div className="flex-fill border-right"><Watch15 /></div>
                                         <div className="flex-fill border-right"><Game15 /></div>
                                         <div className="flex-fill"><Boxscore15 /></div>
                                     </div>
