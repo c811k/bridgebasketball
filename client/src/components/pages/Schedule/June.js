@@ -207,7 +207,7 @@ function June() {
                             <li className="list-group-item border-0 rounded-0">
                             <div className="row">
                                 <div className="col-sm-6">
-                                    #2 Seed v #3 Seed
+                                <span className="text-secondary">#2</span> Lord of the Rims v <span className="text-secondary">#3</span> The Chosen
                                 </div>
                                 <div className="col-sm-6 text-right">
                                     4:30PM
@@ -217,7 +217,7 @@ function June() {
                             <li className="list-group-item border-0 bg-light">
                             <div className="row">
                                 <div className="col-sm-6">
-                                    #1 Seed v #4 Seed
+                                <span className="text-secondary">#1</span> Double Up v <span className="text-secondary">#4</span> Fantastic
                                 </div>
                                 <div className="col-sm-6 text-right">
                                     5:30PM
@@ -227,7 +227,7 @@ function June() {
                             <li className="list-group-item border-0">
                             <div className="row">
                                 <div className="col-sm-6">
-                                    5th Place: #5 v #6
+                                    5th Place: <span className="text-secondary">#5</span> Angry Birdz v <span className="text-secondary">#6</span> BH
                                 </div>
                                 <div className="col-sm-6 text-right">
                                     6:30PM
