@@ -34,75 +34,75 @@ function Standing() {
                             <tbody>
                                 <tr>
                                 <th scope="row">1</th>
-                                <td>Double Up</td>
+                                <td>* Double Up</td>
                                 <td className="text-right">5</td>
-                                <td className="text-right">0</td>
-                                <td className="text-right">1.000</td>
+                                <td className="text-right">1</td>
+                                <td className="text-right">.833</td>
                                 <td className="text-right">-</td>
-                                <td className="text-right">56.4</td>
-                                <td className="text-right">41.2</td>
-                                <td className="text-right text-success">+15.2</td>
-                                <td className="text-right">W5</td>
+                                <td className="text-right">55.0</td>
+                                <td className="text-right">44.7</td>
+                                <td className="text-right text-success">+10.3</td>
+                                <td className="text-right">L1</td>
                                 </tr>
                                 <tr>
                                 <th scope="row">2</th>
-                                <td>Lord of the Rims</td>
+                                <td>* Lord of the Rims</td>
                                 <td className="text-right">3</td>
+                                <td className="text-right">3</td>
+                                <td className="text-right">.500</td>
                                 <td className="text-right">2</td>
-                                <td className="text-right">.600</td>
-                                <td className="text-right">2</td>
-                                <td className="text-right">53.6</td>
-                                <td className="text-right">50.2</td>
-                                <td className="text-right text-success">+3.4</td>
-                                <td className="text-right">L2</td>
+                                <td className="text-right">52.7</td>
+                                <td className="text-right">51.3</td>
+                                <td className="text-right text-success">+1.4</td>
+                                <td className="text-right">L3</td>
                                 </tr>
                                 <tr>
                                 <th scope="row">3</th>
-                                <td>The Chosen</td>
+                                <td>* The Chosen</td>
+                                <td className="text-right">3</td>
+                                <td className="text-right">3</td>
+                                <td className="text-right">.500</td>
                                 <td className="text-right">2</td>
-                                <td className="text-right">3</td>
-                                <td className="text-right">.400</td>
-                                <td className="text-right">3</td>
-                                <td className="text-right">47.8</td>
-                                <td className="text-right">50.4</td>
-                                <td className="text-right text-danger">-2.6</td>
-                                <td className="text-right">L2</td>
+                                <td className="text-right">48.8</td>
+                                <td className="text-right">49.2</td>
+                                <td className="text-right text-danger">-0.4</td>
+                                <td className="text-right">W1</td>
                                 </tr>
                                 <tr>
                                 <th scope="row">4</th>
-                                <td>Fantastic</td>
+                                <td>* Fantastic</td>
+                                <td className="text-right">3</td>
+                                <td className="text-right">3</td>
+                                <td className="text-right">.500</td>
                                 <td className="text-right">2</td>
-                                <td className="text-right">3</td>
-                                <td className="text-right">.400</td>
-                                <td className="text-right">3</td>
-                                <td className="text-right">44.0</td>
-                                <td className="text-right">49.8</td>
-                                <td className="text-right text-danger">-5.8</td>
-                                <td className="text-right">W1</td>
+                                <td className="text-right">46.2</td>
+                                <td className="text-right">49.5</td>
+                                <td className="text-right text-danger">-3.3</td>
+                                <td className="text-right">W2</td>
                                 </tr>
                                 <tr>
                                 <th scope="row">5</th>
                                 <td>Angry Birdz</td>
+                                <td className="text-right">3</td>
+                                <td className="text-right">3</td>
+                                <td className="text-right">.500</td>
                                 <td className="text-right">2</td>
-                                <td className="text-right">3</td>
-                                <td className="text-right">.400</td>
-                                <td className="text-right">3</td>
-                                <td className="text-right">40.6</td>
-                                <td className="text-right">47.4</td>
-                                <td className="text-right text-danger">-6.8</td>
-                                <td className="text-right">W2</td>
+                                <td className="text-right">44.2</td>
+                                <td className="text-right">47.5</td>
+                                <td className="text-right text-danger">-3.3</td>
+                                <td className="text-right">W3</td>
                                 </tr>
                                 <tr>
                                 <th scope="row">6</th>
                                 <td>BH</td>
                                 <td className="text-right">1</td>
+                                <td className="text-right">5</td>
+                                <td className="text-right">.167</td>
                                 <td className="text-right">4</td>
-                                <td className="text-right">.200</td>
-                                <td className="text-right">4</td>
-                                <td className="text-right">45.0</td>
-                                <td className="text-right">47.6</td>
-                                <td className="text-right text-danger">-2.6</td>
-                                <td className="text-right">L1</td>
+                                <td className="text-right">44.7</td>
+                                <td className="text-right">48.7</td>
+                                <td className="text-right text-danger">-4.0</td>
+                                <td className="text-right">L2</td>
                                 </tr>
                             </tbody>
                         </table>

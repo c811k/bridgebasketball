@@ -2,7 +2,7 @@ import React from "react";
 import Footer from "../../Footer";
 import logo from "../../../assets/images/logo.jpg";
 
-function Week4() {
+function Week7() {
     return(
         <div>
         <div className="container" id="scores">
@@ -47,7 +47,7 @@ function Week4() {
                             <li className="list-group-item border-0">
                                 <div className="row">
                                     <div className="col-md-9">
-                                        <h6>#2 Seed <span className="text-muted small"></span></h6>
+                                        <h6>#2 Lord of the Rims <span className="text-muted small"></span></h6>
                                     </div>
                                     {/* <div className="col-md-3 text-right align-bottom">
                                         <h5>35 <i class="fas fa-caret-left"></i></h5>
@@ -57,7 +57,7 @@ function Week4() {
                             <li className="list-group-item border-0">
                                 <div className="row">
                                     <div className="col-md-9">
-                                        <h6>#3 Seed <span className="text-muted small"></span></h6>
+                                        <h6>#3 The Chosen <span className="text-muted small"></span></h6>
                                     </div>
                                     {/* <div className="col-md-3 text-right align-bottom">
                                         <h5 className="text-muted">29 <i class="fas fa-caret-left text-white"></i></h5>
@@ -87,7 +87,7 @@ function Week4() {
                             <li className="list-group-item border-0">
                                 <div className="row">
                                     <div className="col-md-9">
-                                        <h6>#1 Seed <span className="text-muted small"></span></h6>
+                                        <h6>#1 Double Up <span className="text-muted small"></span></h6>
                                     </div>
                                     {/* <div className="col-md-3 text-right align-bottom">
                                         <h5 className="text-muted">53 <i class="fas fa-caret-left text-white"></i></h5>
@@ -97,7 +97,7 @@ function Week4() {
                             <li className="list-group-item border-0">
                                 <div className="row">
                                     <div className="col-md-9">
-                                        <h6>#4 Seed <span className="text-muted small"></span></h6>
+                                        <h6>#4 Fantastic <span className="text-muted small"></span></h6>
                                     </div>
                                     {/* <div className="col-md-3 text-right align-bottom">
                                         <h5>56 <i class="fas fa-caret-left"></i></h5>
@@ -137,7 +137,7 @@ function Week4() {
                             <li className="list-group-item border-0">
                                 <div className="row">
                                     <div className="col-md-9">
-                                        <h6>#5 v #6<span className="text-muted small"></span></h6>
+                                        <h6>#5 Angry Birdz v #6 BH<span className="text-muted small"></span></h6>
                                     </div>
                                     {/* <div className="col-md-3 text-right align-bottom">
                                         <h5 className="text-muted">41 <i class="fas fa-caret-left text-white"></i></h5>
@@ -164,4 +164,4 @@ function Week4() {
     );
 }
 
-export default Week4;
+export default Week7;

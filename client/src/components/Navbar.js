@@ -13,7 +13,7 @@ function Navbar() {
                 <div className="collapse navbar-collapse" id="navbarNav">
                 <ul className="navbar-nav ml-auto mb-1">
                     <li className="btn nav-item">
-                        <Link to="/scores/week5" className={window.location.pathname === "/scores/week5" ? "nav-link active rounded shadow-sm" : "nav-link rounded"}>SCORES</Link>
+                        <Link to="/scores/week6" className={window.location.pathname === "/scores/week6" ? "nav-link active rounded shadow-sm" : "nav-link rounded"}>SCORES</Link>
                     </li>
                     <li className="btn nav-item">
                         <Link to="/schedule/june" className={window.location.pathname === "/schedule/june" ? "nav-link active rounded shadow-sm" : "nav-link rounded"}>SCHEDULE</Link>
