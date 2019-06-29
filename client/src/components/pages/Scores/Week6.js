@@ -4,6 +4,9 @@ import logo from "../../../assets/images/logo.jpg";
 import Game16 from "../../Teamstats/Game16";
 import Game17 from "../../Teamstats/Game17";
 import Game18 from "../../Teamstats/Game18";
+import Boxscore16 from "../../Boxscores/Game16";
+import Boxscore17 from "../../Boxscores/Game17";
+import Boxscore18 from "../../Boxscores/Game18";
 
 function Week6() {
     return(
@@ -72,7 +75,7 @@ function Week6() {
                                     <div className="col-md-12 d-flex justify-content-between">
                                         <button className="btn btn-sm flex-fill rounded-0 border-right disabled">WATCH</button>
                                         <div className="flex-fill border-right"><Game16 /></div>
-                                        <button className="btn btn-sm flex-fill rounded-0 disabled">BOX SCORE</button>
+                                        <div className="flex-fill"><Boxscore16 /></div>
                                     </div>
                                 </div>
                             </li>
@@ -112,7 +115,7 @@ function Week6() {
                                     <div className="col-md-12 d-flex justify-content-between">
                                         <button className="btn btn-sm flex-fill rounded-0 border-right disabled">WATCH</button>
                                         <div className="flex-fill border-right"><Game17 /></div>
-                                        <button className="btn btn-sm flex-fill rounded-0 disabled">BOX SCORE</button>
+                                        <div className="flex-fill"><Boxscore17 /></div>
                                     </div>
                                 </div>
                             </li>
@@ -152,7 +155,7 @@ function Week6() {
                                     <div className="col-md-12 d-flex justify-content-between">
                                         <button className="btn btn-sm flex-fill rounded-0 border-right disabled">WATCH</button>
                                         <div className="flex-fill border-right"><Game18 /></div>
-                                        <button className="btn btn-sm flex-fill rounded-0 disabled">BOX SCORE</button>
+                                        <div className="flex-fill"><Boxscore18 /></div>
                                     </div>
                                 </div>
                             </li>

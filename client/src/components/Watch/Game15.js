@@ -45,7 +45,7 @@ class Game15 extends React.Component {
                             </div>
                         </div>
                         <div class="embed-responsive embed-responsive-16by9 mt-3">
-                            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/xpBnIq-9zwU" allowFullScreen title="Game8"></iframe>
+                            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/xpBnIq-9zwU" allowFullScreen title="Game15"></iframe>
                         </div>
                     </div>
                 </ModalBody>
