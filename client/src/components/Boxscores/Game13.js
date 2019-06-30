@@ -1,7 +1,7 @@
 import React from "react";
 import { Button, Modal, ModalBody, ModalFooter } from "reactstrap";
-import Home from "./team5/game5";
-import Away from "./team2/game5";
+import Home from "./team2/game5";
+import Away from "./team5/game5";
 
 class Game13 extends React.Component {
     constructor(props) {
@@ -45,7 +45,7 @@ class Game13 extends React.Component {
                     <div className="container">
                          <div className="row mt-3">
                             <div className="col-md-5 text-center" onClick={this.showHome}>
-                                <h5>BH</h5>
+                                <h5>Angry Birdz</h5>
                                 <hr className={"bg-warning" + (this.state.isHomeOpen ? " active" : null)} />
                                 <span className={"small badge badge-secondary" + (this.state.isHomeOpen ? " active" : null)}>HOME</span>
                             </div>
@@ -53,7 +53,7 @@ class Game13 extends React.Component {
                                 <span className="text-secondary small">V</span>
                             </div>
                             <div className="col-md-5 text-center" onClick={this.showAway}>
-                                <h5>Angry Birdz</h5>
+                                <h5>BH</h5>
                                 <hr className={"bg-warning" + (this.state.isAwayOpen ? " active" : null)} />
                                 <span className={"small badge badge-secondary" + (this.state.isAwayOpen ? " active" : null)}>AWAY</span>
                             </div>

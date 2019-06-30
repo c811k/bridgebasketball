@@ -26,7 +26,7 @@ class Game13 extends React.Component {
                     <div className="container">
                         <div className="row mt-3">
                             <div className="col-md-5 text-center">
-                                <h5>BH</h5>
+                                <h5>Angry Birdz</h5>
                                 <hr className="bg-white" />
                                 <span className="small">HOME</span>
                             </div>
@@ -34,7 +34,7 @@ class Game13 extends React.Component {
                                 <span className="text-secondary small">V</span>
                             </div>
                             <div className="col-md-5 text-center">
-                                <h5>Angry Birdz</h5>
+                                <h5>BH</h5>
                                 <hr className="bg-warning" />
                                 <span className="small">AWAY</span>
                             </div>
@@ -45,7 +45,7 @@ class Game13 extends React.Component {
                             </div>
                         </div>
                         <div class="embed-responsive embed-responsive-16by9 mt-3">
-                            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/PhBF0KqBa0g" allowFullScreen title="Game8"></iframe>
+                            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/sp0LFtdbvzg" allowFullScreen title="Game8"></iframe>
                         </div>
                     </div>
                 </ModalBody>

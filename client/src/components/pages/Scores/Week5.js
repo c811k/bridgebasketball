@@ -7,6 +7,7 @@ import Game15 from "../../Teamstats/Game15";
 import Boxscore13 from "../../Boxscores/Game13";
 import Boxscore14 from "../../Boxscores/Game14";
 import Boxscore15 from "../../Boxscores/Game15";
+import Watch13 from "../../Watch/Game13";
 import Watch15 from "../../Watch/Game15";
 
 function Week5() {
@@ -54,16 +55,6 @@ function Week5() {
                             <li className="list-group-item border-0">
                                 <div className="row">
                                     <div className="col-md-9">
-                                        <h6 className="text-muted">BH <span className="text-muted small">(1-4)</span></h6>
-                                    </div>
-                                    <div className="col-md-3 text-right">
-                                        <h5 className="text-muted">39 <i class="fas fa-caret-left text-white"></i></h5>
-                                    </div>
-                                </div>
-                            </li>
-                            <li className="list-group-item border-0">
-                                <div className="row">
-                                    <div className="col-md-9">
                                         <h6>Angry Birdz <span className="text-muted small">(2-3)</span></h6>
                                     </div>
                                     <div className="col-md-3 text-right">
@@ -73,8 +64,18 @@ function Week5() {
                             </li>
                             <li className="list-group-item border-0">
                                 <div className="row">
+                                    <div className="col-md-9">
+                                        <h6 className="text-muted">BH <span className="text-muted small">(1-4)</span></h6>
+                                    </div>
+                                    <div className="col-md-3 text-right">
+                                        <h5 className="text-muted">39 <i class="fas fa-caret-left text-white"></i></h5>
+                                    </div>
+                                </div>
+                            </li>
+                            <li className="list-group-item border-0">
+                                <div className="row">
                                     <div className="col-md-12 d-flex justify-content-between">
-                                        <button className="btn btn-sm flex-fill rounded-0 border-right disabled">WATCH</button>
+                                    <div className="flex-fill border-right"><Watch13 /></div>
                                         <div className="flex-fill border-right"><Game13 /></div>
                                         <div className="flex-fill"><Boxscore13 /></div>
                                     </div>
