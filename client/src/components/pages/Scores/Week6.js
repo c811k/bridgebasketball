@@ -7,6 +7,8 @@ import Game18 from "../../Teamstats/Game18";
 import Boxscore16 from "../../Boxscores/Game16";
 import Boxscore17 from "../../Boxscores/Game17";
 import Boxscore18 from "../../Boxscores/Game18";
+import Watch17 from "../../Watch/Game17";
+import Watch18 from "../../Watch/Game18";
 
 function Week6() {
     return(
@@ -113,7 +115,7 @@ function Week6() {
                             <li className="list-group-item border-0">
                                 <div className="row">
                                     <div className="col-md-12 d-flex justify-content-between">
-                                        <button className="btn btn-sm flex-fill rounded-0 border-right disabled">WATCH</button>
+                                        <div className="flex-fill border-right"><Watch17 /></div>
                                         <div className="flex-fill border-right"><Game17 /></div>
                                         <div className="flex-fill"><Boxscore17 /></div>
                                     </div>
@@ -153,7 +155,7 @@ function Week6() {
                             <li className="list-group-item border-0">
                                 <div className="row">
                                     <div className="col-md-12 d-flex justify-content-between">
-                                        <button className="btn btn-sm flex-fill rounded-0 border-right disabled">WATCH</button>
+                                    <div className="flex-fill border-right"><Watch18 /></div>
                                         <div className="flex-fill border-right"><Game18 /></div>
                                         <div className="flex-fill"><Boxscore18 /></div>
                                     </div>
