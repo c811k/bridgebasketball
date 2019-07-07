@@ -24,7 +24,7 @@ function Week7() {
                                 </a>
                             </li>
                             <li className="page-item disabled text-center">
-                                <div className="page-link text-dark border-0"><h5><i className="fas fa-calendar-week fa-2x"></i></h5><p className="small">WEEK 7 - JUNE 30, 2019</p></div>
+                                <div className="page-link text-dark border-0"><h5><i className="fas fa-calendar-week fa-2x"></i></h5><p className="small">Playoffs Week 1 - JUNE 30, 2019</p></div>
                             </li>
                             <li className="page-item mt-3">
                                 <a className="page-link text-dark border-0" href="/scores/week8" aria-label="Next" id="right">
@@ -47,7 +47,7 @@ function Week7() {
                             <li className="list-group-item border-0">
                                 <div className="row">
                                     <div className="col-md-9">
-                                        <h6>#2 Lord of the Rims <span className="text-muted small"></span></h6>
+                                        <h6>#2 Lord of the Rims <span className="text-muted small">(1-0)</span></h6>
                                     </div>
                                     <div className="col-md-3 text-right">
                                         <h5>58 <i class="fas fa-caret-left"></i></h5>
@@ -57,7 +57,7 @@ function Week7() {
                             <li className="list-group-item border-0">
                                 <div className="row">
                                     <div className="col-md-9">
-                                        <h6 className="text-muted">#3 The Chosen <span className="text-muted small"></span></h6>
+                                        <h6 className="text-muted">#3 The Chosen <span className="text-muted small">(0-1)</span></h6>
                                     </div>
                                     <div className="col-md-3 text-right">
                                         <h5 className="text-muted">52 <i class="fas fa-caret-left text-white"></i></h5>
@@ -87,7 +87,7 @@ function Week7() {
                             <li className="list-group-item border-0">
                                 <div className="row">
                                     <div className="col-md-9">
-                                        <h6>#1 Double Up <span className="text-muted small"></span></h6>
+                                        <h6>#1 Double Up <span className="text-muted small">(1-0)</span></h6>
                                     </div>
                                     <div className="col-md-3 text-right">
                                         <h5>48 <i class="fas fa-caret-left"></i></h5>
@@ -97,7 +97,7 @@ function Week7() {
                             <li className="list-group-item border-0">
                                 <div className="row">
                                     <div className="col-md-9">
-                                        <h6 className="text-muted">#4 Fantastic <span className="text-muted small"></span></h6>
+                                        <h6 className="text-muted">#4 Fantastic <span className="text-muted small">(0-1)</span></h6>
                                     </div>
                                     <div className="col-md-3 text-right">
                                         <h5 className="text-muted">33 <i class="fas fa-caret-left text-white"></i></h5>
