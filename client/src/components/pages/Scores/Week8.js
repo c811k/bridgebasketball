@@ -24,7 +24,7 @@ function Week4() {
                                 </a>
                             </li>
                             <li className="page-item disabled text-center">
-                                <div className="page-link text-dark border-0"><h5><i className="fas fa-calendar-week fa-2x"></i></h5><p className="small">Championship Week - JULY 7, 2019</p></div>
+                                <div className="page-link text-dark border-0"><h5><i className="fas fa-calendar-week fa-2x"></i></h5><p className="small">CHAMPIONSHIP WEEK - JULY 7, 2019</p></div>
                             </li>
                             <li className="page-item mt-3 disabled">
                                 <div className="page-link text-white border-0" aria-label="Next" id="right">

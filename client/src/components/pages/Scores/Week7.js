@@ -24,7 +24,7 @@ function Week7() {
                                 </a>
                             </li>
                             <li className="page-item disabled text-center">
-                                <div className="page-link text-dark border-0"><h5><i className="fas fa-calendar-week fa-2x"></i></h5><p className="small">Playoffs Week 1 - JUNE 30, 2019</p></div>
+                                <div className="page-link text-dark border-0"><h5><i className="fas fa-calendar-week fa-2x"></i></h5><p className="small">PLAYOFFS - JUNE 30, 2019</p></div>
                             </li>
                             <li className="page-item mt-3">
                                 <a className="page-link text-dark border-0" href="/scores/week8" aria-label="Next" id="right">
