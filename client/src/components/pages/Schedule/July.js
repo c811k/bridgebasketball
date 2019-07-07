@@ -54,7 +54,7 @@ function July() {
                             <li className="list-group-item border-0 rounded-0">
                             <div className="row">
                                 <div className="col-sm-8">
-                                    Consolation
+                                    Championship
                                 </div>
                                 <div className="col-sm-4 text-right">
                                     4:30PM
@@ -64,7 +64,7 @@ function July() {
                             <li className="list-group-item border-0 bg-light">
                             <div className="row">
                                 <div className="col-sm-8">
-                                    Championship
+                                    3-Point Contest
                                 </div>
                                 <div className="col-sm-4 text-right">
                                     5:30PM

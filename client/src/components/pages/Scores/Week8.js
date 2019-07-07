@@ -36,7 +36,7 @@ function Week4() {
                 </div>
             </div>
             <div className="row mt-5">
-                <div className="col-md-2">
+                <div className="col-md-4">
                 </div>
                 <div className="col-md-4 p-2">
                     <div className="card shadow-sm" id="score-card">
@@ -48,64 +48,24 @@ function Week4() {
                         <ul className="list-group flush">
                             <li className="list-group-item border-0">
                                 <div className="row">
-                                    <div className="col-md-9">
-                                        <h6>Consolation Game</h6>
-                                    </div>
-                                    {/* <div className="col-md-3 text-right align-bottom">
-                                        <h5>35 <i class="fas fa-caret-left"></i></h5>
-                                    </div> */}
-                                </div>
-                            </li>
-                            {/* <li className="list-group-item border-0">
-                                <div className="row">
-                                    <div className="col-md-9">
-                                        <h5>Double Up <span className="text-muted small">(2-0)</span></h5>
-                                    </div>
-                                    <div className="col-md-3 text-right align-bottom">
-                                        <h5 className="text-muted">29 <i class="fas fa-caret-left text-white"></i></h5>
-                                    </div>
-                                </div>
-                            </li> */}
-                            <li className="list-group-item border-0">
-                                <div className="row">
-                                    <div className="col-md-12 d-flex justify-content-between">
-                                        <button className="btn btn-sm flex-fill rounded-0 border-right disabled">WATCH</button>
-                                        <button className="btn btn-sm flex-fill rounded-0 border-right disabled">TEAM STATS</button>
-                                        <button className="btn btn-sm flex-fill rounded-0 disabled">BOX SCORE</button>
-                                    </div>
-                                </div>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-                <div className="col-md-4 p-2">
-                    <div className="card shadow-sm" id="score-card">
-                        <div className="card-header bg-white border-0 d-flex justify-content-between align-items-center" id="standing-header">
-                            <img src={logo} alt="logo" height="50" width="50" id="scorelogo"/>
-                            <span className="flex-grow-1 small"><span className="text-secondary">BRIDGE</span> <span className="text-warning">BASKETBALL</span></span>
-                            5:30PM PT
-                        </div>
-                        <ul className="list-group flush">
-                            <li className="list-group-item border-0">
-                                <div className="row">
-                                    <div className="col-md-9">
-                                        <h6>Championship Game</h6>
+                                    <div className="col-md-12">
+                                        <h6>#1 Double Up <span className="text-muted small">(1-0)</span></h6>
                                     </div>
                                     {/* <div className="col-md-3 text-right align-bottom">
                                         <h5 className="text-muted">53 <i class="fas fa-caret-left text-white"></i></h5>
                                     </div> */}
                                 </div>
                             </li>
-                            {/* <li className="list-group-item border-0">
+                            <li className="list-group-item border-0">
                                 <div className="row">
                                     <div className="col-md-9">
-                                        <h5>Fantastic <span className="text-muted small">(1-1)</span></h5>
+                                        <h6>#2 Lord of the Rims <span className="text-muted small">(1-0)</span></h6>
                                     </div>
-                                    <div className="col-md-3 text-right align-bottom">
+                                    {/* <div className="col-md-3 text-right align-bottom">
                                         <h5>56 <i class="fas fa-caret-left"></i></h5>
-                                    </div>
+                                    </div> */}
                                 </div>
-                            </li> */}
+                            </li>
                             <li className="list-group-item border-0">
                                 <div className="row">
                                     <div className="col-md-12 d-flex justify-content-between">
