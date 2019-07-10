@@ -65,7 +65,7 @@ function Players1() {
                             <div className="card-front">
                                 <div className="row">
                                     <div className="col-md-12">
-                                        <img className="img-fluid rounded p-2" src="https://scontent-lax3-2.xx.fbcdn.net/v/t1.0-9/35349072_10216185556136003_6633220441961922560_n.jpg?_nc_cat=107&_nc_ht=scontent-lax3-2.xx&oh=1831b053007130e7737338555035637e&oe=5D20C1C9" alt="profile" id="playerpic" />
+                                        <img className="img-fluid rounded p-2" src="https://scontent-lax3-1.xx.fbcdn.net/v/t1.0-9/35349072_10216185556136003_6633220441961922560_n.jpg?_nc_cat=107&_nc_oc=AQm9farZoRBPIqJ084A3cLs7Zh_qsXsfJr4vXiKPuBDs0qRcUFPWq2Fk93xt6fumPig&_nc_ht=scontent-lax3-1.xx&oh=3fba93184207899b7a62748317e72b2f&oe=5DBEF5C9" alt="profile" id="playerpic" />
                                     </div>
                                 </div>
                                 <div className="row">
