@@ -21,7 +21,7 @@ function Players4() {
                             <div className="card-front text-center">
                                 <div className="row">
                                     <div className="col-md-12">
-                                        <img className="rounded p-2" src="https://scontent-lax3-1.xx.fbcdn.net/v/t1.0-9/35026551_10155758042152106_4488220814067367936_o.jpg?_nc_cat=105&_nc_ht=scontent-lax3-1.xx&oh=6c9c525cf538806875ffb27110cd1f69&oe=5D2D077F" alt="profile" height="253px" id="playerpic" />
+                                        <img className="rounded p-2" src="https://scontent-lax3-2.xx.fbcdn.net/v/t1.0-9/35026551_10155758042152106_4488220814067367936_o.jpg?_nc_cat=105&_nc_oc=AQm-ed8VgIaf2teRUIBFEsc4V6Q4INJM820hkqwliOhxEeM6vLqaRS3SpolWXZW7xjY&_nc_ht=scontent-lax3-2.xx&oh=c6208278372cadec6f60f78b2e9fc753&oe=5DA3AE7F" alt="profile" height="253px" id="playerpic" />
                                     </div>
                                 </div>
                                 <div className="row">
@@ -153,7 +153,7 @@ function Players4() {
                             <div className="card-front">
                                 <div className="row">
                                     <div className="col-md-12 justify-content-center">
-                                        <img className="img-fluid rounded p-2" src="https://scontent-lax3-1.xx.fbcdn.net/v/t1.0-9/24301193_1953044671686040_450975062582774761_n.jpg?_nc_cat=104&_nc_ht=scontent-lax3-1.xx&oh=fd1967940efe0eaba449d88e6d919f67&oe=5D2CBFE3" alt="profile" id="playerpic" />
+                                        <img className="img-fluid rounded p-2" src="https://scontent-lax3-2.xx.fbcdn.net/v/t1.0-9/24301193_1953044671686040_450975062582774761_n.jpg?_nc_cat=104&_nc_oc=AQl3xcFlqn8miPgC6hSGwiCO1KB_N5F1OJ2Dt1YzSOo4cg6z5Oi6QRCMc0r6VknX6Ic&_nc_ht=scontent-lax3-2.xx&oh=74a6352a2c0e9c5d09b295529adc17e6&oe=5DA366E3" alt="profile" id="playerpic" />
                                     </div>
                                 </div>
                                 <div className="row">

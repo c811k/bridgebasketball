@@ -242,7 +242,7 @@ function Players3() {
                             <div className="card-front">
                                 <div className="row">
                                     <div className="col-md-12">
-                                        <img className="rounded p-2" src="https://scontent-lax3-1.xx.fbcdn.net/v/t31.0-8/13320509_10101924138652700_2762937253423418328_o.jpg?_nc_cat=105&_nc_ht=scontent-lax3-1.xx&oh=bf1622303fb74a13a5087f5e2203da05&oe=5D2AF000" height="253px" alt="profile" id="playerpic" />
+                                        <img className="rounded p-2" src="https://scontent-lax3-2.xx.fbcdn.net/v/t31.0-8/13320509_10101924138652700_2762937253423418328_o.jpg?_nc_cat=105&_nc_oc=AQkcikhVHg7hOGMKBkQkVyt16D0AzoKKrXhNTbJ2_G0HQ1jQ8H9Nfi1mM81My6KRwHw&_nc_ht=scontent-lax3-2.xx&oh=c876de53abe20581df9c6613c847ff2e&oe=5DA19700" height="253px" alt="profile" id="playerpic" />
                                     </div>
                                 </div>
                                 <div className="row">
