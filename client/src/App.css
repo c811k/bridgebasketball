@@ -212,30 +212,33 @@ hr {
 
 #playercard {
     perspective: 1000px;
-    transition: transform 0.8s;
-    transform-style: preserve-3d;
 } 
 
-#playercard:hover {
+#playercard:hover .card {
     transform: rotateY(180deg);
-    border: none;
+}
+
+.card {
+    transition: 0.6s;
+    transform-style: preserve-3d;
+    position: relative;
 }
 
 .card-front, .card-back {
     backface-visibility: hidden;
+   
 }
 
 .card-front {
+    backface-visibility: hidden;
     position: absolute;
     left: 0;
     right: 0;
-    margin: auto;
-    z-index: 1;
 }
 
 .card-back {
-    border: none;
-    transform: rotateY(-180deg);
+    background: white;
+    transform: rotateY(180deg);
 }
 
 .page-item.active .page-link {
