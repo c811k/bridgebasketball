@@ -241,7 +241,7 @@ function Players1() {
                             <div className="card-front">
                                 <div className="row">
                                     <div className="col-md-12">
-                                        <img className="img-fluid rounded p-2" src="https://scontent-lax3-1.xx.fbcdn.net/v/t31.0-8/15137584_1275621115835873_4088941338915552906_o.jpg?_nc_cat=110&_nc_ht=scontent-lax3-1.xx&oh=e424d1e3004624b79c7f11b850bac04c&oe=5D34FD0B" alt="profile" id="playerpic" />
+                                        <img className="img-fluid rounded p-2" src="https://scontent-lax3-1.xx.fbcdn.net/v/t1.0-9/65050834_2442176892513617_5391896651998691328_o.jpg?_nc_cat=100&_nc_eui2=AeERa83Up5eal3vunWK9QMOpQwpG5iZUTqXJOnNW5O25FJj6ggFoONikSv_p8o2Cw-jR3R2bWMi1RZh30zYhlofIJktAXsuBzBT4NiMJLIquDQ&_nc_oc=AQniptM8SCF3j9dlUfa6WCQenrIwF8CIr3rXeFnKDshhX4uOHHinw9xQguuSOg590cw&_nc_ht=scontent-lax3-1.xx&oh=144f7c6b7fd01a56fd6cb9d651a702fa&oe=5DAAFEFC" alt="profile" id="playerpic" />
                                     </div>
                                 </div>
                                 <div className="row">
@@ -329,7 +329,7 @@ function Players1() {
                             <div className="card-front">
                                 <div className="row">
                                     <div className="col-md-12">
-                                        <img className="img-fluid rounded p-2" src="https://scontent-lax3-1.xx.fbcdn.net/v/t1.0-9/53006134_1795676077204860_2793990575257288704_n.jpg?_nc_cat=106&_nc_ht=scontent-lax3-1.xx&oh=18955dd4f27de78ab997f23f80350d28&oe=5D313D01" alt="profile" id="playerpic" />
+                                        <img className="img-fluid rounded p-2" src="https://scontent-lax3-1.xx.fbcdn.net/v/t1.0-9/53006134_1795676077204860_2793990575257288704_n.jpg?_nc_cat=106&_nc_oc=AQmNcw1bDjKVKXNFS_h2voP_3NqCyKyS2XlNnfQ3zoFI9rRH7bqQonaPTpAKwyzlQ_c&_nc_ht=scontent-lax3-1.xx&oh=046abd6e706b6e637cf7c83bbfb88f9e&oe=5DA7E401" alt="profile" id="playerpic" />
                                     </div>
                                 </div>
                                 <div className="row">

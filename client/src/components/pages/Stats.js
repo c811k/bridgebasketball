@@ -296,7 +296,7 @@ class Stats extends Component {
                     <div className="col-md-4">
                         <div className="row">
                             <div className="col-md-6">
-                                <img className="img-fluid rounded mt-3 border" src="https://scontent-lax3-1.xx.fbcdn.net/v/t31.0-8/13719620_10210353529858134_8983312615173657508_o.jpg?_nc_cat=103&_nc_ht=scontent-lax3-1.xx&oh=2473ad1309a337956549beb12a9b0a3b&oe=5D30B86A" alt="profile" height="160" id="playerpic" />
+                                <img className="img-fluid rounded mt-3 border" src="https://scontent-lax3-1.xx.fbcdn.net/v/t31.0-8/13719620_10210353529858134_8983312615173657508_o.jpg?_nc_cat=103&_nc_eui2=AeGp_rNR4pj-wZ3wByuJXEQATOskw6jIuQiqMY2rZKYsVu80_bXROlQr9-Oy6gmmhkAnL2LeJQp0jJp37HYFPzq6pPvyUvUA5xRjkOgxPNTc2g&_nc_oc=AQkEEK_1QK3AlOhkmAdOWVE8LssP5669zyK4ClXNXq80XS8YOlO7fbclAQYUiggm1ZY&_nc_ht=scontent-lax3-1.xx&oh=bed329384e955819caa98e8261255b07&oe=5DA75F6A" alt="profile" height="160" id="playerpic" />
                             </div>
                             <div className="col-md-6 mt-3 text-right">
                                 S T E A L S

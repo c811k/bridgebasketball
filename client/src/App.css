@@ -226,11 +226,9 @@ hr {
 
 .card-front, .card-back {
     backface-visibility: hidden;
-   
 }
 
 .card-front {
-    backface-visibility: hidden;
     position: absolute;
     left: 0;
     right: 0;

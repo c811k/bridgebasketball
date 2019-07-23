@@ -21,7 +21,7 @@ function Players3() {
                             <div className="card-front">
                                 <div className="row">
                                     <div className="col-md-12">
-                                        <img className="img-fluid rounded p-2" src="https://scontent-lax3-1.xx.fbcdn.net/v/t1.0-9/38614975_10156512413330967_2105093531969257472_o.jpg?_nc_cat=102&_nc_ht=scontent-lax3-1.xx&oh=ec8d463a547ecddebde85d718602ed96&oe=5D311DE9" alt="profile" id="playerpic" />
+                                        <img className="img-fluid rounded p-2" src="https://scontent-lax3-1.xx.fbcdn.net/v/t1.0-9/38614975_10156512413330967_2105093531969257472_o.jpg?_nc_cat=102&_nc_eui2=AeHbfkEOTMGH5JS10J-MDnpoowP399C_5JgrLFhHFsHomuRwi-A14K9veCR2HosqcDVDx5rVhOiA3qnlGWswgj9MqTRJd3CBY_32uNnUFXtC9w&_nc_oc=AQksIYh46zLCmm2wZyAImUvowk1I9SYm74g0XPyTIUycFY7TvrY8ZqJssBw0RDfvvwA&_nc_ht=scontent-lax3-1.xx&oh=9996bba475be04dff7afd83f2bba8ce9&oe=5DA7C4E9" alt="profile" id="playerpic" />
                                     </div>
                                 </div>
                                 <div className="row">
@@ -198,7 +198,7 @@ function Players3() {
                             <div className="card-front">
                                 <div className="row">
                                     <div className="col-md-12">
-                                        <img className="img-fluid rounded p-2" src="https://scontent-lax3-1.xx.fbcdn.net/v/t1.0-9/30728778_10155401093847337_8670738736612376576_n.jpg?_nc_cat=100&_nc_ht=scontent-lax3-1.xx&oh=4db7a8d00181c11195a89c8770933484&oe=5D318EC0" alt="profile" id="playerpic" />
+                                        <img className="img-fluid rounded p-2" src="https://scontent-lax3-1.xx.fbcdn.net/v/t1.0-9/30728778_10155401093847337_8670738736612376576_n.jpg?_nc_cat=100&_nc_eui2=AeENmwC6UvNebtINRBsg-K-Q3kqeaSnjiojPVR1dXpufl-b7NKUwk3HqPbHuwhbWaBmBTBHzjtPQ2yX-bxyGCBS4seqIWK9Z6sxkevKskgPA3A&_nc_oc=AQnSZy6NxZx4Ut3k7GCWC4pBgFvZ9sNIWlWVoEF4F80sWZ4kAgGDevIVi_XbbiqAblQ&_nc_ht=scontent-lax3-1.xx&oh=69f070c6f05858edf5be5ef8a632416a&oe=5DA835C0" alt="profile" id="playerpic" />
                                     </div>
                                 </div>
                                 <div className="row">
