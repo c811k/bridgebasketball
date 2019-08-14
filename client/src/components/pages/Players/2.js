@@ -110,7 +110,7 @@ function Players2() {
                             <div className="card-front">
                                 <div className="row">
                                     <div className="col-md-12">
-                                        <img className="img-fluid rounded p-2" src="https://scontent-lax3-1.xx.fbcdn.net/v/t1.0-9/14729154_1100156956719867_9055061676495897931_n.jpg?_nc_cat=101&_nc_ht=scontent-lax3-1.xx&oh=45ae2663506b7c55940ba4beffbc442e&oe=5D5181E4" alt="profile" id="playerpic" />
+                                        <img className="img-fluid rounded p-2" src="https://scontent-ort2-1.xx.fbcdn.net/v/t1.0-9/14729154_1100156956719867_9055061676495897931_n.jpg?_nc_cat=101&_nc_oc=AQmq1fPnLj0Igbq848a5Qu-FcDGuk0l-ThYdp0qOsJ-aFYvTpVFY7HpwW-mugPdlepY&_nc_ht=scontent-ort2-1.xx&oh=df7dabe6edb56906bbb435a35eb21b82&oe=5DC828E4" alt="profile" id="playerpic" />
                                     </div>
                                 </div>
                                 <div className="row">
