@@ -109,7 +109,7 @@ function Players3() {
                             <div className="card-front">
                                 <div className="row">
                                     <div className="col-md-12">
-                                        <img className="img-fluid rounded p-2" src="https://scontent-lax3-1.xx.fbcdn.net/v/t1.0-1/c153.33.414.414a/222333_223776550971593_8025557_n.jpg?_nc_cat=106&_nc_ht=scontent-lax3-1.xx&oh=2ca1b41ba6c1e3ea6a454e25fbc6042c&oe=5D6E8AEA" alt="profile" id="playerpic" />
+                                        <img className="img-fluid rounded p-2" src="https://scontent-lax3-2.xx.fbcdn.net/v/t1.0-1/c153.33.414.414a/222333_223776550971593_8025557_n.jpg?_nc_cat=106&_nc_oc=AQkM2YNMpjiPKz_vozLYSM5cJdI2P7XCqCb4HyKo5FcICJUhbWrSS55o___0l6Qg15E&_nc_ht=scontent-lax3-2.xx&oh=67156532edf0a3defde6063b76706656&oe=5E0CBEEA" alt="profile" id="playerpic" />
                                     </div>
                                 </div>
                                 <div className="row">
