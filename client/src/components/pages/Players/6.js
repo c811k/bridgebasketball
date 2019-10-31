@@ -286,7 +286,7 @@ function Players6() {
                             <div className="card-front">
                                 <div className="row">
                                     <div className="col-md-12">
-                                        <img className="img-fluid rounded p-2" src="https://scontent-lax3-2.xx.fbcdn.net/v/t1.0-9/56952721_10157018498010011_5065664710154649600_n.jpg?_nc_cat=100&_nc_ht=scontent-lax3-2.xx&oh=e08242893960a30b7f43252e6150c303&oe=5D72F4E5" alt="profile" id="playerpic" />
+                                        <img className="img-fluid rounded p-2" src="https://scontent-lax3-2.xx.fbcdn.net/v/t1.0-9/56952721_10157018498010011_5065664710154649600_n.jpg?_nc_cat=100&_nc_oc=AQnOf40B76mMUQQ08KjoJBOn4nWkx5eQzp8CA0-LT9GUg36fO_BqQSWbeFCMjx_M5pkQpsU9F5QKkMuISA0jXJMs&_nc_ht=scontent-lax3-2.xx&oh=8954c3617ffbdb629aa088def4fa422c&oe=5E6042E5" alt="profile" id="playerpic" />
                                     </div>
                                 </div>
                                 <div className="row">

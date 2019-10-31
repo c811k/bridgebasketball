@@ -198,7 +198,7 @@ function Players1() {
                             <div className="card-front">
                                 <div className="row">
                                     <div className="col-md-12">
-                                        <img className="img-fluid rounded p-2" src="https://scontent-lax3-2.xx.fbcdn.net/v/t31.0-8/29982851_2327178203966415_8696826749865758053_o.jpg?_nc_cat=100&_nc_oc=AQkPQ1rIlN44zToxRSMW7nNsgp7JWsD_WA1NmAaQRntbFnEdLhhqjxO4TYnhaDnDkBY&_nc_ht=scontent-lax3-2.xx&oh=a612a748f489a5220605c7734a847396&oe=5DA1146E" alt="profile" id="playerpic" />
+                                        <img className="img-fluid rounded p-2" src="https://scontent-lax3-2.xx.fbcdn.net/v/t31.0-8/29982851_2327178203966415_8696826749865758053_o.jpg?_nc_cat=100&_nc_oc=AQkn_gYNUKsrP-eKXdQMyQ6ZHANJd4jEQPVKERPRKBmrUGfLoCi1B6QLdCUEhL5yPI2lCqy8soaEnlQhKMWlTvzG&_nc_ht=scontent-lax3-2.xx&oh=5ee72033bda7d72268797bce022584c2&oe=5E17BB6E" alt="profile" id="playerpic" />
                                     </div>
                                 </div>
                                 <div className="row">
@@ -241,7 +241,7 @@ function Players1() {
                             <div className="card-front">
                                 <div className="row">
                                     <div className="col-md-12">
-                                        <img className="img-fluid rounded p-2" src="https://scontent-lax3-1.xx.fbcdn.net/v/t1.0-9/65050834_2442176892513617_5391896651998691328_o.jpg?_nc_cat=100&_nc_eui2=AeERa83Up5eal3vunWK9QMOpQwpG5iZUTqXJOnNW5O25FJj6ggFoONikSv_p8o2Cw-jR3R2bWMi1RZh30zYhlofIJktAXsuBzBT4NiMJLIquDQ&_nc_oc=AQniptM8SCF3j9dlUfa6WCQenrIwF8CIr3rXeFnKDshhX4uOHHinw9xQguuSOg590cw&_nc_ht=scontent-lax3-1.xx&oh=144f7c6b7fd01a56fd6cb9d651a702fa&oe=5DAAFEFC" alt="profile" id="playerpic" />
+                                        <img className="img-fluid rounded p-2" src="https://scontent-lax3-2.xx.fbcdn.net/v/t1.0-9/65050834_2442176892513617_5391896651998691328_o.jpg?_nc_cat=100&_nc_oc=AQlhRkYiJIkoF6aWqyozMaxMIs_yx88ot6CeHiY6fojEOfzDfd83Ww__25vEuoOp1iqYzQjIItk39FtcT63yOZrN&_nc_ht=scontent-lax3-2.xx&oh=d8d0832bfc28486bec71780f06386e83&oe=5E21A5FC" alt="profile" id="playerpic" />
                                     </div>
                                 </div>
                                 <div className="row">
@@ -329,7 +329,7 @@ function Players1() {
                             <div className="card-front">
                                 <div className="row">
                                     <div className="col-md-12">
-                                        <img className="img-fluid rounded p-2" src="https://scontent-lax3-1.xx.fbcdn.net/v/t1.0-9/53006134_1795676077204860_2793990575257288704_n.jpg?_nc_cat=106&_nc_oc=AQmNcw1bDjKVKXNFS_h2voP_3NqCyKyS2XlNnfQ3zoFI9rRH7bqQonaPTpAKwyzlQ_c&_nc_ht=scontent-lax3-1.xx&oh=046abd6e706b6e637cf7c83bbfb88f9e&oe=5DA7E401" alt="profile" id="playerpic" />
+                                        <img className="img-fluid rounded p-2" src="https://scontent-lax3-2.xx.fbcdn.net/v/t1.0-9/53006134_1795676077204860_2793990575257288704_n.jpg?_nc_cat=106&_nc_oc=AQkia8hIasBM0MOSG5J7iIj2m4dpRHavnAU5xpLmnk2kMKzx0jWeFZYr2T6iz4BZxDK9E51BkTROJJ9j89wbMpX7&_nc_ht=scontent-lax3-2.xx&oh=847f6b51caca31047ed6f6262a11d7a7&oe=5E1E8B01" alt="profile" id="playerpic" />
                                     </div>
                                 </div>
                                 <div className="row">

@@ -23,7 +23,7 @@ class Stats extends Component {
                     <div className="col-md-4">
                         <div className="row">
                             <div className="col-md-6">
-                                <img className="img-fluid rounded mt-3 border" src="https://scontent-lax3-2.xx.fbcdn.net/v/t31.0-1/c379.0.1290.1290a/10506738_10150004552801856_220367501106153455_o.jpg?_nc_cat=1&_nc_ht=scontent-lax3-2.xx&oh=65fca599b2c399a1a3cbcb71b4562ad9&oe=5D5FE949" alt="profile" id="playerpic" />
+                                <img className="img-fluid rounded mt-3 border" src="https://scontent-lax3-2.xx.fbcdn.net/v/t31.0-1/c379.0.1290.1290a/10506738_10150004552801856_220367501106153455_o.jpg?_nc_cat=1&_nc_oc=AQkWsGjq1SIyscDxOZRDx5XtI1Gth0OtkZkHt6ZlvdP35t1Jw7CWdSBAptCwzp135YI&_nc_ht=scontent-lax3-2.xx&oh=8ee181e533e1c5c409c17502083cfc01&oe=5DFE1D49" alt="profile" id="playerpic" />
                             </div>
                             <div className="col-md-6 mt-3 text-right">
                                 P O I N T S 
@@ -91,7 +91,7 @@ class Stats extends Component {
                     <div className="col-md-4">
                         <div className="row">
                             <div className="col-md-6">
-                                <img className="img-fluid rounded mt-3 border" src="https://scontent-lax3-2.xx.fbcdn.net/v/t1.0-9/13083149_555767254630333_6844609670552645503_n.jpg?_nc_cat=100&_nc_ht=scontent-lax3-2.xx&oh=12b3806cbcad5facbacdf7d168b3bc32&oe=5D9EA833" alt="profile" height="160" id="playerpic" />
+                                <img className="img-fluid rounded mt-3 border" src="https://scontent-lax3-2.xx.fbcdn.net/v/t1.0-9/67430486_102449234433877_5846109204695220224_o.jpg?_nc_cat=108&_nc_oc=AQn5FXmHpYCaYSA-YzKv2B1f75bc8RYZt7OC8biEVvMpQkRhEukGFSGTVnPcN_taA1Z9k_unQD_O1LleEQL6_v96&_nc_ht=scontent-lax3-2.xx&oh=068b224e2a14faf5b001d59d7a673097&oe=5E543147" alt="profile" height="160" id="playerpic" />
                             </div>
                             <div className="col-md-6 mt-3 text-right">
                                 R E B O U N D S
@@ -159,7 +159,7 @@ class Stats extends Component {
                     <div className="col-md-4">
                         <div className="row">
                             <div className="col-md-6">
-                                <img className="rounded mt-3 border" src="https://scontent-lax3-1.xx.fbcdn.net/v/t1.0-9/60813095_10211881944924471_3523127841451409408_o.jpg?_nc_cat=111&_nc_ht=scontent-lax3-1.xx&oh=ffc200453e59d86d6378bce9f88c649c&oe=5D9E58CA" alt="profile" id="playerpic" height="160" />
+                                <img className="rounded mt-3 border" src="https://scontent-lax3-2.xx.fbcdn.net/v/t1.0-9/60813095_10211881944924471_3523127841451409408_o.jpg?_nc_cat=111&_nc_oc=AQlWdFEhZhqSVf05amvO7g0BHQO3mC1xuUpd-20-b3OK0i4PPDF0xXzVYUOh6cGAtvDAxE4Moiq4LK7JKeLUfTyE&_nc_ht=scontent-lax3-2.xx&oh=84e08e11eb698a82f4a0467461661a6a&oe=5E6419CA" alt="profile" id="playerpic" height="160" />
                             </div>
                             <div className="col-md-6 mt-3 text-right">
                                A S S I S T S
@@ -228,7 +228,7 @@ class Stats extends Component {
                     <div className="col-md-4">
                         <div className="row">
                             <div className="col-md-6">
-                                <img className="rounded mt-3 border" src="https://scontent-lax3-1.xx.fbcdn.net/v/t1.0-9/60813095_10211881944924471_3523127841451409408_o.jpg?_nc_cat=111&_nc_ht=scontent-lax3-1.xx&oh=ffc200453e59d86d6378bce9f88c649c&oe=5D9E58CA" alt="profile" id="playerpic" height="160" />
+                                <img className="rounded mt-3 border" src="https://scontent-lax3-2.xx.fbcdn.net/v/t1.0-9/60813095_10211881944924471_3523127841451409408_o.jpg?_nc_cat=111&_nc_oc=AQlWdFEhZhqSVf05amvO7g0BHQO3mC1xuUpd-20-b3OK0i4PPDF0xXzVYUOh6cGAtvDAxE4Moiq4LK7JKeLUfTyE&_nc_ht=scontent-lax3-2.xx&oh=84e08e11eb698a82f4a0467461661a6a&oe=5E6419CA" alt="profile" id="playerpic" height="160" />
                             </div>
                             <div className="col-md-6 mt-3 text-right">
                                 F I E L D <span className="text-warning">G O A L</span> %
@@ -296,7 +296,7 @@ class Stats extends Component {
                     <div className="col-md-4">
                         <div className="row">
                             <div className="col-md-6">
-                                <img className="img-fluid rounded mt-3 border" src="https://scontent-lax3-1.xx.fbcdn.net/v/t31.0-8/13719620_10210353529858134_8983312615173657508_o.jpg?_nc_cat=103&_nc_eui2=AeGp_rNR4pj-wZ3wByuJXEQATOskw6jIuQiqMY2rZKYsVu80_bXROlQr9-Oy6gmmhkAnL2LeJQp0jJp37HYFPzq6pPvyUvUA5xRjkOgxPNTc2g&_nc_oc=AQkEEK_1QK3AlOhkmAdOWVE8LssP5669zyK4ClXNXq80XS8YOlO7fbclAQYUiggm1ZY&_nc_ht=scontent-lax3-1.xx&oh=bed329384e955819caa98e8261255b07&oe=5DA75F6A" alt="profile" height="160" id="playerpic" />
+                                <img className="img-fluid rounded mt-3 border" src="https://scontent-lax3-2.xx.fbcdn.net/v/t31.0-8/13719620_10210353529858134_8983312615173657508_o.jpg?_nc_cat=103&_nc_oc=AQmYyxBNuW1oeDRUY7SSgTWAiMVs4anfXYn503BYK7bHBBMR3xYthJ2XKrHUk7USWyw&_nc_ht=scontent-lax3-2.xx&oh=513d15eda8ae68520552c77d0d8167f1&oe=5DCEEC6A" alt="profile" height="160" id="playerpic" />
                             </div>
                             <div className="col-md-6 mt-3 text-right">
                                 S T E A L S
@@ -364,7 +364,7 @@ class Stats extends Component {
                     <div className="col-md-4">
                         <div className="row">
                             <div className="col-md-6">
-                                <img className="img-fluid rounded mt-3 border" src="https://scontent-lax3-1.xx.fbcdn.net/v/t1.0-9/24130025_10210722761964443_5906235444542699248_n.jpg?_nc_cat=111&_nc_ht=scontent-lax3-1.xx&oh=fe1ee0548551eb13ef6d88a034c30b48&oe=5D7565A6" alt="profile" height="160" id="playerpic" />
+                                <img className="img-fluid rounded mt-3 border" src="https://scontent-lax3-2.xx.fbcdn.net/v/t1.0-9/24130025_10210722761964443_5906235444542699248_n.jpg?_nc_cat=111&_nc_oc=AQmKg_lf1A2-KLwtEPVtfNId_e1016RcemtvsTkSd1K0PX0xninf-Q7guFqto9ZvyVCRlTFa2Hz9aJbE0YdvAwn_&_nc_ht=scontent-lax3-2.xx&oh=714ed148d3fbdf5657c35b75d1eab680&oe=5E62B3A6" alt="profile" height="160" id="playerpic" />
                             </div>
                             <div className="col-md-6 mt-3 text-right">
                                B L O C K S
