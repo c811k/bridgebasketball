@@ -23,7 +23,7 @@ class Stats extends Component {
                     <div className="col-md-4">
                         <div className="row">
                             <div className="col-md-6">
-                                <img className="img-fluid rounded mt-3 border" src="https://scontent-lax3-2.xx.fbcdn.net/v/t31.0-1/c379.0.1290.1290a/10506738_10150004552801856_220367501106153455_o.jpg?_nc_cat=1&_nc_oc=AQkWsGjq1SIyscDxOZRDx5XtI1Gth0OtkZkHt6ZlvdP35t1Jw7CWdSBAptCwzp135YI&_nc_ht=scontent-lax3-2.xx&oh=8ee181e533e1c5c409c17502083cfc01&oe=5DFE1D49" alt="profile" id="playerpic" />
+                                <img className="img-fluid rounded mt-3 border" src="https://scontent-lax3-1.xx.fbcdn.net/v/t31.0-1/c379.0.1290.1290a/10506738_10150004552801856_220367501106153455_o.jpg?_nc_cat=1&_nc_eui2=AeEFplhv178z3UlKnAi9N9xy0Q4oWKldUQ6bUzP2hitQCHNtje7W_qjaC41OvvbBs2WUYMk3Rx5iTN-vlH13vPUp5rWTmzVM1AXF0dMa03TqiQ&_nc_ohc=NMRWQC3XZrMAX_chOxg&_nc_ht=scontent-lax3-1.xx&oh=b669177e922205e55edb09003d97861e&oe=5EC3DE49" alt="profile" id="playerpic" />
                             </div>
                             <div className="col-md-6 mt-3 text-right">
                                 P O I N T S 
@@ -296,7 +296,7 @@ class Stats extends Component {
                     <div className="col-md-4">
                         <div className="row">
                             <div className="col-md-6">
-                                <img className="img-fluid rounded mt-3 border" src="https://scontent-lax3-2.xx.fbcdn.net/v/t31.0-8/13719620_10210353529858134_8983312615173657508_o.jpg?_nc_cat=103&_nc_oc=AQmYyxBNuW1oeDRUY7SSgTWAiMVs4anfXYn503BYK7bHBBMR3xYthJ2XKrHUk7USWyw&_nc_ht=scontent-lax3-2.xx&oh=513d15eda8ae68520552c77d0d8167f1&oe=5DCEEC6A" alt="profile" height="160" id="playerpic" />
+                                <img className="img-fluid rounded mt-3 border" src="https://scontent-lax3-1.xx.fbcdn.net/v/t31.0-8/13719620_10210353529858134_8983312615173657508_o.jpg?_nc_cat=103&_nc_eui2=AeGgf16BMhBKXZKvxAUg7kSxRkbwKhEkHOmI0uDnhbvu3em8rN48jYWwN_isNEljN8Rtz02H_NUtxkqQdmjGLkwBRVzk7P_crxn9Hz8O9unzHw&_nc_ohc=HKRzbtWsDosAX-kn8qK&_nc_ht=scontent-lax3-1.xx&oh=025ad54aaad4bff27bedb03318c64edb&oe=5E94AD6A" alt="profile" height="160" id="playerpic" />
                             </div>
                             <div className="col-md-6 mt-3 text-right">
                                 S T E A L S

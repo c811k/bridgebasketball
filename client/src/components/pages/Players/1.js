@@ -16,7 +16,7 @@ function Players1() {
 
             <div className="row mt-5">
                 <div className="col-md-3 text-center">
-                    <div id="playercard">
+                    <div className="player-card">
                     <div className="card shadow-sm">
                         <div className="card-front">
                             <div className="row">
@@ -24,14 +24,10 @@ function Players1() {
                                     <img className="img-fluid rounded p-2" src="https://scontent-lax3-2.xx.fbcdn.net/v/t31.0-1/c379.0.1290.1290a/10506738_10150004552801856_220367501106153455_o.jpg?_nc_cat=1&_nc_oc=AQkWsGjq1SIyscDxOZRDx5XtI1Gth0OtkZkHt6ZlvdP35t1Jw7CWdSBAptCwzp135YI&_nc_ht=scontent-lax3-2.xx&oh=8ee181e533e1c5c409c17502083cfc01&oe=5DFE1D49" alt="profile" id="playerpic" />
                                 </div>
                             </div>
-                            <div className="row">
-                                <div className="col-md-12 text-center">
                                     <h6 className="mt-3 pb-2 mx-5 border-bottom">
                                         ADAM <span className="text-warning">CHO</span>
                                     </h6>
                                     <h5 className="badge badge-dark">LORD OF THE RIMS</h5>                                 
-                                </div>
-                            </div>
                         </div>
                         <div className="card-back">
                             <div className="row">
@@ -60,7 +56,7 @@ function Players1() {
                 </div>
 
                 <div className="col-md-3 text-center">
-                    <div id="playercard">
+                    <div className="player-card">
                         <div className="card shadow-sm">
                             <div className="card-front">
                                 <div className="row">
@@ -104,7 +100,7 @@ function Players1() {
                 </div>
 
                 <div className="col-md-3 text-center">
-                    <div id="playercard">
+                    <div className="player-card">
                         <div className="card shadow-sm">
                             <div className="card-front">
                                 <div className="row">
@@ -148,7 +144,7 @@ function Players1() {
                 </div>
 
                 <div className="col-md-3 text-center">
-                    <div id="playercard">
+                    <div className="player-card">
                         <div className="card shadow-sm">
                             <div className="card-front">
                                 <div className="row">
@@ -193,7 +189,7 @@ function Players1() {
             </div>
             <div className="row mt-5">
                 <div className="col-md-3 text-center">
-                    <div id="playercard">
+                    <div className="player-card">
                         <div className="card shadow-sm">
                             <div className="card-front">
                                 <div className="row">
@@ -236,7 +232,7 @@ function Players1() {
                     </div>
                 </div>
                 <div className="col-md-3 text-center">
-                    <div id="playercard">
+                    <div className="player-card">
                         <div className="card shadow-sm">
                             <div className="card-front">
                                 <div className="row">
@@ -280,7 +276,7 @@ function Players1() {
                 </div>
 
                 <div className="col-md-3 text-center">
-                    <div id="playercard">
+                    <div className="player-card">
                         <div className="card shadow-sm">
                             <div className="card-front">
                                 <div className="row">
@@ -324,7 +320,7 @@ function Players1() {
                 </div>
 
                 <div className="col-md-3 text-center">
-                    <div id="playercard">
+                    <div className="player-card">
                         <div className="card shadow-sm">
                             <div className="card-front">
                                 <div className="row">

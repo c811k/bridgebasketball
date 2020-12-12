@@ -17,7 +17,7 @@ function Players2() {
 
             <div className="row mt-5">
                 <div className="col-md-3 text-center">
-                    <div id="playercard">
+                    <div className="player-card">
                         <div className="card shadow-sm">
                             <div className="card-front">
                                 <div className="row">
@@ -61,7 +61,7 @@ function Players2() {
                 </div>
 
                 <div className="col-md-3 text-center">
-                    <div id="playercard">
+                    <div className="player-card">
                         <div className="card shadow-sm">
                             <div className="card-front">
                                 <div className="row">
@@ -105,7 +105,7 @@ function Players2() {
                 </div>
 
                 <div className="col-md-3 text-center">
-                    <div id="playercard">
+                    <div className="player-card">
                         <div className="card shadow-sm">
                             <div className="card-front">
                                 <div className="row">
@@ -149,7 +149,7 @@ function Players2() {
                 </div> 
 
                 <div className="col-md-3 text-center">
-                    <div id="playercard">
+                    <div className="player-card">
                         <div className="card shadow-sm">
                             <div className="card-front">
                                 <div className="row">
@@ -194,7 +194,7 @@ function Players2() {
             </div>
             <div className="row mt-5">
                 <div className="col-md-3 text-center">
-                    <div id="playercard">
+                    <div className="player-card">
                         <div className="card shadow-sm">
                             <div className="card-front">
                                 <div className="row">
@@ -238,7 +238,7 @@ function Players2() {
                 </div>
 
                 <div className="col-md-3 text-center">
-                    <div id="playercard">
+                    <div className="player-card">
                         <div className="card shadow-sm">
                             <div className="card-front">
                                 <div className="row">
@@ -282,7 +282,7 @@ function Players2() {
                 </div>
 
                 <div className="col-md-3 text-center">
-                    <div id="playercard">
+                    <div className="player-card">
                         <div className="card shadow-sm">
                             <div className="card-front">
                                 <div className="row">
@@ -326,7 +326,7 @@ function Players2() {
                 </div>
 
                 <div className="col-md-3 text-center">
-                    <div id="playercard">
+                    <div className="player-card">
                         <div className="card shadow-sm">
                             <div className="card-front">
                                 <div className="row">
