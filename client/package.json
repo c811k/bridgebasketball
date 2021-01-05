@@ -5,7 +5,7 @@
   "private": true,
   "proxy": "http://localhost:3001/",
   "dependencies": {
-    "axios": "^0.18.0",
+    "axios": "^0.21.1",
     "passport-facebook": "^3.0.0",
     "react": "^16.14.0",
     "react-dom": "^16.14.0",
