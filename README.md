@@ -10,7 +10,7 @@ This project was one of my early end‑to‑end engineering builds and played a 
 
 ## Deployed Website
 
-~~https://basketball.nlvcbridge.com~~ --> https:://bridgebasketball.onrender.com
+~~https://basketball.nlvcbridge.com~~ --> https://bridgebasketball.onrender.com
 
 ---
 
