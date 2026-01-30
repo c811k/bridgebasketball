@@ -1,6 +1,6 @@
 import React from "react";
 import Footer from "../../Footer";
-import profile from "../../../assets/images/caleb.jpg";
+import ProfilePic from "../../../assets/images/profile.JPG";
 
 function Players2() {
     return(
@@ -22,10 +22,14 @@ function Players2() {
                             <div className="card-front">
                                 <div className="row">
                                     <div className="col-md-12">
-                                        <img className="rounded p-2" src={profile} alt="profile" height="253px" id="playerpic" />
+                                        <img className="img-fluid rounded" 
+                                            src={ProfilePic} 
+                                            alt="profile" 
+                                            id="playerpic" 
+                                        />
                                     </div>
                                 </div>
-                                <div className="row">
+                                <div className="row pb-3">
                                     <div className="col-md-12 text-center">
                                         <h6 className="mt-3 pb-2 mx-5 border-bottom">
                                             CALEB <span className="text-warning">KANG</span>
@@ -66,10 +70,14 @@ function Players2() {
                             <div className="card-front">
                                 <div className="row">
                                     <div className="col-md-12">
-                                        <img className="rounded p-2" src="https://scontent-lax3-2.xx.fbcdn.net/v/t31.0-1/c379.0.1290.1290a/10506738_10150004552801856_220367501106153455_o.jpg?_nc_cat=1&_nc_oc=AQkWsGjq1SIyscDxOZRDx5XtI1Gth0OtkZkHt6ZlvdP35t1Jw7CWdSBAptCwzp135YI&_nc_ht=scontent-lax3-2.xx&oh=8ee181e533e1c5c409c17502083cfc01&oe=5DFE1D49" height="253px" alt="profile" id="playerpic" />
+                                        <img className="img-fluid rounded" 
+                                            src={ProfilePic} 
+                                            alt="profile" 
+                                            id="playerpic" 
+                                        />
                                     </div>
                                 </div>
-                                <div className="row">
+                                <div className="row pb-3">
                                     <div className="col-md-12 text-center">
                                         <h6 className="mt-3 pb-2 mx-5 border-bottom">
                                             DANIEL <span className="text-warning">HWANG</span>
@@ -110,10 +118,10 @@ function Players2() {
                             <div className="card-front">
                                 <div className="row">
                                     <div className="col-md-12">
-                                        <img className="img-fluid rounded p-2" src="https://scontent-ort2-1.xx.fbcdn.net/v/t1.0-9/14729154_1100156956719867_9055061676495897931_n.jpg?_nc_cat=101&_nc_oc=AQmq1fPnLj0Igbq848a5Qu-FcDGuk0l-ThYdp0qOsJ-aFYvTpVFY7HpwW-mugPdlepY&_nc_ht=scontent-ort2-1.xx&oh=df7dabe6edb56906bbb435a35eb21b82&oe=5DC828E4" alt="profile" id="playerpic" />
+                                        <img className="img-fluid rounded" src={ProfilePic} alt="profile" id="playerpic" />
                                     </div>
                                 </div>
-                                <div className="row">
+                                <div className="row pb-3">
                                     <div className="col-md-12 text-center">
                                         <h6 className="mt-3 pb-2 mx-5 border-bottom">
                                             DANIEL <span className="text-warning">KIM</span>
@@ -154,10 +162,10 @@ function Players2() {
                             <div className="card-front">
                                 <div className="row">
                                     <div className="col-md-12">
-                                        <img className="img-fluid rounded p-2" src="https://scontent-lax3-2.xx.fbcdn.net/v/t31.0-1/c379.0.1290.1290a/10506738_10150004552801856_220367501106153455_o.jpg?_nc_cat=1&_nc_oc=AQkWsGjq1SIyscDxOZRDx5XtI1Gth0OtkZkHt6ZlvdP35t1Jw7CWdSBAptCwzp135YI&_nc_ht=scontent-lax3-2.xx&oh=8ee181e533e1c5c409c17502083cfc01&oe=5DFE1D49" alt="profile" id="playerpic" />
+                                        <img className="img-fluid rounded" src={ProfilePic} alt="profile" id="playerpic" />
                                     </div>
                                 </div>
-                                <div className="row">
+                                <div className="row pb-3">
                                     <div className="col-md-12 text-center">
                                         <h6 className="mt-3 pb-2 mx-5 border-bottom">
                                             DANIEL <span className="text-warning">LEE</span>
@@ -199,10 +207,18 @@ function Players2() {
                             <div className="card-front">
                                 <div className="row">
                                     <div className="col-md-12">
-                                        <img className="img-fluid rounded p-2" src="https://scontent-lax3-2.xx.fbcdn.net/v/t1.0-9/23172773_10211927155667988_6262282094605372622_n.jpg?_nc_cat=108&_nc_oc=AQkt25QWlSXugG-z99KaaGlMSo1cir9F0_PZdaN9s8K49uWzdiTp89XxnpuuGVPzK2g&_nc_ht=scontent-lax3-2.xx&oh=2712362b23e51383c332aea57c584808&oe=5E0802AE" alt="profile" id="playerpic" />
+                                        <img className="img-fluid rounded p-2" 
+                                            src="https://scontent-lax3-2.xx.fbcdn.net/v/t1.0-9/23172773_10211927155667988_6262282094605372622_n.jpg?_nc_cat=108&_nc_oc=AQkt25QWlSXugG-z99KaaGlMSo1cir9F0_PZdaN9s8K49uWzdiTp89XxnpuuGVPzK2g&_nc_ht=scontent-lax3-2.xx&oh=2712362b23e51383c332aea57c584808&oe=5E0802AE" 
+                                            alt="profile" 
+                                            id="playerpic" 
+                                            onError={(e) => {
+                                                e.target.onError = null;
+                                                e.target.src = ProfilePic;
+                                            }} 
+                                        />
                                     </div>
                                 </div>
-                                <div className="row">
+                                <div className="row pb-3">
                                     <div className="col-md-12 text-center">
                                         <h6 className="mt-3 pb-2 mx-5 border-bottom">
                                             DANIEL <span className="text-warning">PARK</span>
@@ -243,10 +259,17 @@ function Players2() {
                             <div className="card-front">
                                 <div className="row">
                                     <div className="col-md-12">
-                                        <img className="img-fluid rounded p-2" src="https://scontent-lax3-2.xx.fbcdn.net/v/t1.0-1/41962074_10217428431169785_3816344249432014848_n.jpg?_nc_cat=105&_nc_oc=AQmr1wDm1ouYPrZnPZB1Pi5VDH2tnMaY6eBzOB5GWXjvNuBuqLXXl-8tvGhFgTibgaAt-hGMMB9XdDSB9z5qDSxa&_nc_ht=scontent-lax3-2.xx&oh=a3cb01dc256bc305723e156dd6e6cc31&oe=5E607922" alt="profile" id="playerpic" />
+                                        <img className="img-fluid rounded p-2" 
+                                            src="https://scontent-lax3-2.xx.fbcdn.net/v/t1.0-1/41962074_10217428431169785_3816344249432014848_n.jpg?_nc_cat=105&_nc_oc=AQmr1wDm1ouYPrZnPZB1Pi5VDH2tnMaY6eBzOB5GWXjvNuBuqLXXl-8tvGhFgTibgaAt-hGMMB9XdDSB9z5qDSxa&_nc_ht=scontent-lax3-2.xx&oh=a3cb01dc256bc305723e156dd6e6cc31&oe=5E607922" alt="profile" 
+                                            id="playerpic"
+                                            onError={(e) => {
+                                                e.target.onError = null;
+                                                e.target.src = ProfilePic;
+                                            }}
+                                        />
                                     </div>
                                 </div>
-                                <div className="row">
+                                <div className="row pb-3">
                                     <div className="col-md-12 text-center">
                                         <h6 className="mt-3 pb-2 mx-5 border-bottom">
                                             DAVID <span className="text-warning">CHO</span>
@@ -287,12 +310,20 @@ function Players2() {
                             <div className="card-front">
                                 <div className="row">
                                     <div className="col-md-12">
-                                        <img className="img-fluid rounded p-2" src="https://scontent-lax3-2.xx.fbcdn.net/v/t1.0-9/32977869_10216320857678788_1839738228945453056_o.jpg?_nc_cat=110&_nc_oc=AQkrIwI675lB-9R7AMwbViCEln06krx3-4a4i2nhgk5f2H-Uo9FV0f3R5b5GceL1Boo&_nc_ht=scontent-lax3-2.xx&oh=d98ba00026c81482cf3ea6adfbf5169e&oe=5DF7FB93" alt="profile" id="playerpic" />
+                                        <img className="img-fluid rounded p-2" 
+                                            src="https://scontent-lax3-2.xx.fbcdn.net/v/t1.0-9/32977869_10216320857678788_1839738228945453056_o.jpg?_nc_cat=110&_nc_oc=AQkrIwI675lB-9R7AMwbViCEln06krx3-4a4i2nhgk5f2H-Uo9FV0f3R5b5GceL1Boo&_nc_ht=scontent-lax3-2.xx&oh=d98ba00026c81482cf3ea6adfbf5169e&oe=5DF7FB93" 
+                                            alt="profile" 
+                                            id="playerpic"
+                                            onError={(e) => {
+                                                e.target.onerror = null;
+                                                e.target.src = ProfilePic;
+                                            }} 
+                                        />
                                     </div>
                                 </div>
-                                <div className="row">
+                                <div className="row pb-3">
                                     <div className="col-md-12 text-center">
-                                        <h6 className="mt-5 pb-2 mx-5 border-bottom">
+                                        <h6 className="mt-3 pb-2 mx-5 border-bottom">
                                             DAVID <span className="text-warning">LEE</span>
                                         </h6>
                                         <h5 className="badge badge-dark">ANGRY BIRDZ</h5>                                 
@@ -331,10 +362,18 @@ function Players2() {
                             <div className="card-front">
                                 <div className="row">
                                     <div className="col-md-12">
-                                        <img className="rounded p-2" src="https://scontent-lax3-2.xx.fbcdn.net/v/t1.0-9/66390158_2867121889969663_6256619975528677376_n.jpg?_nc_cat=102&_nc_oc=AQm1gdeKcjEHSMVDFqjCNey6eWOknfXZkwuE0rcFMCEBcUwMJTavesLYxAO-jmW0hU4&_nc_ht=scontent-lax3-2.xx&oh=a45377fd20150fe0213a3c2ca8287d34&oe=5E087E21" height="253px" alt="profile" id="playerpic" />
+                                        <img className="img-fluid rounded p-2" 
+                                            src="https://scontent-lax3-2.xx.fbcdn.net/v/t1.0-9/66390158_2867121889969663_6256619975528677376_n.jpg?_nc_cat=102&_nc_oc=AQm1gdeKcjEHSMVDFqjCNey6eWOknfXZkwuE0rcFMCEBcUwMJTavesLYxAO-jmW0hU4&_nc_ht=scontent-lax3-2.xx&oh=a45377fd20150fe0213a3c2ca8287d34&oe=5E087E21" 
+                                            alt="profile" 
+                                            id="playerpic"
+                                            onError={(e) => {
+                                                e.target.onerror = null;
+                                                e.target.src = ProfilePic;
+                                            }} 
+                                        />
                                     </div>
                                 </div>
-                                <div className="row">
+                                <div className="row pb-3">
                                     <div className="col-md-12 text-center">
                                         <h6 className="mt-3 pb-2 mx-5 border-bottom">
                                             DENNY <span className="text-warning">LEE</span>

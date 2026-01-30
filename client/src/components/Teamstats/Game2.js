@@ -207,7 +207,7 @@ class Game2 extends React.Component {
                                     </div>
                                     <div className="col-md-3 nopadding">
                                         <div className="progress flex-fill rounded-pill">
-                                            <div className="progress-bar bg-secondary" role="progressbar" style={{ width: `92.1%` }}></div>
+                                            <div className="progress-bar bg-secondary" role="progressbar" style={{ width: `100%` }}></div>
                                         </div>
                                     </div>
                                     <div className="col-md-3 text-right">
@@ -221,7 +221,7 @@ class Game2 extends React.Component {
                                     </div>
                                     <div className="col-md-3 nopadding">
                                         <div className="progress flex-fill rounded-pill">
-                                            <div className="progress-bar bg-warning" role="progressbar" style={{ width: `100%`}}></div>
+                                            <div className="progress-bar bg-warning" role="progressbar" style={{ width: `92.1%`}}></div>
                                         </div>
                                     </div>
                                     <div className="col-md-3 text-right">

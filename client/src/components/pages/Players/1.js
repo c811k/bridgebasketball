@@ -1,5 +1,6 @@
 import React from "react";
 import Footer from "../../Footer";
+import ProfilePic from "../../../assets/images/profile.JPG";
 
 function Players1() {
     return(
@@ -17,17 +18,25 @@ function Players1() {
             <div className="row mt-5">
                 <div className="col-md-3 text-center">
                     <div className="player-card">
-                    <div className="card shadow-sm">
-                        <div className="card-front">
-                            <div className="row">
-                                <div className="col-md-12">
-                                    <img className="img-fluid rounded p-2" src="https://scontent-lax3-2.xx.fbcdn.net/v/t31.0-1/c379.0.1290.1290a/10506738_10150004552801856_220367501106153455_o.jpg?_nc_cat=1&_nc_oc=AQkWsGjq1SIyscDxOZRDx5XtI1Gth0OtkZkHt6ZlvdP35t1Jw7CWdSBAptCwzp135YI&_nc_ht=scontent-lax3-2.xx&oh=8ee181e533e1c5c409c17502083cfc01&oe=5DFE1D49" alt="profile" id="playerpic" />
+                        <div className="card shawdow-sm">
+                            <div className="card-front">
+                                <div className="row">
+                                    <div className="col-md-12">
+                                        <img className="img-fluid rounded p-2" 
+                                            src={ProfilePic} 
+                                            alt="profile" 
+                                            id="playerpic" 
+                                        />
+                                    </div>
                                 </div>
-                            </div>
-                                    <h6 className="mt-3 pb-2 mx-5 border-bottom">
+                                <div className="row pb-3">
+                                    <div className="col-md-12 text-center">
+                                        <h6 className="mt-3 pb-2 mx-5 border-bottom">
                                         ADAM <span className="text-warning">CHO</span>
                                     </h6>
-                                    <h5 className="badge badge-dark">LORD OF THE RIMS</h5>                                 
+                                    <h5 className="badge badge-dark">LORD OF THE RIMS</h5>
+                                </div> 
+                            </div>
                         </div>
                         <div className="card-back">
                             <div className="row">
@@ -51,9 +60,9 @@ function Players1() {
                                 </div>
                             </div>
                         </div>
-                        </div>
                     </div>
                 </div>
+            </div>
 
                 <div className="col-md-3 text-center">
                     <div className="player-card">
@@ -61,10 +70,18 @@ function Players1() {
                             <div className="card-front">
                                 <div className="row">
                                     <div className="col-md-12">
-                                        <img className="img-fluid rounded p-2" src="https://scontent-lax3-1.xx.fbcdn.net/v/t1.0-9/35349072_10216185556136003_6633220441961922560_n.jpg?_nc_cat=107&_nc_oc=AQm9farZoRBPIqJ084A3cLs7Zh_qsXsfJr4vXiKPuBDs0qRcUFPWq2Fk93xt6fumPig&_nc_ht=scontent-lax3-1.xx&oh=3fba93184207899b7a62748317e72b2f&oe=5DBEF5C9" alt="profile" id="playerpic" />
+                                        <img className="img-fluid rounded p-2" 
+                                            src="https://scontent-lax3-1.xx.fbcdn.net/v/t1.0-9/35349072_10216185556136003_6633220441961922560_n.jpg?_nc_cat=107&_nc_oc=AQm9farZoRBPIqJ084A3cLs7Zh_qsXsfJr4vXiKPuBDs0qRcUFPWq2Fk93xt6fumPig&_nc_ht=scontent-lax3-1.xx&oh=3fba93184207899b7a62748317e72b2f&oe=5DBEF5C9" 
+                                            alt="profile" 
+                                            id="playerpic"
+                                            onError={(e) => {
+                                                e.target.onError = null;
+                                                e.target.src = ProfilePic;
+                                            }}
+                                        />
                                     </div>
                                 </div>
-                                <div className="row">
+                                <div className="row pb-3">
                                     <div className="col-md-12 text-center">
                                         <h6 className="mt-3 pb-2 mx-5 border-bottom">
                                             ANDREW <span className="text-warning">KIM</span>
@@ -105,10 +122,18 @@ function Players1() {
                             <div className="card-front">
                                 <div className="row">
                                     <div className="col-md-12">
-                                        <img className="img-fluid rounded p-2" src="https://scontent-lax3-2.xx.fbcdn.net/v/t31.0-8/26840579_10212742167642767_4145880265233871200_o.jpg?_nc_cat=105&_nc_oc=AQloRRYAujR3BbRVnxf2caAFDMtgDzz3Sqrro5w5ItZmpKFRHt9KHICAtjIhIqdeo4U&_nc_ht=scontent-lax3-2.xx&oh=28a59dce7a5c8964f3242c6575538b1b&oe=5E0B8E8C" alt="profile" id="playerpic" />
+                                        <img className="img-fluid rounded p-2" 
+                                            src="https://scontent-lax3-2.xx.fbcdn.net/v/t31.0-8/26840579_10212742167642767_4145880265233871200_o.jpg?_nc_cat=105&_nc_oc=AQloRRYAujR3BbRVnxf2caAFDMtgDzz3Sqrro5w5ItZmpKFRHt9KHICAtjIhIqdeo4U&_nc_ht=scontent-lax3-2.xx&oh=28a59dce7a5c8964f3242c6575538b1b&oe=5E0B8E8C" 
+                                            alt="profile" 
+                                            id="playerpic"
+                                            onError={(e) => {
+                                                e.target.onError = null;
+                                                e.target.src = ProfilePic;
+                                            }}
+                                        />
                                     </div>
                                 </div>
-                                <div className="row">
+                                <div className="row pb-3">
                                     <div className="col-md-12 text-center">
                                         <h6 className="mt-3 pb-2 mx-5 border-bottom">
                                             ANDREW <span className="text-warning">SHIN</span>
@@ -149,10 +174,18 @@ function Players1() {
                             <div className="card-front">
                                 <div className="row">
                                     <div className="col-md-12">
-                                        <img className="img-fluid rounded p-2" src="https://scontent-lax3-2.xx.fbcdn.net/v/t31.0-1/c379.0.1290.1290a/10506738_10150004552801856_220367501106153455_o.jpg?_nc_cat=1&_nc_oc=AQkWsGjq1SIyscDxOZRDx5XtI1Gth0OtkZkHt6ZlvdP35t1Jw7CWdSBAptCwzp135YI&_nc_ht=scontent-lax3-2.xx&oh=8ee181e533e1c5c409c17502083cfc01&oe=5DFE1D49" alt="profile" id="playerpic" />
+                                        <img className="img-fluid rounded p-2" 
+                                            src="https://scontent-lax3-2.xx.fbcdn.net/v/t31.0-1/c379.0.1290.1290a/10506738_10150004552801856_220367501106153455_o.jpg?_nc_cat=1&_nc_oc=AQkWsGjq1SIyscDxOZRDx5XtI1Gth0OtkZkHt6ZlvdP35t1Jw7CWdSBAptCwzp135YI&_nc_ht=scontent-lax3-2.xx&oh=8ee181e533e1c5c409c17502083cfc01&oe=5DFE1D49" 
+                                            alt="profile" 
+                                            id="playerpic"
+                                            onError={(e) => {
+                                                e.target.onError = null;
+                                                e.target.src = ProfilePic;
+                                            }}
+                                        />
                                     </div>
                                 </div>
-                                <div className="row">
+                                <div className="row pb-3">
                                     <div className="col-md-12 text-center">
                                         <h6 className="mt-3 pb-2 mx-5 border-bottom">
                                             BENJAMIN <span className="text-warning">LEE</span>
@@ -194,10 +227,18 @@ function Players1() {
                             <div className="card-front">
                                 <div className="row">
                                     <div className="col-md-12">
-                                        <img className="img-fluid rounded p-2" src="https://scontent-lax3-2.xx.fbcdn.net/v/t31.0-8/29982851_2327178203966415_8696826749865758053_o.jpg?_nc_cat=100&_nc_oc=AQkn_gYNUKsrP-eKXdQMyQ6ZHANJd4jEQPVKERPRKBmrUGfLoCi1B6QLdCUEhL5yPI2lCqy8soaEnlQhKMWlTvzG&_nc_ht=scontent-lax3-2.xx&oh=5ee72033bda7d72268797bce022584c2&oe=5E17BB6E" alt="profile" id="playerpic" />
+                                        <img className="img-fluid rounded p-2" 
+                                            src="https://scontent-lax3-2.xx.fbcdn.net/v/t31.0-8/29982851_2327178203966415_8696826749865758053_o.jpg?_nc_cat=100&_nc_oc=AQkn_gYNUKsrP-eKXdQMyQ6ZHANJd4jEQPVKERPRKBmrUGfLoCi1B6QLdCUEhL5yPI2lCqy8soaEnlQhKMWlTvzG&_nc_ht=scontent-lax3-2.xx&oh=5ee72033bda7d72268797bce022584c2&oe=5E17BB6E" 
+                                            alt="profile" 
+                                            id="playerpic"
+                                            onError={(e) => {
+                                                e.target.onError = null;
+                                                e.target.src = ProfilePic;
+                                            }}
+                                        />
                                     </div>
                                 </div>
-                                <div className="row">
+                                <div className="row pb-3">
                                     <div className="col-md-12 text-center">
                                         <h6 className="mt-3 pb-2 mx-5 border-bottom">
                                             BRANDON <span className="text-warning">OH</span>
@@ -237,10 +278,17 @@ function Players1() {
                             <div className="card-front">
                                 <div className="row">
                                     <div className="col-md-12">
-                                        <img className="img-fluid rounded p-2" src="https://scontent-lax3-2.xx.fbcdn.net/v/t1.0-9/65050834_2442176892513617_5391896651998691328_o.jpg?_nc_cat=100&_nc_oc=AQlhRkYiJIkoF6aWqyozMaxMIs_yx88ot6CeHiY6fojEOfzDfd83Ww__25vEuoOp1iqYzQjIItk39FtcT63yOZrN&_nc_ht=scontent-lax3-2.xx&oh=d8d0832bfc28486bec71780f06386e83&oe=5E21A5FC" alt="profile" id="playerpic" />
+                                        <img className="img-fluid rounded p-2" 
+                                            src="https://scontent-lax3-2.xx.fbcdn.net/v/t1.0-9/65050834_2442176892513617_5391896651998691328_o.jpg?_nc_cat=100&_nc_oc=AQlhRkYiJIkoF6aWqyozMaxMIs_yx88ot6CeHiY6fojEOfzDfd83Ww__25vEuoOp1iqYzQjIItk39FtcT63yOZrN&_nc_ht=scontent-lax3-2.xx&oh=d8d0832bfc28486bec71780f06386e83&oe=5E21A5FC" alt="profile" 
+                                            id="playerpic"
+                                            onError={(e) => {
+                                                e.target.onError = null;
+                                                e.target.src = ProfilePic;
+                                            }}
+                                        />
                                     </div>
                                 </div>
-                                <div className="row">
+                                <div className="row pb-3">
                                     <div className="col-md-12 text-center">
                                         <h6 className="mt-3 pb-2 mx-5 border-bottom">
                                             BRIAN <span className="text-warning">KIM</span>
@@ -281,10 +329,18 @@ function Players1() {
                             <div className="card-front">
                                 <div className="row">
                                     <div className="col-md-12">
-                                        <img className="img-fluid rounded p-2" src="https://scontent-lax3-2.xx.fbcdn.net/v/t1.0-9/50827346_10218868428684366_757155025788076032_n.jpg?_nc_cat=104&_nc_oc=AQlzAGLsDs55ikO9yPeEWm-mIXoqYhdV4PL2OQqMAVrGPAkV4_cHRTSP4vqpQYo08xk&_nc_ht=scontent-lax3-2.xx&oh=9fc0280b55d9837102e9f56c527ff915&oe=5E0685D8" alt="profile" id="playerpic" />
+                                        <img className="img-fluid rounded p-2" 
+                                            src="https://scontent-lax3-2.xx.fbcdn.net/v/t1.0-9/50827346_10218868428684366_757155025788076032_n.jpg?_nc_cat=104&_nc_oc=AQlzAGLsDs55ikO9yPeEWm-mIXoqYhdV4PL2OQqMAVrGPAkV4_cHRTSP4vqpQYo08xk&_nc_ht=scontent-lax3-2.xx&oh=9fc0280b55d9837102e9f56c527ff915&oe=5E0685D8" 
+                                            alt="profile" 
+                                            id="playerpic" 
+                                            onError={(e) => {
+                                                e.target.onError = null;
+                                                e.target.src = ProfilePic;
+                                            }}
+                                        />
                                     </div>
                                 </div>
-                                <div className="row">
+                                <div className="row pb-3">
                                     <div className="col-md-12 text-center">
                                         <h6 className="mt-3 pb-2 mx-5 border-bottom">
                                             BRYAN <span className="text-warning">PARK</span>
@@ -325,10 +381,17 @@ function Players1() {
                             <div className="card-front">
                                 <div className="row">
                                     <div className="col-md-12">
-                                        <img className="img-fluid rounded p-2" src="https://scontent-lax3-2.xx.fbcdn.net/v/t1.0-9/53006134_1795676077204860_2793990575257288704_n.jpg?_nc_cat=106&_nc_oc=AQkia8hIasBM0MOSG5J7iIj2m4dpRHavnAU5xpLmnk2kMKzx0jWeFZYr2T6iz4BZxDK9E51BkTROJJ9j89wbMpX7&_nc_ht=scontent-lax3-2.xx&oh=847f6b51caca31047ed6f6262a11d7a7&oe=5E1E8B01" alt="profile" id="playerpic" />
+                                        <img className="img-fluid rounded p-2" 
+                                            src="https://scontent-lax3-2.xx.fbcdn.net/v/t1.0-9/53006134_1795676077204860_2793990575257288704_n.jpg?_nc_cat=106&_nc_oc=AQkia8hIasBM0MOSG5J7iIj2m4dpRHavnAU5xpLmnk2kMKzx0jWeFZYr2T6iz4BZxDK9E51BkTROJJ9j89wbMpX7&_nc_ht=scontent-lax3-2.xx&oh=847f6b51caca31047ed6f6262a11d7a7&oe=5E1E8B01" alt="profile" 
+                                            id="playerpic"
+                                            onError={(e) => {
+                                                e.target.onError = null;
+                                                e.target.src = ProfilePic;
+                                            }}
+                                        />
                                     </div>
                                 </div>
-                                <div className="row">
+                                <div className="row pb-3">
                                     <div className="col-md-12 text-center">
                                         <h6 className="mt-3 pb-2 mx-5 border-bottom">
                                             BUMSU <span className="text-warning">KIM</span>
@@ -368,10 +431,10 @@ function Players1() {
                 <div className="col-md-12">
                     <nav aria-label="Page navigation example">
                         <ul className="pagination justify-content-center">
-                            <li className="page-item disabled">
-                                <div className="page-link text-white border-0" aria-label="Previous" id="left">
+                            <li className="page-item">
+                                <a className="page-link text-dark border-0" href="/players/2" aria-label="Previous" id="left">
                                 <span aria-hidden="true"><i className="fas fa-angle-left"></i></span>
-                                </div>
+                                </a>
                             </li>
                             <li className="page-item active">
                                 <a className="page-link text-dark border-0 rounded" href="/players/1">1</a>
@@ -392,7 +455,7 @@ function Players1() {
                                 <a className="page-link text-dark border-0 rounded" href="/players/6">6</a>
                             </li>
                             <li className="page-item">
-                                <a className="page-link text-dark border-0" href="/players/2" aria-label="Next" id="right">
+                                <a className="page-link text-dark border-0" href="/players/4" aria-label="Next" id="right">
                                 <span aria-hidden="true"><i className="fas fa-angle-right"></i></span>
                             </a>
                             </li>
@@ -400,9 +463,9 @@ function Players1() {
                     </nav>
                 </div>
             </div>
-        </div>
         <Footer />
         </div>
+     </div>
     );
 }
 

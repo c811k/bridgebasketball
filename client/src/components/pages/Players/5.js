@@ -1,5 +1,6 @@
 import React from "react";
 import Footer from "../../Footer";
+import ProfilePic from "../../../assets/images/profile.JPG";
 
 function Players5() {
     return(
@@ -21,10 +22,18 @@ function Players5() {
                             <div className="card-front">
                                 <div className="row">
                                     <div className="col-md-12">
-                                        <img className="img-fluid rounded p-2" src="https://scontent-lax3-2.xx.fbcdn.net/v/t31.0-1/c379.0.1290.1290a/10506738_10150004552801856_220367501106153455_o.jpg?_nc_cat=1&_nc_oc=AQkWsGjq1SIyscDxOZRDx5XtI1Gth0OtkZkHt6ZlvdP35t1Jw7CWdSBAptCwzp135YI&_nc_ht=scontent-lax3-2.xx&oh=8ee181e533e1c5c409c17502083cfc01&oe=5DFE1D49" alt="profile" id="playerpic" />
+                                        <img className="img-fluid rounded p-2" 
+                                            src="https://scontent-lax3-2.xx.fbcdn.net/v/t31.0-1/c379.0.1290.1290a/10506738_10150004552801856_220367501106153455_o.jpg?_nc_cat=1&_nc_oc=AQkWsGjq1SIyscDxOZRDx5XtI1Gth0OtkZkHt6ZlvdP35t1Jw7CWdSBAptCwzp135YI&_nc_ht=scontent-lax3-2.xx&oh=8ee181e533e1c5c409c17502083cfc01&oe=5DFE1D49" 
+                                            alt="profile" 
+                                            id="playerpic" 
+                                            onError={(e) => {
+                                                e.target.onerror = null;
+                                                e.target.src = ProfilePic;
+                                            }}
+                                        />
                                     </div>
                                 </div>
-                                <div className="row">
+                                <div className="row pb-3">
                                     <div className="col-md-12 text-center">
                                         <h6 className="mt-3 pb-2 mx-5 border-bottom">
                                             JUN <span className="text-warning">KIM</span>
@@ -65,10 +74,18 @@ function Players5() {
                             <div className="card-front">
                                 <div className="row">
                                     <div className="col-md-12">
-                                        <img className="img-fluid rounded p-2" src="https://scontent-lax3-1.xx.fbcdn.net/v/t1.0-9/67807469_619116638577337_2018139148807831552_o.jpg?_nc_cat=110&_nc_oc=AQkFdOecD4VgkniLmazvdUU0P5rUKkxnymB_oEmH398uKjhQFTdcrOG_feS5Vq-Kg1E&_nc_ht=scontent-lax3-1.xx&oh=41f1a60b772053503e16b700e4f0fe91&oe=5DCCF54C" alt="profile" id="playerpic" />
+                                        <img className="img-fluid rounded p-2" 
+                                            src="https://scontent-lax3-1.xx.fbcdn.net/v/t1.0-9/67807469_619116638577337_2018139148807831552_o.jpg?_nc_cat=110&_nc_oc=AQkFdOecD4VgkniLmazvdUU0P5rUKkxnymB_oEmH398uKjhQFTdcrOG_feS5Vq-Kg1E&_nc_ht=scontent-lax3-1.xx&oh=41f1a60b772053503e16b700e4f0fe91&oe=5DCCF54C" 
+                                            alt="profile" 
+                                            id="playerpic" 
+                                            onError={(e) => {
+                                                e.target.onerror = null;
+                                                e.target.src = ProfilePic;
+                                            }}
+                                        />
                                     </div>
                                 </div>
-                                <div className="row">
+                                <div className="row pb-3">
                                     <div className="col-md-12 text-center">
                                         <h6 className="mt-3 pb-2 mx-5 border-bottom">
                                             JUSTIN <span className="text-warning">HWANG</span>
@@ -109,10 +126,18 @@ function Players5() {
                             <div className="card-front">
                                 <div className="row">
                                     <div className="col-md-12">
-                                        <img className="img-fluid rounded p-2" src="https://scontent-lax3-2.xx.fbcdn.net/v/t1.0-9/11025663_10204159636207633_5032983061615525533_n.jpg?_nc_cat=102&_nc_oc=AQlUwjQsWJx6tp-e7cvuiqGzndjLZ3mUY0LfsydRB-dtcOljyr8poE6a_beHmjXXzZQiCDm2Xuu9zlyy6J2fZ_Ux&_nc_ht=scontent-lax3-2.xx&oh=c432688071869e5c21249ad6c8e9e4eb&oe=5E5FB7D9" alt="profile" id="playerpic" />
+                                        <img className="img-fluid rounded p-2" 
+                                            src="https://scontent-lax3-2.xx.fbcdn.net/v/t1.0-9/11025663_10204159636207633_5032983061615525533_n.jpg?_nc_cat=102&_nc_oc=AQlUwjQsWJx6tp-e7cvuiqGzndjLZ3mUY0LfsydRB-dtcOljyr8poE6a_beHmjXXzZQiCDm2Xuu9zlyy6J2fZ_Ux&_nc_ht=scontent-lax3-2.xx&oh=c432688071869e5c21249ad6c8e9e4eb&oe=5E5FB7D9" 
+                                            alt="profile" 
+                                            id="playerpic" 
+                                            onError={(e) => {
+                                                e.target.onerror = null;
+                                                e.target.src = ProfilePic;
+                                            }}
+                                        />
                                     </div>
                                 </div>
-                                <div className="row">
+                                <div className="row pb-3">
                                     <div className="col-md-12 text-center">
                                         <h6 className="mt-3 pb-2 mx-5 border-bottom">
                                             KEVIN <span className="text-warning">SHIM</span>
@@ -153,10 +178,18 @@ function Players5() {
                             <div className="card-front">
                                 <div className="row">
                                     <div className="col-md-12 justify-content-center">
-                                        <img className="img-fluid rounded p-2" src="https://scontent-lax3-2.xx.fbcdn.net/v/t31.0-1/c379.0.1290.1290a/10506738_10150004552801856_220367501106153455_o.jpg?_nc_cat=1&_nc_oc=AQkWsGjq1SIyscDxOZRDx5XtI1Gth0OtkZkHt6ZlvdP35t1Jw7CWdSBAptCwzp135YI&_nc_ht=scontent-lax3-2.xx&oh=8ee181e533e1c5c409c17502083cfc01&oe=5DFE1D49" alt="profile" id="playerpic" />
+                                        <img className="img-fluid rounded p-2" 
+                                            src="https://scontent-lax3-2.xx.fbcdn.net/v/t31.0-1/c379.0.1290.1290a/10506738_10150004552801856_220367501106153455_o.jpg?_nc_cat=1&_nc_oc=AQkWsGjq1SIyscDxOZRDx5XtI1Gth0OtkZkHt6ZlvdP35t1Jw7CWdSBAptCwzp135YI&_nc_ht=scontent-lax3-2.xx&oh=8ee181e533e1c5c409c17502083cfc01&oe=5DFE1D49" 
+                                            alt="profile" 
+                                            id="playerpic"
+                                            onError={(e) => {
+                                                e.target.onerror = null;
+                                                e.target.src = ProfilePic;
+                                            }} 
+                                        />
                                     </div>
                                 </div>
-                                <div className="row">
+                                <div className="row pb-3">
                                     <div className="col-md-12 text-center">
                                         <h6 className="mt-3 pb-2 mx-5 border-bottom">
                                             MARK <span className="text-warning">CHO</span>
@@ -198,10 +231,18 @@ function Players5() {
                             <div className="card-front">
                             <div className="row">
                                     <div className="col-md-12 justify-content-center">
-                                        <img className="img-fluid rounded p-2" src="https://scontent-lax3-2.xx.fbcdn.net/v/t1.0-9/48950516_10155729978496968_6461726924728172544_n.jpg?_nc_cat=104&_nc_oc=AQkRp4HEYrC1_qBZCeUGYTPdukWbdrQ7tpYvRdbaU7C9DOV6O3eTzPLli5h9qNw6UT8&_nc_ht=scontent-lax3-2.xx&oh=70f457a678a84d3a69913bb36ea6c278&oe=5E08003C" alt="profile" id="playerpic" />
+                                        <img className="img-fluid rounded p-2" 
+                                            src="https://scontent-lax3-2.xx.fbcdn.net/v/t1.0-9/48950516_10155729978496968_6461726924728172544_n.jpg?_nc_cat=104&_nc_oc=AQkRp4HEYrC1_qBZCeUGYTPdukWbdrQ7tpYvRdbaU7C9DOV6O3eTzPLli5h9qNw6UT8&_nc_ht=scontent-lax3-2.xx&oh=70f457a678a84d3a69913bb36ea6c278&oe=5E08003C" 
+                                            alt="profile" 
+                                            id="playerpic"
+                                            onError={(e) => {
+                                                e.target.onerror = null;
+                                                e.target.src = ProfilePic;
+                                            }} 
+                                        />
                                     </div>
                                 </div>
-                                <div className="row">
+                                <div className="row pb-3">
                                     <div className="col-md-12 text-center">
                                         <h6 className="mt-3 pb-2 mx-5 border-bottom">
                                             MOON <span className="text-warning">KIM</span>
@@ -242,10 +283,18 @@ function Players5() {
                             <div className="card-front">
                             <div className="row">
                                     <div className="col-md-12">
-                                        <img className="img-fluid rounded p-2" src="https://scontent-lax3-2.xx.fbcdn.net/v/t1.0-9/67430486_102449234433877_5846109204695220224_o.jpg?_nc_cat=108&_nc_oc=AQn5FXmHpYCaYSA-YzKv2B1f75bc8RYZt7OC8biEVvMpQkRhEukGFSGTVnPcN_taA1Z9k_unQD_O1LleEQL6_v96&_nc_ht=scontent-lax3-2.xx&oh=068b224e2a14faf5b001d59d7a673097&oe=5E543147" alt="profile" id="playerpic" />
+                                        <img className="img-fluid rounded p-2" 
+                                            src="https://scontent-lax3-2.xx.fbcdn.net/v/t1.0-9/67430486_102449234433877_5846109204695220224_o.jpg?_nc_cat=108&_nc_oc=AQn5FXmHpYCaYSA-YzKv2B1f75bc8RYZt7OC8biEVvMpQkRhEukGFSGTVnPcN_taA1Z9k_unQD_O1LleEQL6_v96&_nc_ht=scontent-lax3-2.xx&oh=068b224e2a14faf5b001d59d7a673097&oe=5E543147" 
+                                            alt="profile" 
+                                            id="playerpic" 
+                                            onError={(e) => {
+                                                e.target.onerror = null;
+                                                e.target.src = ProfilePic;
+                                            }}
+                                        />
                                     </div>
                                 </div>
-                                <div className="row">
+                                <div className="row pb-3">
                                     <div className="col-md-12 text-center">
                                         <h6 className="mt-3 pb-2 mx-5 border-bottom">
                                             MOSES <span className="text-warning">KIM</span>
@@ -286,10 +335,18 @@ function Players5() {
                             <div className="card-front">
                             <div className="row">
                                     <div className="col-md-12">
-                                        <img className="img-fluid rounded p-2" src="https://scontent-lax3-1.xx.fbcdn.net/v/t1.0-9/66723720_10216668413116763_7253535666510757888_n.jpg?_nc_cat=107&_nc_oc=AQn7lbKJsw6TuST5_QE0M1YpDu0wBXRto5rHp28rqsHeBdmeuwXFZcQtc4FHoBov5J8&_nc_ht=scontent-lax3-1.xx&oh=8a513815a8f55c4ab6acc141e961b99e&oe=5DE8028A" alt="profile" id="playerpic" />
+                                        <img className="img-fluid rounded p-2" 
+                                            src="https://scontent-lax3-1.xx.fbcdn.net/v/t1.0-9/66723720_10216668413116763_7253535666510757888_n.jpg?_nc_cat=107&_nc_oc=AQn7lbKJsw6TuST5_QE0M1YpDu0wBXRto5rHp28rqsHeBdmeuwXFZcQtc4FHoBov5J8&_nc_ht=scontent-lax3-1.xx&oh=8a513815a8f55c4ab6acc141e961b99e&oe=5DE8028A" 
+                                            alt="profile" 
+                                            id="playerpic" 
+                                            onError={(e) => {
+                                                e.target.onerror = null;
+                                                e.target.src = ProfilePic;
+                                            }}
+                                        />
                                     </div>
                                 </div>
-                                <div className="row">
+                                <div className="row pb-3">
                                     <div className="col-md-12 text-center">
                                         <h6 className="mt-3 pb-2 mx-5 border-bottom">
                                             RICHARD <span className="text-warning">KIM</span>
@@ -330,10 +387,18 @@ function Players5() {
                             <div className="card-front">
                             <div className="row">
                                     <div className="col-md-12">
-                                        <img className="img-fluid rounded p-2" src="https://scontent-lax3-2.xx.fbcdn.net/v/t1.0-9/67247_10151485016680692_841369782_n.jpg?_nc_cat=105&_nc_oc=AQlr5wCH5fQwVz49pgyk7jsood4kE0tgtubGlxsvn8AXRbue5Nlpog8nQz5pc-5Vj-4&_nc_ht=scontent-lax3-2.xx&oh=6b138f6fbf5bfb6283fa2f26b586b9cb&oe=5DCB80CE" alt="profile" id="playerpic" />
+                                        <img className="img-fluid rounded p-2" 
+                                            src="https://scontent-lax3-2.xx.fbcdn.net/v/t1.0-9/67247_10151485016680692_841369782_n.jpg?_nc_cat=105&_nc_oc=AQlr5wCH5fQwVz49pgyk7jsood4kE0tgtubGlxsvn8AXRbue5Nlpog8nQz5pc-5Vj-4&_nc_ht=scontent-lax3-2.xx&oh=6b138f6fbf5bfb6283fa2f26b586b9cb&oe=5DCB80CE" 
+                                            alt="profile" 
+                                            id="playerpic" 
+                                            onError={(e) => {
+                                                e.target.onerror = null;
+                                                e.target.src = ProfilePic;
+                                            }}
+                                        />
                                     </div>
                                 </div>
-                                <div className="row">
+                                <div className="row pb-3">
                                     <div className="col-md-12 text-center">
                                         <h6 className="mt-3 pb-2 mx-5 border-bottom">
                                             RICHARD <span className="text-warning">SONG</span>
